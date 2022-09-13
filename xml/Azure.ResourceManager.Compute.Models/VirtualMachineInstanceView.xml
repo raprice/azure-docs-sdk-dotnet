@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -43,6 +44,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -63,6 +65,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.BootDiagnosticsInstanceView</ReturnType>
@@ -83,6 +86,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -103,6 +107,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.DiskInstanceView&gt;</ReturnType>
@@ -123,6 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.VirtualMachineExtensionInstanceView&gt;</ReturnType>
@@ -134,23 +140,19 @@
       </Docs>
     </Member>
     <Member MemberName="HyperVGeneration">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.HyperVGeneration? HyperVGeneration { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.HyperVGeneration&gt; HyperVGeneration" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.HyperVGeneration? HyperVGeneration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.HyperVGeneration&gt; HyperVGeneration" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.VirtualMachineInstanceView.HyperVGeneration" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HyperVGeneration As Nullable(Of HyperVGeneration)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.HyperVGeneration : Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGeneration&gt;" Usage="Azure.ResourceManager.Compute.Models.VirtualMachineInstanceView.HyperVGeneration" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.HyperVGenerationType? HyperVGeneration { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.HyperVGenerationType&gt; HyperVGeneration" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HyperVGeneration As Nullable(Of HyperVGenerationType)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.HyperVGeneration : Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGenerationType&gt;" Usage="Azure.ResourceManager.Compute.Models.VirtualMachineInstanceView.HyperVGeneration" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HyperVGeneration As Nullable(Of HyperVGeneration)" />
+      <MemberSignature Language="F#" Value="member this.HyperVGeneration : Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGeneration&gt;" Usage="Azure.ResourceManager.Compute.Models.VirtualMachineInstanceView.HyperVGeneration" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGeneration&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGenerationType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGeneration&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specifies the HyperVGeneration Type associated with a resource. </summary>
@@ -168,6 +170,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.MaintenanceRedeployStatus</ReturnType>
@@ -188,6 +191,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -208,6 +212,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -228,6 +233,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachinePatchStatus</ReturnType>
@@ -248,6 +254,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -268,6 +275,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -288,6 +296,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -308,6 +317,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.InstanceViewStatus&gt;</ReturnType>
@@ -328,6 +338,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachineAgentInstanceView</ReturnType>
@@ -348,6 +359,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.InstanceViewStatus</ReturnType>

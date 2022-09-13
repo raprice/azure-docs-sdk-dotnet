@@ -33,12 +33,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsValidateOnly">
-      <MemberSignature Language="C#" Value="public bool? IsValidateOnly { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsValidateOnly" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceMover.Models.NicIPConfigurationResourceSettings.IsValidateOnly" />
-      <MemberSignature Language="VB.NET" Value="Public Property IsValidateOnly As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.IsValidateOnly : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.ResourceMover.Models.NicIPConfigurationResourceSettings.IsValidateOnly" />
+    <Member MemberName="IsPrimary">
+      <MemberSignature Language="C#" Value="public bool? IsPrimary { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsPrimary" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ResourceMover.Models.NicIPConfigurationResourceSettings.IsPrimary" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPrimary As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsPrimary : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.ResourceMover.Models.NicIPConfigurationResourceSettings.IsPrimary" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ResourceMover</AssemblyName>

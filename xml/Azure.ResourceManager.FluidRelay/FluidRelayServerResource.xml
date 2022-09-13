@@ -383,8 +383,8 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get primary and secondary key for this server.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.FluidRelay/fluidRelayServers/{fluidRelayServerName}/getKeys
-            Operation Id: FluidRelayServers_GetKeys
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.FluidRelay/fluidRelayServers/{fluidRelayServerName}/listKeys
+            Operation Id: FluidRelayServers_ListKeys
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -411,8 +411,8 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get primary and secondary key for this server.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.FluidRelay/fluidRelayServers/{fluidRelayServerName}/getKeys
-            Operation Id: FluidRelayServers_GetKeys
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.FluidRelay/fluidRelayServers/{fluidRelayServerName}/listKeys
+            Operation Id: FluidRelayServers_ListKeys
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -438,12 +438,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="RegenerateKey">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt; RegenerateKey (Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt; RegenerateKey(class Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FluidRelay.FluidRelayServerResource.RegenerateKey(Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RegenerateKey (content As RegenerateKeyContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of FluidRelayServerKeys)" />
-      <MemberSignature Language="F#" Value="abstract member RegenerateKey : Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;&#xA;override this.RegenerateKey : Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;" Usage="fluidRelayServerResource.RegenerateKey (content, cancellationToken)" />
+    <Member MemberName="RegenerateKeys">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt; RegenerateKeys (Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt; RegenerateKeys(class Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FluidRelay.FluidRelayServerResource.RegenerateKeys(Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RegenerateKeys (content As RegenerateKeyContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of FluidRelayServerKeys)" />
+      <MemberSignature Language="F#" Value="abstract member RegenerateKeys : Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;&#xA;override this.RegenerateKeys : Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;" Usage="fluidRelayServerResource.RegenerateKeys (content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FluidRelay</AssemblyName>
@@ -470,12 +470,12 @@
           <paramref name="content" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="RegenerateKeyAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;&gt; RegenerateKeyAsync (Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;&gt; RegenerateKeyAsync(class Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FluidRelay.FluidRelayServerResource.RegenerateKeyAsync(Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RegenerateKeyAsync (content As RegenerateKeyContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of FluidRelayServerKeys))" />
-      <MemberSignature Language="F#" Value="abstract member RegenerateKeyAsync : Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;&gt;&#xA;override this.RegenerateKeyAsync : Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;&gt;" Usage="fluidRelayServerResource.RegenerateKeyAsync (content, cancellationToken)" />
+    <Member MemberName="RegenerateKeysAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;&gt; RegenerateKeysAsync (Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;&gt; RegenerateKeysAsync(class Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FluidRelay.FluidRelayServerResource.RegenerateKeysAsync(Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RegenerateKeysAsync (content As RegenerateKeyContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of FluidRelayServerKeys))" />
+      <MemberSignature Language="F#" Value="abstract member RegenerateKeysAsync : Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;&gt;&#xA;override this.RegenerateKeysAsync : Azure.ResourceManager.FluidRelay.Models.RegenerateKeyContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FluidRelay.Models.FluidRelayServerKeys&gt;&gt;" Usage="fluidRelayServerResource.RegenerateKeysAsync (content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FluidRelay</AssemblyName>

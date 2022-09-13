@@ -1,0 +1,135 @@
+<Type Name="RecognizeCompleted" FullName="Azure.Communication.CallingServer.RecognizeCompleted">
+  <TypeSignature Language="C#" Value="public class RecognizeCompleted : Azure.Communication.CallingServer.CallAutomationEventBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RecognizeCompleted extends Azure.Communication.CallingServer.CallAutomationEventBase" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallingServer.RecognizeCompleted" />
+  <TypeSignature Language="VB.NET" Value="Public Class RecognizeCompleted&#xA;Inherits CallAutomationEventBase" />
+  <TypeSignature Language="F#" Value="type RecognizeCompleted = class&#xA;    inherit CallAutomationEventBase" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Communication.CallingServer.CallAutomationEventBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The RecognizeCompleted. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CollectTonesResult">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallingServer.CollectTonesResult CollectTonesResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallingServer.CollectTonesResult CollectTonesResult" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeCompleted.CollectTonesResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CollectTonesResult As CollectTonesResult" />
+      <MemberSignature Language="F#" Value="member this.CollectTonesResult : Azure.Communication.CallingServer.CollectTonesResult" Usage="Azure.Communication.CallingServer.RecognizeCompleted.CollectTonesResult" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.CollectTonesResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Defines the result for RecognitionType = Dtmf. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deserialize">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.RecognizeCompleted Deserialize (string content);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallingServer.RecognizeCompleted Deserialize(string content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.RecognizeCompleted.Deserialize(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Deserialize (content As String) As RecognizeCompleted" />
+      <MemberSignature Language="F#" Value="static member Deserialize : string -&gt; Azure.Communication.CallingServer.RecognizeCompleted" Usage="Azure.Communication.CallingServer.RecognizeCompleted.Deserialize content" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.RecognizeCompleted</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="content">The json content.</param>
+        <summary>
+            Deserialize <see cref="T:Azure.Communication.CallingServer.RecognizeCompleted" /> event.
+            </summary>
+        <returns>The new <see cref="T:Azure.Communication.CallingServer.RecognizeCompleted" /> object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperationContext">
+      <MemberSignature Language="C#" Value="public string OperationContext { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OperationContext" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeCompleted.OperationContext" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OperationContext As String" />
+      <MemberSignature Language="F#" Value="member this.OperationContext : string" Usage="Azure.Communication.CallingServer.RecognizeCompleted.OperationContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Operation context. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognitionType">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallingServer.RecognitionType RecognitionType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Communication.CallingServer.RecognitionType RecognitionType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeCompleted.RecognitionType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecognitionType As RecognitionType" />
+      <MemberSignature Language="F#" Value="member this.RecognitionType : Azure.Communication.CallingServer.RecognitionType with get, set" Usage="Azure.Communication.CallingServer.RecognizeCompleted.RecognitionType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonConverter(typeof(Azure.Communication.CallingServer.Converters.EquatableEnumJsonConverter&lt;Azure.Communication.CallingServer.RecognitionType&gt;))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonConverter(typeof(Azure.Communication.CallingServer.Converters.EquatableEnumJsonConverter&lt;Azure.Communication.CallingServer.RecognitionType&gt;))&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.RecognitionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The recognition type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResultInfo">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallingServer.ResultInformation ResultInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallingServer.ResultInformation ResultInfo" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeCompleted.ResultInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResultInfo As ResultInformation" />
+      <MemberSignature Language="F#" Value="member this.ResultInfo : Azure.Communication.CallingServer.ResultInformation" Usage="Azure.Communication.CallingServer.RecognizeCompleted.ResultInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.ResultInformation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Defines the code, sub-code and message for the operation. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

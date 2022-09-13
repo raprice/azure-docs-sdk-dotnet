@@ -1,0 +1,119 @@
+<Type Name="RecognizeConfigurations" FullName="Azure.Communication.CallingServer.RecognizeConfigurations">
+  <TypeSignature Language="C#" Value="public class RecognizeConfigurations" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RecognizeConfigurations extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallingServer.RecognizeConfigurations" />
+  <TypeSignature Language="VB.NET" Value="Public Class RecognizeConfigurations" />
+  <TypeSignature Language="F#" Value="type RecognizeConfigurations = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The RecognizeConfigurations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RecognizeConfigurations ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.RecognizeConfigurations.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of RecognizeConfigurationsInternal. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DtmfConfigurations">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallingServer.DtmfConfigurations DtmfConfigurations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallingServer.DtmfConfigurations DtmfConfigurations" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeConfigurations.DtmfConfigurations" />
+      <MemberSignature Language="VB.NET" Value="Public Property DtmfConfigurations As DtmfConfigurations" />
+      <MemberSignature Language="F#" Value="member this.DtmfConfigurations : Azure.Communication.CallingServer.DtmfConfigurations with get, set" Usage="Azure.Communication.CallingServer.RecognizeConfigurations.DtmfConfigurations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.DtmfConfigurations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Defines configurations for DTMF. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialSilenceTimeoutInSeconds">
+      <MemberSignature Language="C#" Value="public TimeSpan? InitialSilenceTimeoutInSeconds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; InitialSilenceTimeoutInSeconds" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeConfigurations.InitialSilenceTimeoutInSeconds" />
+      <MemberSignature Language="VB.NET" Value="Public Property InitialSilenceTimeoutInSeconds As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.InitialSilenceTimeoutInSeconds : Nullable&lt;TimeSpan&gt; with get, set" Usage="Azure.Communication.CallingServer.RecognizeConfigurations.InitialSilenceTimeoutInSeconds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Time to wait for first input after prompt (if any). </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InterruptPromptAndStartRecognition">
+      <MemberSignature Language="C#" Value="public bool? InterruptPromptAndStartRecognition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; InterruptPromptAndStartRecognition" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeConfigurations.InterruptPromptAndStartRecognition" />
+      <MemberSignature Language="VB.NET" Value="Public Property InterruptPromptAndStartRecognition As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.InterruptPromptAndStartRecognition : Nullable&lt;bool&gt; with get, set" Usage="Azure.Communication.CallingServer.RecognizeConfigurations.InterruptPromptAndStartRecognition" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Determines if we interrupt the prompt and start recognizing. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetParticipant">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CommunicationIdentifier TargetParticipant { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CommunicationIdentifier TargetParticipant" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeConfigurations.TargetParticipant" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetParticipant As CommunicationIdentifier" />
+      <MemberSignature Language="F#" Value="member this.TargetParticipant : Azure.Communication.CommunicationIdentifier with get, set" Usage="Azure.Communication.CallingServer.RecognizeConfigurations.TargetParticipant" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CommunicationIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Target participant of DTFM tone recognition. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

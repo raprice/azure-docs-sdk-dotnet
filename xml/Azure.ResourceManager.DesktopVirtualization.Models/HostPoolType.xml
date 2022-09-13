@@ -43,12 +43,12 @@
           <paramref name="value" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="BYODesktop">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DesktopVirtualization.Models.HostPoolType BYODesktop { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.DesktopVirtualization.Models.HostPoolType BYODesktop" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.Models.HostPoolType.BYODesktop" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BYODesktop As HostPoolType" />
-      <MemberSignature Language="F#" Value="static member BYODesktop : Azure.ResourceManager.DesktopVirtualization.Models.HostPoolType" Usage="Azure.ResourceManager.DesktopVirtualization.Models.HostPoolType.BYODesktop" />
+    <Member MemberName="BringYourOwnDesktop">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DesktopVirtualization.Models.HostPoolType BringYourOwnDesktop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.DesktopVirtualization.Models.HostPoolType BringYourOwnDesktop" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.Models.HostPoolType.BringYourOwnDesktop" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BringYourOwnDesktop As HostPoolType" />
+      <MemberSignature Language="F#" Value="static member BringYourOwnDesktop : Azure.ResourceManager.DesktopVirtualization.Models.HostPoolType" Usage="Azure.ResourceManager.DesktopVirtualization.Models.HostPoolType.BringYourOwnDesktop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>

@@ -1,15 +1,15 @@
 <Type Name="AddonVrProperties" FullName="Azure.ResourceManager.Avs.Models.AddonVrProperties">
-  <TypeSignature Language="C#" Value="public class AddonVrProperties : Azure.ResourceManager.Avs.Models.AddonProperties" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AddonVrProperties extends Azure.ResourceManager.Avs.Models.AddonProperties" />
+  <TypeSignature Language="C#" Value="public class AddonVrProperties : Azure.ResourceManager.Avs.Models.AvsPrivateCloudAddonProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AddonVrProperties extends Azure.ResourceManager.Avs.Models.AvsPrivateCloudAddonProperties" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Avs.Models.AddonVrProperties" />
-  <TypeSignature Language="VB.NET" Value="Public Class AddonVrProperties&#xA;Inherits AddonProperties" />
-  <TypeSignature Language="F#" Value="type AddonVrProperties = class&#xA;    inherit AddonProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class AddonVrProperties&#xA;Inherits AvsPrivateCloudAddonProperties" />
+  <TypeSignature Language="F#" Value="type AddonVrProperties = class&#xA;    inherit AvsPrivateCloudAddonProperties" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.ResourceManager.Avs.Models.AddonProperties</BaseTypeName>
+    <BaseTypeName>Azure.ResourceManager.Avs.Models.AvsPrivateCloudAddonProperties</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>

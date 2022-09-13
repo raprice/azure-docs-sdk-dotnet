@@ -48,11 +48,11 @@
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdate">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt; CreateOrUpdate (Azure.WaitUntil waitUntil, Azure.ResourceManager.ApiManagement.Models.AccessName accessName, string ifMatch, Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt; CreateOrUpdate(valuetype Azure.WaitUntil waitUntil, valuetype Azure.ResourceManager.ApiManagement.Models.AccessName accessName, string ifMatch, class Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.TenantAccessInfoCollection.CreateOrUpdate(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.AccessName,System.String,Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (waitUntil As WaitUntil, accessName As AccessName, ifMatch As String, content As TenantAccessInfoCreateOrUpdateContent, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of TenantAccessInfoResource)" />
-      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.Models.AccessName * string * Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;&#xA;override this.CreateOrUpdate : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.Models.AccessName * string * Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;" Usage="tenantAccessInfoCollection.CreateOrUpdate (waitUntil, accessName, ifMatch, content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt; CreateOrUpdate (Azure.WaitUntil waitUntil, Azure.ResourceManager.ApiManagement.Models.AccessName accessName, Azure.ETag ifMatch, Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt; CreateOrUpdate(valuetype Azure.WaitUntil waitUntil, valuetype Azure.ResourceManager.ApiManagement.Models.AccessName accessName, valuetype Azure.ETag ifMatch, class Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.TenantAccessInfoCollection.CreateOrUpdate(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.AccessName,Azure.ETag,Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (waitUntil As WaitUntil, accessName As AccessName, ifMatch As ETag, content As TenantAccessInfoCreateOrUpdateContent, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of TenantAccessInfoResource)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.Models.AccessName * Azure.ETag * Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;&#xA;override this.CreateOrUpdate : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.Models.AccessName * Azure.ETag * Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;" Usage="tenantAccessInfoCollection.CreateOrUpdate (waitUntil, accessName, ifMatch, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -64,7 +64,7 @@
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
         <Parameter Name="accessName" Type="Azure.ResourceManager.ApiManagement.Models.AccessName" />
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="Azure.ETag" />
         <Parameter Name="content" Type="Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
@@ -83,15 +83,15 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="ifMatch" /> or <paramref name="content" /> is null. </exception>
+          <paramref name="content" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;&gt; CreateOrUpdateAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.ApiManagement.Models.AccessName accessName, string ifMatch, Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;&gt; CreateOrUpdateAsync(valuetype Azure.WaitUntil waitUntil, valuetype Azure.ResourceManager.ApiManagement.Models.AccessName accessName, string ifMatch, class Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.TenantAccessInfoCollection.CreateOrUpdateAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.AccessName,System.String,Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (waitUntil As WaitUntil, accessName As AccessName, ifMatch As String, content As TenantAccessInfoCreateOrUpdateContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of TenantAccessInfoResource))" />
-      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.Models.AccessName * string * Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;&gt;&#xA;override this.CreateOrUpdateAsync : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.Models.AccessName * string * Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;&gt;" Usage="tenantAccessInfoCollection.CreateOrUpdateAsync (waitUntil, accessName, ifMatch, content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;&gt; CreateOrUpdateAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.ApiManagement.Models.AccessName accessName, Azure.ETag ifMatch, Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;&gt; CreateOrUpdateAsync(valuetype Azure.WaitUntil waitUntil, valuetype Azure.ResourceManager.ApiManagement.Models.AccessName accessName, valuetype Azure.ETag ifMatch, class Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.TenantAccessInfoCollection.CreateOrUpdateAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.Models.AccessName,Azure.ETag,Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (waitUntil As WaitUntil, accessName As AccessName, ifMatch As ETag, content As TenantAccessInfoCreateOrUpdateContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of TenantAccessInfoResource))" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.Models.AccessName * Azure.ETag * Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;&gt;&#xA;override this.CreateOrUpdateAsync : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.Models.AccessName * Azure.ETag * Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.TenantAccessInfoResource&gt;&gt;" Usage="tenantAccessInfoCollection.CreateOrUpdateAsync (waitUntil, accessName, ifMatch, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -103,7 +103,7 @@
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
         <Parameter Name="accessName" Type="Azure.ResourceManager.ApiManagement.Models.AccessName" />
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="Azure.ETag" />
         <Parameter Name="content" Type="Azure.ResourceManager.ApiManagement.Models.TenantAccessInfoCreateOrUpdateContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
@@ -122,7 +122,7 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="ifMatch" /> or <paramref name="content" /> is null. </exception>
+          <paramref name="content" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="Exists">

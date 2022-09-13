@@ -38,18 +38,18 @@
       </Docs>
     </Member>
     <Member MemberName="ActiveDirectories">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.ActiveDirectory&gt; ActiveDirectories { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.NetApp.Models.ActiveDirectory&gt; ActiveDirectories" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.NetAppAccountActiveDirectory&gt; ActiveDirectories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.NetApp.Models.NetAppAccountActiveDirectory&gt; ActiveDirectories" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.ActiveDirectories" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveDirectories As IList(Of ActiveDirectory)" />
-      <MemberSignature Language="F#" Value="member this.ActiveDirectories : System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.ActiveDirectory&gt;" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.ActiveDirectories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveDirectories As IList(Of NetAppAccountActiveDirectory)" />
+      <MemberSignature Language="F#" Value="member this.ActiveDirectories : System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.NetAppAccountActiveDirectory&gt;" Usage="Azure.ResourceManager.NetApp.Models.NetAppAccountPatch.ActiveDirectories" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.ActiveDirectory&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.NetApp.Models.NetAppAccountActiveDirectory&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Active Directories. </summary>

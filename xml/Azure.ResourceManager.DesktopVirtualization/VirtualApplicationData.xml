@@ -18,18 +18,18 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public VirtualApplicationData (Azure.ResourceManager.DesktopVirtualization.Models.CommandLineSetting commandLineSetting);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.ResourceManager.DesktopVirtualization.Models.CommandLineSetting commandLineSetting) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData.#ctor(Azure.ResourceManager.DesktopVirtualization.Models.CommandLineSetting)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (commandLineSetting As CommandLineSetting)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData : Azure.ResourceManager.DesktopVirtualization.Models.CommandLineSetting -&gt; Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData" Usage="new Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData commandLineSetting" />
+      <MemberSignature Language="C#" Value="public VirtualApplicationData (Azure.ResourceManager.DesktopVirtualization.Models.VirtualApplicationCommandLineSetting commandLineSetting);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.ResourceManager.DesktopVirtualization.Models.VirtualApplicationCommandLineSetting commandLineSetting) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData.#ctor(Azure.ResourceManager.DesktopVirtualization.Models.VirtualApplicationCommandLineSetting)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (commandLineSetting As VirtualApplicationCommandLineSetting)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData : Azure.ResourceManager.DesktopVirtualization.Models.VirtualApplicationCommandLineSetting -&gt; Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData" Usage="new Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData commandLineSetting" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="commandLineSetting" Type="Azure.ResourceManager.DesktopVirtualization.Models.CommandLineSetting" />
+        <Parameter Name="commandLineSetting" Type="Azure.ResourceManager.DesktopVirtualization.Models.VirtualApplicationCommandLineSetting" />
       </Parameters>
       <Docs>
         <param name="commandLineSetting"> Specifies whether this published application can be launched with command line arguments provided by the client, command line arguments specified at publish time, or no command line arguments at all. </param>
@@ -78,18 +78,18 @@
       </Docs>
     </Member>
     <Member MemberName="CommandLineSetting">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DesktopVirtualization.Models.CommandLineSetting CommandLineSetting { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.DesktopVirtualization.Models.CommandLineSetting CommandLineSetting" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DesktopVirtualization.Models.VirtualApplicationCommandLineSetting CommandLineSetting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.DesktopVirtualization.Models.VirtualApplicationCommandLineSetting CommandLineSetting" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData.CommandLineSetting" />
-      <MemberSignature Language="VB.NET" Value="Public Property CommandLineSetting As CommandLineSetting" />
-      <MemberSignature Language="F#" Value="member this.CommandLineSetting : Azure.ResourceManager.DesktopVirtualization.Models.CommandLineSetting with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData.CommandLineSetting" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommandLineSetting As VirtualApplicationCommandLineSetting" />
+      <MemberSignature Language="F#" Value="member this.CommandLineSetting : Azure.ResourceManager.DesktopVirtualization.Models.VirtualApplicationCommandLineSetting with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.VirtualApplicationData.CommandLineSetting" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.DesktopVirtualization.Models.CommandLineSetting</ReturnType>
+        <ReturnType>Azure.ResourceManager.DesktopVirtualization.Models.VirtualApplicationCommandLineSetting</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specifies whether this published application can be launched with command line arguments provided by the client, command line arguments specified at publish time, or no command line arguments at all. </summary>

@@ -303,6 +303,8 @@
         <summary> Initializes a new instance of ErrorResponse. </summary>
         <returns> A new <see cref="T:Azure.AI.AnomalyDetector.Models.ErrorResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="code" /> or <paramref name="message" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="LastDetectionResult">

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -56,6 +58,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -104,26 +108,6 @@
         <inheritdoc />
       </Docs>
     </Member>
-    <Member MemberName="Gcmaes128">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.IkeIntegrity Gcmaes128 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.IkeIntegrity Gcmaes128" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.IkeIntegrity.Gcmaes128" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Gcmaes128 As IkeIntegrity" />
-      <MemberSignature Language="F#" Value="static member Gcmaes128 : Azure.ResourceManager.Network.Models.IkeIntegrity" Usage="Azure.ResourceManager.Network.Models.IkeIntegrity.Gcmaes128" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> GCMAES128. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GcmAes128">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.IkeIntegrity GcmAes128 { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.IkeIntegrity GcmAes128" />
@@ -134,32 +118,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> GCMAES128. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Gcmaes256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.IkeIntegrity Gcmaes256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.IkeIntegrity Gcmaes256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.IkeIntegrity.Gcmaes256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Gcmaes256 As IkeIntegrity" />
-      <MemberSignature Language="F#" Value="static member Gcmaes256 : Azure.ResourceManager.Network.Models.IkeIntegrity" Usage="Azure.ResourceManager.Network.Models.IkeIntegrity.Gcmaes256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> GCMAES256. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -174,6 +139,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
@@ -194,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -222,6 +189,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
@@ -242,6 +210,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -268,6 +237,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
@@ -292,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -318,26 +289,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> SHA1. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SHA1">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.IkeIntegrity SHA1 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.IkeIntegrity SHA1" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.IkeIntegrity.SHA1" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SHA1 As IkeIntegrity" />
-      <MemberSignature Language="F#" Value="static member SHA1 : Azure.ResourceManager.Network.Models.IkeIntegrity" Usage="Azure.ResourceManager.Network.Models.IkeIntegrity.SHA1" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
@@ -358,26 +310,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.IkeIntegrity SHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.IkeIntegrity SHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.IkeIntegrity.SHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SHA256 As IkeIntegrity" />
-      <MemberSignature Language="F#" Value="static member SHA256 : Azure.ResourceManager.Network.Models.IkeIntegrity" Usage="Azure.ResourceManager.Network.Models.IkeIntegrity.SHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
@@ -398,26 +331,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> SHA384. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SHA384">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.IkeIntegrity SHA384 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.IkeIntegrity SHA384" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.IkeIntegrity.SHA384" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SHA384 As IkeIntegrity" />
-      <MemberSignature Language="F#" Value="static member SHA384 : Azure.ResourceManager.Network.Models.IkeIntegrity" Usage="Azure.ResourceManager.Network.Models.IkeIntegrity.SHA384" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.IkeIntegrity</ReturnType>
@@ -438,6 +352,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

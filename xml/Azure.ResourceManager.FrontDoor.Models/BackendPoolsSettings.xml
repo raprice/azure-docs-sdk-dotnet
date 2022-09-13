@@ -53,12 +53,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SendRecvTimeoutSeconds">
-      <MemberSignature Language="C#" Value="public int? SendRecvTimeoutSeconds { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; SendRecvTimeoutSeconds" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FrontDoor.Models.BackendPoolsSettings.SendRecvTimeoutSeconds" />
-      <MemberSignature Language="VB.NET" Value="Public Property SendRecvTimeoutSeconds As Nullable(Of Integer)" />
-      <MemberSignature Language="F#" Value="member this.SendRecvTimeoutSeconds : Nullable&lt;int&gt; with get, set" Usage="Azure.ResourceManager.FrontDoor.Models.BackendPoolsSettings.SendRecvTimeoutSeconds" />
+    <Member MemberName="SendRecvTimeoutInSeconds">
+      <MemberSignature Language="C#" Value="public int? SendRecvTimeoutInSeconds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; SendRecvTimeoutInSeconds" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FrontDoor.Models.BackendPoolsSettings.SendRecvTimeoutInSeconds" />
+      <MemberSignature Language="VB.NET" Value="Public Property SendRecvTimeoutInSeconds As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.SendRecvTimeoutInSeconds : Nullable&lt;int&gt; with get, set" Usage="Azure.ResourceManager.FrontDoor.Models.BackendPoolsSettings.SendRecvTimeoutInSeconds" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>

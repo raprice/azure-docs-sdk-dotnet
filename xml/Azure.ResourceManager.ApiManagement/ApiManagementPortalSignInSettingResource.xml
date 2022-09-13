@@ -39,11 +39,11 @@
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdate">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt; CreateOrUpdate (Azure.WaitUntil waitUntil, Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, string ifMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt; CreateOrUpdate(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, string ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource.CreateOrUpdate(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (waitUntil As WaitUntil, data As ApiManagementPortalSignInSettingData, Optional ifMatch As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of ApiManagementPortalSignInSettingResource)" />
-      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * string * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;&#xA;override this.CreateOrUpdate : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * string * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;" Usage="apiManagementPortalSignInSettingResource.CreateOrUpdate (waitUntil, data, ifMatch, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt; CreateOrUpdate (Azure.WaitUntil waitUntil, Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, Azure.ETag? ifMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt; CreateOrUpdate(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource.CreateOrUpdate(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData,System.Nullable{Azure.ETag},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (waitUntil As WaitUntil, data As ApiManagementPortalSignInSettingData, Optional ifMatch As Nullable(Of ETag) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of ApiManagementPortalSignInSettingResource)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;&#xA;override this.CreateOrUpdate : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;" Usage="apiManagementPortalSignInSettingResource.CreateOrUpdate (waitUntil, data, ifMatch, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -55,7 +55,7 @@
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
         <Parameter Name="data" Type="Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData" />
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="System.Nullable&lt;Azure.ETag&gt;" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -76,11 +76,11 @@
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;&gt; CreateOrUpdateAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, string ifMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;&gt; CreateOrUpdateAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, string ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource.CreateOrUpdateAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (waitUntil As WaitUntil, data As ApiManagementPortalSignInSettingData, Optional ifMatch As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of ApiManagementPortalSignInSettingResource))" />
-      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;&gt;&#xA;override this.CreateOrUpdateAsync : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;&gt;" Usage="apiManagementPortalSignInSettingResource.CreateOrUpdateAsync (waitUntil, data, ifMatch, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;&gt; CreateOrUpdateAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, Azure.ETag? ifMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;&gt; CreateOrUpdateAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource.CreateOrUpdateAsync(Azure.WaitUntil,Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData,System.Nullable{Azure.ETag},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (waitUntil As WaitUntil, data As ApiManagementPortalSignInSettingData, Optional ifMatch As Nullable(Of ETag) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of ApiManagementPortalSignInSettingResource))" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;&gt;&#xA;override this.CreateOrUpdateAsync : Azure.WaitUntil * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource&gt;&gt;" Usage="apiManagementPortalSignInSettingResource.CreateOrUpdateAsync (waitUntil, data, ifMatch, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -92,7 +92,7 @@
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
         <Parameter Name="data" Type="Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData" />
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="System.Nullable&lt;Azure.ETag&gt;" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -313,11 +313,11 @@
       </Docs>
     </Member>
     <Member MemberName="Update">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response Update (string ifMatch, Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response Update(string ifMatch, class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource.Update(System.String,Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (ifMatch As String, data As ApiManagementPortalSignInSettingData, Optional cancellationToken As CancellationToken = Nothing) As Response" />
-      <MemberSignature Language="F#" Value="abstract member Update : string * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.Update : string * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * System.Threading.CancellationToken -&gt; Azure.Response" Usage="apiManagementPortalSignInSettingResource.Update (ifMatch, data, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response Update (Azure.ETag ifMatch, Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response Update(valuetype Azure.ETag ifMatch, class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource.Update(Azure.ETag,Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (ifMatch As ETag, data As ApiManagementPortalSignInSettingData, Optional cancellationToken As CancellationToken = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member Update : Azure.ETag * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.Update : Azure.ETag * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * System.Threading.CancellationToken -&gt; Azure.Response" Usage="apiManagementPortalSignInSettingResource.Update (ifMatch, data, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -327,7 +327,7 @@
         <ReturnType>Azure.Response</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="Azure.ETag" />
         <Parameter Name="data" Type="Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
@@ -343,15 +343,15 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="ifMatch" /> or <paramref name="data" /> is null. </exception>
+          <paramref name="data" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="UpdateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; UpdateAsync (string ifMatch, Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; UpdateAsync(string ifMatch, class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource.UpdateAsync(System.String,Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (ifMatch As String, data As ApiManagementPortalSignInSettingData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
-      <MemberSignature Language="F#" Value="abstract member UpdateAsync : string * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.UpdateAsync : string * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="apiManagementPortalSignInSettingResource.UpdateAsync (ifMatch, data, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; UpdateAsync (Azure.ETag ifMatch, Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; UpdateAsync(valuetype Azure.ETag ifMatch, class Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingResource.UpdateAsync(Azure.ETag,Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (ifMatch As ETag, data As ApiManagementPortalSignInSettingData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.ETag * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.UpdateAsync : Azure.ETag * Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="apiManagementPortalSignInSettingResource.UpdateAsync (ifMatch, data, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -361,7 +361,7 @@
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="Azure.ETag" />
         <Parameter Name="data" Type="Azure.ResourceManager.ApiManagement.ApiManagementPortalSignInSettingData" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
@@ -377,7 +377,7 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="ifMatch" /> or <paramref name="data" /> is null. </exception>
+          <paramref name="data" /> is null. </exception>
       </Docs>
     </Member>
   </Members>

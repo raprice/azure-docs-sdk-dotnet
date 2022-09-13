@@ -207,19 +207,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetNamespaceWcfRelayAuthorizationRule">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleResource&gt; GetNamespaceWcfRelayAuthorizationRule (string authorizationRuleName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleResource&gt; GetNamespaceWcfRelayAuthorizationRule(string authorizationRuleName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.WcfRelayResource.GetNamespaceWcfRelayAuthorizationRule(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNamespaceWcfRelayAuthorizationRule (authorizationRuleName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of NamespaceWcfRelayAuthorizationRuleResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetNamespaceWcfRelayAuthorizationRule : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleResource&gt;&#xA;override this.GetNamespaceWcfRelayAuthorizationRule : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleResource&gt;" Usage="wcfRelayResource.GetNamespaceWcfRelayAuthorizationRule (authorizationRuleName, cancellationToken)" />
+    <Member MemberName="GetWcfRelayAuthorizationRule">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleResource&gt; GetWcfRelayAuthorizationRule (string authorizationRuleName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleResource&gt; GetWcfRelayAuthorizationRule(string authorizationRuleName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.WcfRelayResource.GetWcfRelayAuthorizationRule(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWcfRelayAuthorizationRule (authorizationRuleName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of WcfRelayAuthorizationRuleResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetWcfRelayAuthorizationRule : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleResource&gt;&#xA;override this.GetWcfRelayAuthorizationRule : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleResource&gt;" Usage="wcfRelayResource.GetWcfRelayAuthorizationRule (authorizationRuleName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="authorizationRuleName" Type="System.String" />
@@ -241,19 +241,19 @@
           <paramref name="authorizationRuleName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetNamespaceWcfRelayAuthorizationRuleAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleResource&gt;&gt; GetNamespaceWcfRelayAuthorizationRuleAsync (string authorizationRuleName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleResource&gt;&gt; GetNamespaceWcfRelayAuthorizationRuleAsync(string authorizationRuleName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.WcfRelayResource.GetNamespaceWcfRelayAuthorizationRuleAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNamespaceWcfRelayAuthorizationRuleAsync (authorizationRuleName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of NamespaceWcfRelayAuthorizationRuleResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetNamespaceWcfRelayAuthorizationRuleAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleResource&gt;&gt;&#xA;override this.GetNamespaceWcfRelayAuthorizationRuleAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleResource&gt;&gt;" Usage="wcfRelayResource.GetNamespaceWcfRelayAuthorizationRuleAsync (authorizationRuleName, cancellationToken)" />
+    <Member MemberName="GetWcfRelayAuthorizationRuleAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleResource&gt;&gt; GetWcfRelayAuthorizationRuleAsync (string authorizationRuleName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleResource&gt;&gt; GetWcfRelayAuthorizationRuleAsync(string authorizationRuleName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.WcfRelayResource.GetWcfRelayAuthorizationRuleAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWcfRelayAuthorizationRuleAsync (authorizationRuleName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of WcfRelayAuthorizationRuleResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetWcfRelayAuthorizationRuleAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleResource&gt;&gt;&#xA;override this.GetWcfRelayAuthorizationRuleAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleResource&gt;&gt;" Usage="wcfRelayResource.GetWcfRelayAuthorizationRuleAsync (authorizationRuleName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="authorizationRuleName" Type="System.String" />
@@ -275,24 +275,24 @@
           <paramref name="authorizationRuleName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetNamespaceWcfRelayAuthorizationRules">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleCollection GetNamespaceWcfRelayAuthorizationRules ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleCollection GetNamespaceWcfRelayAuthorizationRules() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.WcfRelayResource.GetNamespaceWcfRelayAuthorizationRules" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNamespaceWcfRelayAuthorizationRules () As NamespaceWcfRelayAuthorizationRuleCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetNamespaceWcfRelayAuthorizationRules : unit -&gt; Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleCollection&#xA;override this.GetNamespaceWcfRelayAuthorizationRules : unit -&gt; Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleCollection" Usage="wcfRelayResource.GetNamespaceWcfRelayAuthorizationRules " />
+    <Member MemberName="GetWcfRelayAuthorizationRules">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleCollection GetWcfRelayAuthorizationRules ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleCollection GetWcfRelayAuthorizationRules() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.WcfRelayResource.GetWcfRelayAuthorizationRules" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWcfRelayAuthorizationRules () As WcfRelayAuthorizationRuleCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetWcfRelayAuthorizationRules : unit -&gt; Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleCollection&#xA;override this.GetWcfRelayAuthorizationRules : unit -&gt; Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleCollection" Usage="wcfRelayResource.GetWcfRelayAuthorizationRules " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Relay.NamespaceWcfRelayAuthorizationRuleCollection</ReturnType>
+        <ReturnType>Azure.ResourceManager.Relay.WcfRelayAuthorizationRuleCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of NamespaceWcfRelayAuthorizationRuleResources in the WcfRelay. </summary>
-        <returns> An object representing collection of NamespaceWcfRelayAuthorizationRuleResources and their operations over a NamespaceWcfRelayAuthorizationRuleResource. </returns>
+        <summary> Gets a collection of WcfRelayAuthorizationRuleResources in the WcfRelay. </summary>
+        <returns> An object representing collection of WcfRelayAuthorizationRuleResources and their operations over a WcfRelayAuthorizationRuleResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

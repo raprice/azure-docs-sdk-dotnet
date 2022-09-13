@@ -45,6 +45,8 @@
         <summary> Initializes a new instance of PhoneNumberCost. </summary>
         <returns> A new <see cref="T:Azure.Communication.PhoneNumbers.PhoneNumberCost" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="isoCurrencySymbol" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="PhoneNumberCost">

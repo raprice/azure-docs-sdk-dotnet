@@ -1,0 +1,95 @@
+<Type Name="MediaStreamingMetadata" FullName="Azure.Communication.CallingServer.Models.Streaming.MediaStreamingMetadata">
+  <TypeSignature Language="C#" Value="public class MediaStreamingMetadata" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaStreamingMetadata extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallingServer.Models.Streaming.MediaStreamingMetadata" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaStreamingMetadata" />
+  <TypeSignature Language="F#" Value="type MediaStreamingMetadata = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Streaming metadata
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaStreamingMetadata ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.Models.Streaming.MediaStreamingMetadata.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallingServer.MediaStreamingFormat Format { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallingServer.MediaStreamingFormat Format" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.Models.Streaming.MediaStreamingMetadata.Format" />
+      <MemberSignature Language="VB.NET" Value="Public Property Format As MediaStreamingFormat" />
+      <MemberSignature Language="F#" Value="member this.Format : Azure.Communication.CallingServer.MediaStreamingFormat with get, set" Usage="Azure.Communication.CallingServer.Models.Streaming.MediaStreamingMetadata.Format" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonPropertyName("format")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonPropertyName("format")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.MediaStreamingFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Format.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionId">
+      <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.Models.Streaming.MediaStreamingMetadata.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As String" />
+      <MemberSignature Language="F#" Value="member this.SubscriptionId : string with get, set" Usage="Azure.Communication.CallingServer.Models.Streaming.MediaStreamingMetadata.SubscriptionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonPropertyName("subscriptionId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonPropertyName("subscriptionId")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Subscription Id
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

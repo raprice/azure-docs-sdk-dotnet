@@ -117,10 +117,10 @@
             
             Schema for <c>ReceivedAssetListValue</c>:
             <code>{
+              kind: "AdlsGen2Account" | "BlobAccount", # Required. The types of asset.
               id: string, # Optional. The resource id of the resource.
               name: string, # Optional. Name of the resource.
               type: string, # Optional. Type of the resource.
-              kind: "AdlsGen2Account" | "BlobAccount", # Required. The types of asset.
             }
             </code></remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -137,6 +137,7 @@
             foreach (var data in client.GetReceivedAssets("<receivedShareName>"))
             {
                 JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+                Console.WriteLine(result.GetProperty("kind").ToString());
                 Console.WriteLine(result.ToString());
             }
             ]]></code>
@@ -148,10 +149,10 @@
             foreach (var data in client.GetReceivedAssets("<receivedShareName>", "<skipToken>"))
             {
                 JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+                Console.WriteLine(result.GetProperty("kind").ToString());
                 Console.WriteLine(result.GetProperty("id").ToString());
                 Console.WriteLine(result.GetProperty("name").ToString());
                 Console.WriteLine(result.GetProperty("type").ToString());
-                Console.WriteLine(result.GetProperty("kind").ToString());
             }
             ]]></code></example>
       </Docs>
@@ -190,10 +191,10 @@
             
             Schema for <c>ReceivedAssetListValue</c>:
             <code>{
+              kind: "AdlsGen2Account" | "BlobAccount", # Required. The types of asset.
               id: string, # Optional. The resource id of the resource.
               name: string, # Optional. Name of the resource.
               type: string, # Optional. Type of the resource.
-              kind: "AdlsGen2Account" | "BlobAccount", # Required. The types of asset.
             }
             </code></remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -210,6 +211,7 @@
             await foreach (var data in client.GetReceivedAssetsAsync("<receivedShareName>"))
             {
                 JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+                Console.WriteLine(result.GetProperty("kind").ToString());
                 Console.WriteLine(result.ToString());
             }
             ]]></code>
@@ -221,10 +223,10 @@
             await foreach (var data in client.GetReceivedAssetsAsync("<receivedShareName>", "<skipToken>"))
             {
                 JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+                Console.WriteLine(result.GetProperty("kind").ToString());
                 Console.WriteLine(result.GetProperty("id").ToString());
                 Console.WriteLine(result.GetProperty("name").ToString());
                 Console.WriteLine(result.GetProperty("type").ToString());
-                Console.WriteLine(result.GetProperty("kind").ToString());
             }
             ]]></code></example>
       </Docs>

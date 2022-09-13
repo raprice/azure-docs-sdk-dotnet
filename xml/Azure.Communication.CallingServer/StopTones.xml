@@ -1,0 +1,550 @@
+<Type Name="StopTones" FullName="Azure.Communication.CallingServer.StopTones">
+  <TypeSignature Language="C#" Value="public readonly struct StopTones : IEquatable&lt;Azure.Communication.CallingServer.StopTones&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit StopTones extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.Communication.CallingServer.StopTones&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallingServer.StopTones" />
+  <TypeSignature Language="VB.NET" Value="Public Structure StopTones&#xA;Implements IEquatable(Of StopTones)" />
+  <TypeSignature Language="F#" Value="type StopTones = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.Communication.CallingServer.StopTones&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> The StopTones. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StopTones (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.StopTones.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.CallingServer.StopTones : string -&gt; Azure.Communication.CallingServer.StopTones" Usage="new Azure.Communication.CallingServer.StopTones value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.StopTones" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="A">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones A { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones A" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.A" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property A As StopTones" />
+      <MemberSignature Language="F#" Value="static member A : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.A" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> a. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Asterisk">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Asterisk { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Asterisk" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Asterisk" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Asterisk As StopTones" />
+      <MemberSignature Language="F#" Value="static member Asterisk : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Asterisk" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> asterisk. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="B">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones B { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones B" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.B" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property B As StopTones" />
+      <MemberSignature Language="F#" Value="static member B : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.B" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> b. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="C">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones C { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones C" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.C" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property C As StopTones" />
+      <MemberSignature Language="F#" Value="static member C : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.C" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> c. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="D">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones D { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones D" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.D" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property D As StopTones" />
+      <MemberSignature Language="F#" Value="static member D : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.D" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> d. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Eight">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Eight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Eight" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Eight" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Eight As StopTones" />
+      <MemberSignature Language="F#" Value="static member Eight : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Eight" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> eight. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.Communication.CallingServer.StopTones other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.Communication.CallingServer.StopTones other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.StopTones.Equals(Azure.Communication.CallingServer.StopTones)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As StopTones) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.Communication.CallingServer.StopTones -&gt; bool" Usage="stopTones.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.Communication.CallingServer.StopTones" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.StopTones.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="stopTones.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Five">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Five { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Five" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Five" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Five As StopTones" />
+      <MemberSignature Language="F#" Value="static member Five : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Five" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> five. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Four">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Four { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Four" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Four" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Four As StopTones" />
+      <MemberSignature Language="F#" Value="static member Four : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Four" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> four. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.StopTones.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="stopTones.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nine">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Nine { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Nine" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Nine" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Nine As StopTones" />
+      <MemberSignature Language="F#" Value="static member Nine : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Nine" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> nine. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="One">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones One { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones One" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.One" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property One As StopTones" />
+      <MemberSignature Language="F#" Value="static member One : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.One" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> one. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.Communication.CallingServer.StopTones left, Azure.Communication.CallingServer.StopTones right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.Communication.CallingServer.StopTones left, valuetype Azure.Communication.CallingServer.StopTones right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.StopTones.op_Equality(Azure.Communication.CallingServer.StopTones,Azure.Communication.CallingServer.StopTones)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As StopTones, right As StopTones) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.Communication.CallingServer.StopTones * Azure.Communication.CallingServer.StopTones -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.Communication.CallingServer.StopTones" />
+        <Parameter Name="right" Type="Azure.Communication.CallingServer.StopTones" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.StopTones" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Communication.CallingServer.StopTones (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.Communication.CallingServer.StopTones op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.StopTones.op_Implicit(System.String)~Azure.Communication.CallingServer.StopTones" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As StopTones" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Converts a string to a <see cref="T:Azure.Communication.CallingServer.StopTones" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.Communication.CallingServer.StopTones left, Azure.Communication.CallingServer.StopTones right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.Communication.CallingServer.StopTones left, valuetype Azure.Communication.CallingServer.StopTones right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.StopTones.op_Inequality(Azure.Communication.CallingServer.StopTones,Azure.Communication.CallingServer.StopTones)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As StopTones, right As StopTones) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.Communication.CallingServer.StopTones * Azure.Communication.CallingServer.StopTones -&gt; bool" Usage="Azure.Communication.CallingServer.StopTones.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.Communication.CallingServer.StopTones" />
+        <Parameter Name="right" Type="Azure.Communication.CallingServer.StopTones" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.StopTones" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pound">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Pound { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Pound" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Pound" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Pound As StopTones" />
+      <MemberSignature Language="F#" Value="static member Pound : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Pound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> pound. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Seven">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Seven { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Seven" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Seven" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Seven As StopTones" />
+      <MemberSignature Language="F#" Value="static member Seven : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Seven" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> seven. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Six">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Six { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Six" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Six" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Six As StopTones" />
+      <MemberSignature Language="F#" Value="static member Six : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Six" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> six. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Three">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Three { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Three" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Three" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Three As StopTones" />
+      <MemberSignature Language="F#" Value="static member Three : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Three" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> three. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.StopTones.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="stopTones.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Two">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Two { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Two" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Two" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Two As StopTones" />
+      <MemberSignature Language="F#" Value="static member Two : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Two" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> two. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Zero">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallingServer.StopTones Zero { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallingServer.StopTones Zero" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.StopTones.Zero" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Zero As StopTones" />
+      <MemberSignature Language="F#" Value="static member Zero : Azure.Communication.CallingServer.StopTones" Usage="Azure.Communication.CallingServer.StopTones.Zero" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.StopTones</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> zero. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

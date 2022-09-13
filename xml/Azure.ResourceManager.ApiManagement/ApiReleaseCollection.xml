@@ -48,11 +48,11 @@
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdate">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt; CreateOrUpdate (Azure.WaitUntil waitUntil, string releaseId, Azure.ResourceManager.ApiManagement.ApiReleaseData data, string ifMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt; CreateOrUpdate(valuetype Azure.WaitUntil waitUntil, string releaseId, class Azure.ResourceManager.ApiManagement.ApiReleaseData data, string ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiReleaseCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.ApiManagement.ApiReleaseData,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (waitUntil As WaitUntil, releaseId As String, data As ApiReleaseData, Optional ifMatch As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of ApiReleaseResource)" />
-      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : Azure.WaitUntil * string * Azure.ResourceManager.ApiManagement.ApiReleaseData * string * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;&#xA;override this.CreateOrUpdate : Azure.WaitUntil * string * Azure.ResourceManager.ApiManagement.ApiReleaseData * string * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;" Usage="apiReleaseCollection.CreateOrUpdate (waitUntil, releaseId, data, ifMatch, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt; CreateOrUpdate (Azure.WaitUntil waitUntil, string releaseId, Azure.ResourceManager.ApiManagement.ApiReleaseData data, Azure.ETag? ifMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt; CreateOrUpdate(valuetype Azure.WaitUntil waitUntil, string releaseId, class Azure.ResourceManager.ApiManagement.ApiReleaseData data, valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiReleaseCollection.CreateOrUpdate(Azure.WaitUntil,System.String,Azure.ResourceManager.ApiManagement.ApiReleaseData,System.Nullable{Azure.ETag},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (waitUntil As WaitUntil, releaseId As String, data As ApiReleaseData, Optional ifMatch As Nullable(Of ETag) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of ApiReleaseResource)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : Azure.WaitUntil * string * Azure.ResourceManager.ApiManagement.ApiReleaseData * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;&#xA;override this.CreateOrUpdate : Azure.WaitUntil * string * Azure.ResourceManager.ApiManagement.ApiReleaseData * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;" Usage="apiReleaseCollection.CreateOrUpdate (waitUntil, releaseId, data, ifMatch, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -65,7 +65,7 @@
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
         <Parameter Name="releaseId" Type="System.String" />
         <Parameter Name="data" Type="Azure.ResourceManager.ApiManagement.ApiReleaseData" />
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="System.Nullable&lt;Azure.ETag&gt;" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -89,11 +89,11 @@
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;&gt; CreateOrUpdateAsync (Azure.WaitUntil waitUntil, string releaseId, Azure.ResourceManager.ApiManagement.ApiReleaseData data, string ifMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;&gt; CreateOrUpdateAsync(valuetype Azure.WaitUntil waitUntil, string releaseId, class Azure.ResourceManager.ApiManagement.ApiReleaseData data, string ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiReleaseCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.ApiManagement.ApiReleaseData,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (waitUntil As WaitUntil, releaseId As String, data As ApiReleaseData, Optional ifMatch As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of ApiReleaseResource))" />
-      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : Azure.WaitUntil * string * Azure.ResourceManager.ApiManagement.ApiReleaseData * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;&gt;&#xA;override this.CreateOrUpdateAsync : Azure.WaitUntil * string * Azure.ResourceManager.ApiManagement.ApiReleaseData * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;&gt;" Usage="apiReleaseCollection.CreateOrUpdateAsync (waitUntil, releaseId, data, ifMatch, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;&gt; CreateOrUpdateAsync (Azure.WaitUntil waitUntil, string releaseId, Azure.ResourceManager.ApiManagement.ApiReleaseData data, Azure.ETag? ifMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;&gt; CreateOrUpdateAsync(valuetype Azure.WaitUntil waitUntil, string releaseId, class Azure.ResourceManager.ApiManagement.ApiReleaseData data, valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiReleaseCollection.CreateOrUpdateAsync(Azure.WaitUntil,System.String,Azure.ResourceManager.ApiManagement.ApiReleaseData,System.Nullable{Azure.ETag},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (waitUntil As WaitUntil, releaseId As String, data As ApiReleaseData, Optional ifMatch As Nullable(Of ETag) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of ApiReleaseResource))" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : Azure.WaitUntil * string * Azure.ResourceManager.ApiManagement.ApiReleaseData * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;&gt;&#xA;override this.CreateOrUpdateAsync : Azure.WaitUntil * string * Azure.ResourceManager.ApiManagement.ApiReleaseData * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ApiManagement.ApiReleaseResource&gt;&gt;" Usage="apiReleaseCollection.CreateOrUpdateAsync (waitUntil, releaseId, data, ifMatch, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -106,7 +106,7 @@
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
         <Parameter Name="releaseId" Type="System.String" />
         <Parameter Name="data" Type="Azure.ResourceManager.ApiManagement.ApiReleaseData" />
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="System.Nullable&lt;Azure.ETag&gt;" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -47,6 +49,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -67,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Single&gt;</ReturnType>
@@ -87,6 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.DiskCreationData</ReturnType>
@@ -107,6 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.DataAccessAuthMode&gt;</ReturnType>
@@ -127,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -147,6 +154,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -167,6 +175,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -187,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -207,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -227,6 +238,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -247,6 +259,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -267,6 +280,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.DiskState&gt;</ReturnType>
@@ -287,6 +301,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.DiskEncryption</ReturnType>
@@ -307,6 +322,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.EncryptionSettingsGroup</ReturnType>
@@ -318,22 +334,19 @@
       </Docs>
     </Member>
     <Member MemberName="ExtendedLocation">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Resources.Models.ExtendedLocation ExtendedLocation { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Resources.Models.ExtendedLocation ExtendedLocation" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Resources.Models.ExtendedLocation ExtendedLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Resources.Models.ExtendedLocation ExtendedLocation" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.ManagedDiskData.ExtendedLocation" />
       <MemberSignature Language="VB.NET" Value="Public Property ExtendedLocation As ExtendedLocation" />
-      <MemberSignature Language="F#" Value="member this.ExtendedLocation : Azure.ResourceManager.Resources.Models.ExtendedLocation with get, set" Usage="Azure.ResourceManager.Compute.ManagedDiskData.ExtendedLocation" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.ExtendedLocation ExtendedLocation { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.ExtendedLocation ExtendedLocation" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ExtendedLocation : Azure.ResourceManager.Compute.Models.ExtendedLocation with get, set" Usage="Azure.ResourceManager.Compute.ManagedDiskData.ExtendedLocation" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="member this.ExtendedLocation : Azure.ResourceManager.Resources.Models.ExtendedLocation with get, set" Usage="Azure.ResourceManager.Compute.ManagedDiskData.ExtendedLocation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.Resources.Models.ExtendedLocation</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.Compute.Models.ExtendedLocation</ReturnType>
+        <ReturnType>Azure.ResourceManager.Resources.Models.ExtendedLocation</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The extended location where the disk will be created. Extended location cannot be changed. </summary>
@@ -351,6 +364,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.HyperVGeneration&gt;</ReturnType>
@@ -362,23 +376,19 @@
       </Docs>
     </Member>
     <Member MemberName="ManagedBy">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier ManagedBy { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier ManagedBy" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier ManagedBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier ManagedBy" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.ManagedDiskData.ManagedBy" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedBy As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ManagedBy : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Compute.ManagedDiskData.ManagedBy" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string ManagedBy { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ManagedBy" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedBy As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ManagedBy : string" Usage="Azure.ResourceManager.Compute.ManagedDiskData.ManagedBy" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedBy As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.ManagedBy : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Compute.ManagedDiskData.ManagedBy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.ResourceIdentifier</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> A relative URI containing the ID of the VM that has the disk attached. </summary>
@@ -387,23 +397,19 @@
       </Docs>
     </Member>
     <Member MemberName="ManagedByExtended">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.Core.ResourceIdentifier&gt; ManagedByExtended { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.Core.ResourceIdentifier&gt; ManagedByExtended" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.Core.ResourceIdentifier&gt; ManagedByExtended { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.Core.ResourceIdentifier&gt; ManagedByExtended" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.ManagedDiskData.ManagedByExtended" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedByExtended As IReadOnlyList(Of ResourceIdentifier)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ManagedByExtended : System.Collections.Generic.IReadOnlyList&lt;Azure.Core.ResourceIdentifier&gt;" Usage="Azure.ResourceManager.Compute.ManagedDiskData.ManagedByExtended" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; ManagedByExtended { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; ManagedByExtended" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedByExtended As IReadOnlyList(Of String)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ManagedByExtended : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Azure.ResourceManager.Compute.ManagedDiskData.ManagedByExtended" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedByExtended As IReadOnlyList(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.ManagedByExtended : System.Collections.Generic.IReadOnlyList&lt;Azure.Core.ResourceIdentifier&gt;" Usage="Azure.ResourceManager.Compute.ManagedDiskData.ManagedByExtended" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Collections.Generic.IReadOnlyList&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> List of relative URIs containing the IDs of the VMs that have the disk attached. maxShares should be set to a value greater than one for disks to allow attaching them to multiple VMs. </summary>
@@ -421,6 +427,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -441,6 +448,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.NetworkAccessPolicy&gt;</ReturnType>
@@ -452,23 +460,19 @@
       </Docs>
     </Member>
     <Member MemberName="OSType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.SupportedOperatingSystemType? OSType { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.SupportedOperatingSystemType&gt; OSType" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.SupportedOperatingSystemType? OSType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.SupportedOperatingSystemType&gt; OSType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.ManagedDiskData.OSType" />
-      <MemberSignature Language="VB.NET" Value="Public Property OSType As Nullable(Of SupportedOperatingSystemType)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.OSType : Nullable&lt;Azure.ResourceManager.Compute.Models.SupportedOperatingSystemType&gt; with get, set" Usage="Azure.ResourceManager.Compute.ManagedDiskData.OSType" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.OperatingSystemTypes? OSType { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.OperatingSystemTypes&gt; OSType" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property OSType As Nullable(Of OperatingSystemTypes)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.OSType : Nullable&lt;Azure.ResourceManager.Compute.Models.OperatingSystemTypes&gt; with get, set" Usage="Azure.ResourceManager.Compute.ManagedDiskData.OSType" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property OSType As Nullable(Of SupportedOperatingSystemType)" />
+      <MemberSignature Language="F#" Value="member this.OSType : Nullable&lt;Azure.ResourceManager.Compute.Models.SupportedOperatingSystemType&gt; with get, set" Usage="Azure.ResourceManager.Compute.ManagedDiskData.OSType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.Compute.Models.SupportedOperatingSystemType&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.Compute.Models.OperatingSystemTypes&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.SupportedOperatingSystemType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The Operating System type. </summary>
@@ -486,6 +490,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -506,6 +511,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -517,23 +523,19 @@
       </Docs>
     </Member>
     <Member MemberName="PublicNetworkAccess">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.DiskPublicNetworkAccess? PublicNetworkAccess { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.DiskPublicNetworkAccess&gt; PublicNetworkAccess" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.DiskPublicNetworkAccess? PublicNetworkAccess { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.DiskPublicNetworkAccess&gt; PublicNetworkAccess" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.ManagedDiskData.PublicNetworkAccess" />
-      <MemberSignature Language="VB.NET" Value="Public Property PublicNetworkAccess As Nullable(Of DiskPublicNetworkAccess)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.PublicNetworkAccess : Nullable&lt;Azure.ResourceManager.Compute.Models.DiskPublicNetworkAccess&gt; with get, set" Usage="Azure.ResourceManager.Compute.ManagedDiskData.PublicNetworkAccess" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.PublicNetworkAccess? PublicNetworkAccess { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.PublicNetworkAccess&gt; PublicNetworkAccess" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property PublicNetworkAccess As Nullable(Of PublicNetworkAccess)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.PublicNetworkAccess : Nullable&lt;Azure.ResourceManager.Compute.Models.PublicNetworkAccess&gt; with get, set" Usage="Azure.ResourceManager.Compute.ManagedDiskData.PublicNetworkAccess" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublicNetworkAccess As Nullable(Of DiskPublicNetworkAccess)" />
+      <MemberSignature Language="F#" Value="member this.PublicNetworkAccess : Nullable&lt;Azure.ResourceManager.Compute.Models.DiskPublicNetworkAccess&gt; with get, set" Usage="Azure.ResourceManager.Compute.ManagedDiskData.PublicNetworkAccess" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.Compute.Models.DiskPublicNetworkAccess&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.Compute.Models.PublicNetworkAccess&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.DiskPublicNetworkAccess&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Policy for controlling export on the disk. </summary>
@@ -551,6 +553,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.DiskPurchasePlan</ReturnType>
@@ -571,6 +574,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.DiskSecurityProfile</ReturnType>
@@ -591,6 +595,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ShareInfoElement&gt;</ReturnType>
@@ -611,6 +616,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.DiskSku</ReturnType>
@@ -631,6 +637,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.SupportedCapabilities</ReturnType>
@@ -651,6 +658,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -671,6 +679,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -691,6 +700,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -711,6 +721,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -731,6 +742,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>

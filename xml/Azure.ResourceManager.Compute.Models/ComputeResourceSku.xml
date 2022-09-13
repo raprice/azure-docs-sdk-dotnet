@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
@@ -38,23 +40,19 @@
       </Docs>
     </Member>
     <Member MemberName="Capabilities">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuCapabilities&gt; Capabilities { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Compute.Models.ComputeResourceSkuCapabilities&gt; Capabilities" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuCapabilities&gt; Capabilities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Compute.Models.ComputeResourceSkuCapabilities&gt; Capabilities" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.ComputeResourceSku.Capabilities" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As IReadOnlyList(Of ComputeResourceSkuCapabilities)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Capabilities : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuCapabilities&gt;" Usage="Azure.ResourceManager.Compute.Models.ComputeResourceSku.Capabilities" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ResourceSkuCapabilities&gt; Capabilities { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Compute.Models.ResourceSkuCapabilities&gt; Capabilities" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As IReadOnlyList(Of ResourceSkuCapabilities)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Capabilities : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ResourceSkuCapabilities&gt;" Usage="Azure.ResourceManager.Compute.Models.ComputeResourceSku.Capabilities" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As IReadOnlyList(Of ComputeResourceSkuCapabilities)" />
+      <MemberSignature Language="F#" Value="member this.Capabilities : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuCapabilities&gt;" Usage="Azure.ResourceManager.Compute.Models.ComputeResourceSku.Capabilities" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuCapabilities&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ResourceSkuCapabilities&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuCapabilities&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> A name value pair to describe the capability. </summary>
@@ -72,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.ComputeResourceSkuCapacity</ReturnType>
@@ -92,6 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ResourceSkuCosts&gt;</ReturnType>
@@ -112,6 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -132,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -152,6 +154,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuLocationInfo&gt;</ReturnType>
@@ -172,6 +175,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Core.AzureLocation&gt;</ReturnType>
@@ -192,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -212,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -223,23 +229,19 @@
       </Docs>
     </Member>
     <Member MemberName="Restrictions">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuRestrictions&gt; Restrictions { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Compute.Models.ComputeResourceSkuRestrictions&gt; Restrictions" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuRestrictions&gt; Restrictions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Compute.Models.ComputeResourceSkuRestrictions&gt; Restrictions" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.ComputeResourceSku.Restrictions" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Restrictions As IReadOnlyList(Of ComputeResourceSkuRestrictions)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Restrictions : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuRestrictions&gt;" Usage="Azure.ResourceManager.Compute.Models.ComputeResourceSku.Restrictions" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ResourceSkuRestrictions&gt; Restrictions { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Compute.Models.ResourceSkuRestrictions&gt; Restrictions" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Restrictions As IReadOnlyList(Of ResourceSkuRestrictions)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Restrictions : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ResourceSkuRestrictions&gt;" Usage="Azure.ResourceManager.Compute.Models.ComputeResourceSku.Restrictions" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Restrictions As IReadOnlyList(Of ComputeResourceSkuRestrictions)" />
+      <MemberSignature Language="F#" Value="member this.Restrictions : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuRestrictions&gt;" Usage="Azure.ResourceManager.Compute.Models.ComputeResourceSku.Restrictions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuRestrictions&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ResourceSkuRestrictions&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSkuRestrictions&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The restrictions because of which SKU cannot be used. This is empty if there are no restrictions. </summary>
@@ -257,6 +259,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -277,6 +280,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

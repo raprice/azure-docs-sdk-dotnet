@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CosmosDB.GremlinGraphResource&gt;</ReturnType>
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CosmosDB.GremlinGraphResource&gt;&gt;</ReturnType>
@@ -116,6 +120,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -148,6 +153,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDB.GremlinGraphData</ReturnType>
@@ -169,6 +175,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -200,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -231,6 +239,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CosmosDB.GremlinGraphResource&gt;</ReturnType>
@@ -259,6 +268,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CosmosDB.GremlinGraphResource&gt;&gt;</ReturnType>
@@ -277,27 +287,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetDatabaseAccountGremlinDatabaseGraphThroughputSetting">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseGraphThroughputSettingResource GetDatabaseAccountGremlinDatabaseGraphThroughputSetting ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseGraphThroughputSettingResource GetDatabaseAccountGremlinDatabaseGraphThroughputSetting() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.CosmosDB.GremlinGraphResource.GetDatabaseAccountGremlinDatabaseGraphThroughputSetting" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDatabaseAccountGremlinDatabaseGraphThroughputSetting () As DatabaseAccountGremlinDatabaseGraphThroughputSettingResource" />
-      <MemberSignature Language="F#" Value="abstract member GetDatabaseAccountGremlinDatabaseGraphThroughputSetting : unit -&gt; Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseGraphThroughputSettingResource&#xA;override this.GetDatabaseAccountGremlinDatabaseGraphThroughputSetting : unit -&gt; Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseGraphThroughputSettingResource" Usage="gremlinGraphResource.GetDatabaseAccountGremlinDatabaseGraphThroughputSetting " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseGraphThroughputSettingResource</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets an object representing a DatabaseAccountGremlinDatabaseGraphThroughputSettingResource along with the instance operations that can be performed on it in the GremlinGraph. </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDB.DatabaseAccountGremlinDatabaseGraphThroughputSettingResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetGremlinGraphThroughputSetting">
       <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.CosmosDB.GremlinGraphThroughputSettingResource GetGremlinGraphThroughputSetting ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.CosmosDB.GremlinGraphThroughputSettingResource GetGremlinGraphThroughputSetting() cil managed" />
@@ -308,6 +297,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDB.GremlinGraphThroughputSettingResource</ReturnType>
@@ -329,6 +319,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -349,6 +340,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CosmosDB.GremlinGraphResource&gt;</ReturnType>
@@ -381,6 +373,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CosmosDB.GremlinGraphResource&gt;&gt;</ReturnType>
@@ -413,6 +406,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -432,6 +426,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CosmosDB.GremlinGraphResource&gt;</ReturnType>
@@ -464,6 +459,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CosmosDB.GremlinGraphResource&gt;&gt;</ReturnType>
@@ -496,14 +492,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.CosmosDB.GremlinGraphResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.GremlinGraphCreateOrUpdateContent" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.GremlinGraphCreateOrUpdateContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -531,14 +528,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.CosmosDB.GremlinGraphResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.GremlinGraphCreateOrUpdateContent" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.CosmosDB.Models.GremlinGraphCreateOrUpdateContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">

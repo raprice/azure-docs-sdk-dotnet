@@ -193,19 +193,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="EndDateTimeUTC">
-      <MemberSignature Language="C#" Value="public string EndDateTimeUTC { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string EndDateTimeUTC" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FrontDoor.Models.LatencyMetric.EndDateTimeUTC" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndDateTimeUTC As String" />
-      <MemberSignature Language="F#" Value="member this.EndDateTimeUTC : string" Usage="Azure.ResourceManager.FrontDoor.Models.LatencyMetric.EndDateTimeUTC" />
+    <Member MemberName="EndOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? EndOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; EndOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FrontDoor.Models.LatencyMetric.EndOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.EndOn : Nullable&lt;DateTimeOffset&gt;" Usage="Azure.ResourceManager.FrontDoor.Models.LatencyMetric.EndOn" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The end time of the Latency Scorecard in UTC. </summary>

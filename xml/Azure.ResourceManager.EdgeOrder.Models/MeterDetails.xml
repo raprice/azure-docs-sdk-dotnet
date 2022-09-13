@@ -1,8 +1,8 @@
 <Type Name="MeterDetails" FullName="Azure.ResourceManager.EdgeOrder.Models.MeterDetails">
-  <TypeSignature Language="C#" Value="public class MeterDetails" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MeterDetails extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class MeterDetails" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit MeterDetails extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.EdgeOrder.Models.MeterDetails" />
-  <TypeSignature Language="VB.NET" Value="Public Class MeterDetails" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class MeterDetails" />
   <TypeSignature Language="F#" Value="type MeterDetails = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.EdgeOrder</AssemblyName>
@@ -21,6 +21,22 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected MeterDetails ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.EdgeOrder.Models.MeterDetails.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.EdgeOrder</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of MeterDetails. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ChargingType">
       <MemberSignature Language="C#" Value="public Azure.ResourceManager.EdgeOrder.Models.ChargingType? ChargingType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.EdgeOrder.Models.ChargingType&gt; ChargingType" />

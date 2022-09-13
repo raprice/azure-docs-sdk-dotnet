@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;</ReturnType>
@@ -116,6 +120,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -147,6 +152,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -178,45 +184,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetConvertToSinglePlacementGroupContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="content"> The input object for ConvertToSinglePlacementGroup API. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Converts SinglePlacementGroup property to false for a existing virtual machine scale set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/convertToSinglePlacementGroup
-            Operation Id: VirtualMachineScaleSets_ConvertToSinglePlacementGroup
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="content" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="ConvertToSinglePlacementGroup">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response ConvertToSinglePlacementGroup (Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response ConvertToSinglePlacementGroup(class Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.ConvertToSinglePlacementGroup(Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ConvertToSinglePlacementGroup (content As VmScaleSetConvertToSinglePlacementGroupContent, Optional cancellationToken As CancellationToken = Nothing) As Response" />
-      <MemberSignature Language="F#" Value="abstract member ConvertToSinglePlacementGroup : Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.ConvertToSinglePlacementGroup : Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent * System.Threading.CancellationToken -&gt; Azure.Response" Usage="virtualMachineScaleSetResource.ConvertToSinglePlacementGroup (content, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetConvertToSinglePlacementGroupContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> The input object for ConvertToSinglePlacementGroup API. </param>
@@ -242,45 +217,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetConvertToSinglePlacementGroupContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="content"> The input object for ConvertToSinglePlacementGroup API. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Converts SinglePlacementGroup property to false for a existing virtual machine scale set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/convertToSinglePlacementGroup
-            Operation Id: VirtualMachineScaleSets_ConvertToSinglePlacementGroup
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="content" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="ConvertToSinglePlacementGroupAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; ConvertToSinglePlacementGroupAsync (Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; ConvertToSinglePlacementGroupAsync(class Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.ConvertToSinglePlacementGroupAsync(Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ConvertToSinglePlacementGroupAsync (content As VmScaleSetConvertToSinglePlacementGroupContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
-      <MemberSignature Language="F#" Value="abstract member ConvertToSinglePlacementGroupAsync : Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.ConvertToSinglePlacementGroupAsync : Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="virtualMachineScaleSetResource.ConvertToSinglePlacementGroupAsync (content, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Compute.Models.VmScaleSetConvertToSinglePlacementGroupContent" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetConvertToSinglePlacementGroupContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> The input object for ConvertToSinglePlacementGroup API. </param>
@@ -297,34 +241,29 @@
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
-      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string virtualMachineScaleSetName);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string virtualMachineScaleSetName) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string virtualMachineScaleSetName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string virtualMachineScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.CreateResourceIdentifier(System.String,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, virtualMachineScaleSetName As String) As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, virtualMachineScaleSetName)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string vmScaleSetName);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string vmScaleSetName) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, vmScaleSetName As String) As ResourceIdentifier" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, vmScaleSetName)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, virtualMachineScaleSetName As String) As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, virtualMachineScaleSetName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionId" Type="System.String" Index="0" />
-        <Parameter Name="resourceGroupName" Type="System.String" Index="1" />
-        <Parameter Name="virtualMachineScaleSetName" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="vmScaleSetName" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="subscriptionId" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="virtualMachineScaleSetName" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="subscriptionId">To be added.</param>
         <param name="resourceGroupName">To be added.</param>
         <param name="virtualMachineScaleSetName">To be added.</param>
-        <param name="vmScaleSetName">To be added.</param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Compute.VirtualMachineScaleSetResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -340,6 +279,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetData</ReturnType>
@@ -361,6 +301,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -394,6 +335,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -427,6 +369,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -460,6 +403,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -493,6 +437,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -530,6 +475,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -567,6 +513,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.Models.RecoveryWalkResponse&gt;</ReturnType>
@@ -601,6 +548,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.Models.RecoveryWalkResponse&gt;&gt;</ReturnType>
@@ -626,36 +574,6 @@
       </Docs>
     </Member>
     <Member MemberName="Get">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt; Get (Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt; Get(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.Get(System.Nullable{Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (Optional expand As Nullable(Of ExpandTypesForGetVmScaleSets) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of VirtualMachineScaleSetResource)" />
-      <MemberSignature Language="F#" Value="abstract member Get : Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&#xA;override this.Get : Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;" Usage="virtualMachineScaleSetResource.Get (expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="expand"> The expand expression to apply on the operation. 'UserData' retrieves the UserData property of the VM scale set that was provided by the user during the VM scale set Create/Update operation. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Display information about a virtual machine scale set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}
-            Operation Id: VirtualMachineScaleSets_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Get">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt; Get (Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt; Get(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.Get(System.Nullable{Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand},System.Threading.CancellationToken)" />
@@ -665,43 +583,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="expand"> The expand expression to apply on the operation. 'UserData' retrieves the UserData property of the VM scale set that was provided by the user during the VM scale set Create/Update operation. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Display information about a virtual machine scale set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}
-            Operation Id: VirtualMachineScaleSets_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt; GetAsync (Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt; GetAsync(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.GetAsync(System.Nullable{Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (Optional expand As Nullable(Of ExpandTypesForGetVmScaleSets) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of VirtualMachineScaleSetResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetAsync : Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;&#xA;override this.GetAsync : Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;" Usage="virtualMachineScaleSetResource.GetAsync (expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="expand"> The expand expression to apply on the operation. 'UserData' retrieves the UserData property of the VM scale set that was provided by the user during the VM scale set Create/Update operation. </param>
@@ -725,13 +614,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="expand"> The expand expression to apply on the operation. 'UserData' retrieves the UserData property of the VM scale set that was provided by the user during the VM scale set Create/Update operation. </param>
@@ -755,6 +645,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetInstanceView&gt;</ReturnType>
@@ -783,6 +674,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetInstanceView&gt;&gt;</ReturnType>
@@ -811,6 +703,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.UpgradeOperationHistoricalStatusInfo&gt;</ReturnType>
@@ -839,6 +732,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.UpgradeOperationHistoricalStatusInfo&gt;</ReturnType>
@@ -867,6 +761,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetSku&gt;</ReturnType>
@@ -895,6 +790,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetSku&gt;</ReturnType>
@@ -923,6 +819,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetExtensionResource&gt;</ReturnType>
@@ -959,6 +856,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetExtensionResource&gt;&gt;</ReturnType>
@@ -995,6 +893,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetExtensionCollection</ReturnType>
@@ -1016,6 +915,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetRollingUpgradeResource</ReturnType>
@@ -1037,50 +937,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="instanceId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="instanceId"> The instance ID of the virtual machine. </param>
-        <param name="expand"> The expand expression to apply on the operation. 'InstanceView' will retrieve the instance view of the virtual machine. 'UserData' will retrieve the UserData of the virtual machine. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets a virtual machine from a VM scale set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}
-            Operation Id: VirtualMachineScaleSetVMs_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="instanceId" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="instanceId" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetVirtualMachineScaleSetVm">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt; GetVirtualMachineScaleSetVm (string instanceId, Azure.ResourceManager.Compute.Models.InstanceViewTypes? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt; GetVirtualMachineScaleSetVm(string instanceId, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.GetVirtualMachineScaleSetVm(System.String,System.Nullable{Azure.ResourceManager.Compute.Models.InstanceViewTypes},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVirtualMachineScaleSetVm (instanceId As String, Optional expand As Nullable(Of InstanceViewTypes) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of VirtualMachineScaleSetVmResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetVirtualMachineScaleSetVm : string * Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&#xA;override this.GetVirtualMachineScaleSetVm : string * Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;" Usage="virtualMachineScaleSetResource.GetVirtualMachineScaleSetVm (instanceId, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="instanceId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="instanceId" Type="System.String" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="instanceId"> The instance ID of the virtual machine. </param>
@@ -1109,50 +974,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="instanceId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="instanceId"> The instance ID of the virtual machine. </param>
-        <param name="expand"> The expand expression to apply on the operation. 'InstanceView' will retrieve the instance view of the virtual machine. 'UserData' will retrieve the UserData of the virtual machine. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets a virtual machine from a VM scale set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}
-            Operation Id: VirtualMachineScaleSetVMs_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="instanceId" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="instanceId" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetVirtualMachineScaleSetVmAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt; GetVirtualMachineScaleSetVmAsync (string instanceId, Azure.ResourceManager.Compute.Models.InstanceViewTypes? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt; GetVirtualMachineScaleSetVmAsync(string instanceId, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.VirtualMachineScaleSetResource.GetVirtualMachineScaleSetVmAsync(System.String,System.Nullable{Azure.ResourceManager.Compute.Models.InstanceViewTypes},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVirtualMachineScaleSetVmAsync (instanceId As String, Optional expand As Nullable(Of InstanceViewTypes) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of VirtualMachineScaleSetVmResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetVirtualMachineScaleSetVmAsync : string * Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;&#xA;override this.GetVirtualMachineScaleSetVmAsync : string * Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;" Usage="virtualMachineScaleSetResource.GetVirtualMachineScaleSetVmAsync (instanceId, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="instanceId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="instanceId" Type="System.String" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="instanceId"> The instance ID of the virtual machine. </param>
@@ -1181,6 +1011,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetVmCollection</ReturnType>
@@ -1202,6 +1033,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1222,6 +1054,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1255,6 +1088,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1288,6 +1122,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1323,6 +1158,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1358,6 +1194,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1391,6 +1228,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1424,6 +1262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1457,6 +1296,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1490,6 +1330,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1523,6 +1364,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1556,6 +1398,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1589,6 +1432,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1622,6 +1466,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
@@ -1654,6 +1499,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;</ReturnType>
@@ -1686,6 +1532,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1705,6 +1552,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1738,6 +1586,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1771,6 +1620,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1806,6 +1656,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1841,6 +1692,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
@@ -1873,6 +1725,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;</ReturnType>
@@ -1905,6 +1758,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1936,6 +1790,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1967,6 +1822,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1998,6 +1854,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -2029,6 +1886,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
@@ -2064,6 +1922,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;</ReturnType>
@@ -2099,6 +1958,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -2134,6 +1994,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>

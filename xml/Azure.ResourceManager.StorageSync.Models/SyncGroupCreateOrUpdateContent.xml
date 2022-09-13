@@ -49,7 +49,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            The parameters used to create the sync group.
+            The parameters used to create the sync group
             <para>
             To assign an object to this property use <see cref="M:System.BinaryData.FromObjectAsJson``1(``0,System.Text.Json.JsonSerializerOptions)" />.
             </para><para>

@@ -1,0 +1,310 @@
+<Type Name="CommunicationIdentifierModelKind" FullName="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind">
+  <TypeSignature Language="C#" Value="public readonly struct CommunicationIdentifierModelKind : IEquatable&lt;Azure.Communication.MediaComposition.CommunicationIdentifierModelKind&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit CommunicationIdentifierModelKind extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" />
+  <TypeSignature Language="VB.NET" Value="Public Structure CommunicationIdentifierModelKind&#xA;Implements IEquatable(Of CommunicationIdentifierModelKind)" />
+  <TypeSignature Language="F#" Value="type CommunicationIdentifierModelKind = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.Communication.MediaComposition.CommunicationIdentifierModelKind&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> The identifier kind, for example 'communicationUser' or 'phoneNumber'. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CommunicationIdentifierModelKind (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.MediaComposition.CommunicationIdentifierModelKind : string -&gt; Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" Usage="new Azure.Communication.MediaComposition.CommunicationIdentifierModelKind value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunicationUser">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.MediaComposition.CommunicationIdentifierModelKind CommunicationUser { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind CommunicationUser" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.CommunicationUser" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CommunicationUser As CommunicationIdentifierModelKind" />
+      <MemberSignature Language="F#" Value="static member CommunicationUser : Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" Usage="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.CommunicationUser" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.CommunicationIdentifierModelKind</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> communicationUser. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.Communication.MediaComposition.CommunicationIdentifierModelKind other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.Equals(Azure.Communication.MediaComposition.CommunicationIdentifierModelKind)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As CommunicationIdentifierModelKind) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.Communication.MediaComposition.CommunicationIdentifierModelKind -&gt; bool" Usage="communicationIdentifierModelKind.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="communicationIdentifierModelKind.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="communicationIdentifierModelKind.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MicrosoftTeamsUser">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.MediaComposition.CommunicationIdentifierModelKind MicrosoftTeamsUser { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind MicrosoftTeamsUser" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.MicrosoftTeamsUser" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MicrosoftTeamsUser As CommunicationIdentifierModelKind" />
+      <MemberSignature Language="F#" Value="static member MicrosoftTeamsUser : Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" Usage="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.MicrosoftTeamsUser" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.CommunicationIdentifierModelKind</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> microsoftTeamsUser. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.Communication.MediaComposition.CommunicationIdentifierModelKind left, Azure.Communication.MediaComposition.CommunicationIdentifierModelKind right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind left, valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.op_Equality(Azure.Communication.MediaComposition.CommunicationIdentifierModelKind,Azure.Communication.MediaComposition.CommunicationIdentifierModelKind)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As CommunicationIdentifierModelKind, right As CommunicationIdentifierModelKind) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.Communication.MediaComposition.CommunicationIdentifierModelKind * Azure.Communication.MediaComposition.CommunicationIdentifierModelKind -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" />
+        <Parameter Name="right" Type="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Communication.MediaComposition.CommunicationIdentifierModelKind (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.op_Implicit(System.String)~Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As CommunicationIdentifierModelKind" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" Usage="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.CommunicationIdentifierModelKind</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Converts a string to a <see cref="T:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.Communication.MediaComposition.CommunicationIdentifierModelKind left, Azure.Communication.MediaComposition.CommunicationIdentifierModelKind right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind left, valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.op_Inequality(Azure.Communication.MediaComposition.CommunicationIdentifierModelKind,Azure.Communication.MediaComposition.CommunicationIdentifierModelKind)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As CommunicationIdentifierModelKind, right As CommunicationIdentifierModelKind) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.Communication.MediaComposition.CommunicationIdentifierModelKind * Azure.Communication.MediaComposition.CommunicationIdentifierModelKind -&gt; bool" Usage="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" />
+        <Parameter Name="right" Type="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumber">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.MediaComposition.CommunicationIdentifierModelKind PhoneNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind PhoneNumber" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.PhoneNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PhoneNumber As CommunicationIdentifierModelKind" />
+      <MemberSignature Language="F#" Value="static member PhoneNumber : Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" Usage="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.PhoneNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.CommunicationIdentifierModelKind</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> phoneNumber. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="communicationIdentifierModelKind.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.MediaComposition.CommunicationIdentifierModelKind Unknown { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.MediaComposition.CommunicationIdentifierModelKind Unknown" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Unknown As CommunicationIdentifierModelKind" />
+      <MemberSignature Language="F#" Value="static member Unknown : Azure.Communication.MediaComposition.CommunicationIdentifierModelKind" Usage="Azure.Communication.MediaComposition.CommunicationIdentifierModelKind.Unknown" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.MediaComposition.CommunicationIdentifierModelKind</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> unknown. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

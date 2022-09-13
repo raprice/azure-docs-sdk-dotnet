@@ -92,11 +92,11 @@
       </Docs>
     </Member>
     <Member MemberName="Delete">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation Delete (Azure.WaitUntil waitUntil, string ifMatch, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation Delete(valuetype Azure.WaitUntil waitUntil, string ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiDiagnosticResource.Delete(Azure.WaitUntil,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Delete (waitUntil As WaitUntil, ifMatch As String, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
-      <MemberSignature Language="F#" Value="abstract member Delete : Azure.WaitUntil * string * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.Delete : Azure.WaitUntil * string * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="apiDiagnosticResource.Delete (waitUntil, ifMatch, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation Delete (Azure.WaitUntil waitUntil, Azure.ETag ifMatch, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation Delete(valuetype Azure.WaitUntil waitUntil, valuetype Azure.ETag ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiDiagnosticResource.Delete(Azure.WaitUntil,Azure.ETag,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Delete (waitUntil As WaitUntil, ifMatch As ETag, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
+      <MemberSignature Language="F#" Value="abstract member Delete : Azure.WaitUntil * Azure.ETag * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.Delete : Azure.WaitUntil * Azure.ETag * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="apiDiagnosticResource.Delete (waitUntil, ifMatch, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -107,7 +107,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="Azure.ETag" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -122,16 +122,14 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="ifMatch" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="DeleteAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; DeleteAsync (Azure.WaitUntil waitUntil, string ifMatch, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; DeleteAsync(valuetype Azure.WaitUntil waitUntil, string ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiDiagnosticResource.DeleteAsync(Azure.WaitUntil,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteAsync (waitUntil As WaitUntil, ifMatch As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
-      <MemberSignature Language="F#" Value="abstract member DeleteAsync : Azure.WaitUntil * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.DeleteAsync : Azure.WaitUntil * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="apiDiagnosticResource.DeleteAsync (waitUntil, ifMatch, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; DeleteAsync (Azure.WaitUntil waitUntil, Azure.ETag ifMatch, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; DeleteAsync(valuetype Azure.WaitUntil waitUntil, valuetype Azure.ETag ifMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiDiagnosticResource.DeleteAsync(Azure.WaitUntil,Azure.ETag,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteAsync (waitUntil As WaitUntil, ifMatch As ETag, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteAsync : Azure.WaitUntil * Azure.ETag * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.DeleteAsync : Azure.WaitUntil * Azure.ETag * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="apiDiagnosticResource.DeleteAsync (waitUntil, ifMatch, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -142,7 +140,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="Azure.ETag" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -157,8 +155,6 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="ifMatch" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="Get">
@@ -313,11 +309,11 @@
       </Docs>
     </Member>
     <Member MemberName="Update">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt; Update (string ifMatch, Azure.ResourceManager.ApiManagement.DiagnosticContractData data, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt; Update(string ifMatch, class Azure.ResourceManager.ApiManagement.DiagnosticContractData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiDiagnosticResource.Update(System.String,Azure.ResourceManager.ApiManagement.DiagnosticContractData,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (ifMatch As String, data As DiagnosticContractData, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ApiDiagnosticResource)" />
-      <MemberSignature Language="F#" Value="abstract member Update : string * Azure.ResourceManager.ApiManagement.DiagnosticContractData * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&#xA;override this.Update : string * Azure.ResourceManager.ApiManagement.DiagnosticContractData * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;" Usage="apiDiagnosticResource.Update (ifMatch, data, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt; Update (Azure.ETag ifMatch, Azure.ResourceManager.ApiManagement.DiagnosticContractData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt; Update(valuetype Azure.ETag ifMatch, class Azure.ResourceManager.ApiManagement.DiagnosticContractData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiDiagnosticResource.Update(Azure.ETag,Azure.ResourceManager.ApiManagement.DiagnosticContractData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (ifMatch As ETag, data As DiagnosticContractData, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ApiDiagnosticResource)" />
+      <MemberSignature Language="F#" Value="abstract member Update : Azure.ETag * Azure.ResourceManager.ApiManagement.DiagnosticContractData * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&#xA;override this.Update : Azure.ETag * Azure.ResourceManager.ApiManagement.DiagnosticContractData * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;" Usage="apiDiagnosticResource.Update (ifMatch, data, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -327,7 +323,7 @@
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="Azure.ETag" />
         <Parameter Name="data" Type="Azure.ResourceManager.ApiManagement.DiagnosticContractData" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
@@ -343,15 +339,15 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="ifMatch" /> or <paramref name="data" /> is null. </exception>
+          <paramref name="data" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="UpdateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&gt; UpdateAsync (string ifMatch, Azure.ResourceManager.ApiManagement.DiagnosticContractData data, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&gt; UpdateAsync(string ifMatch, class Azure.ResourceManager.ApiManagement.DiagnosticContractData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiDiagnosticResource.UpdateAsync(System.String,Azure.ResourceManager.ApiManagement.DiagnosticContractData,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (ifMatch As String, data As DiagnosticContractData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ApiDiagnosticResource))" />
-      <MemberSignature Language="F#" Value="abstract member UpdateAsync : string * Azure.ResourceManager.ApiManagement.DiagnosticContractData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&gt;&#xA;override this.UpdateAsync : string * Azure.ResourceManager.ApiManagement.DiagnosticContractData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&gt;" Usage="apiDiagnosticResource.UpdateAsync (ifMatch, data, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&gt; UpdateAsync (Azure.ETag ifMatch, Azure.ResourceManager.ApiManagement.DiagnosticContractData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&gt; UpdateAsync(valuetype Azure.ETag ifMatch, class Azure.ResourceManager.ApiManagement.DiagnosticContractData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiDiagnosticResource.UpdateAsync(Azure.ETag,Azure.ResourceManager.ApiManagement.DiagnosticContractData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (ifMatch As ETag, data As DiagnosticContractData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ApiDiagnosticResource))" />
+      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.ETag * Azure.ResourceManager.ApiManagement.DiagnosticContractData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&gt;&#xA;override this.UpdateAsync : Azure.ETag * Azure.ResourceManager.ApiManagement.DiagnosticContractData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&gt;" Usage="apiDiagnosticResource.UpdateAsync (ifMatch, data, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
@@ -361,7 +357,7 @@
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiDiagnosticResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ifMatch" Type="System.String" />
+        <Parameter Name="ifMatch" Type="Azure.ETag" />
         <Parameter Name="data" Type="Azure.ResourceManager.ApiManagement.DiagnosticContractData" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
@@ -377,7 +373,7 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="ifMatch" /> or <paramref name="data" /> is null. </exception>
+          <paramref name="data" /> is null. </exception>
       </Docs>
     </Member>
   </Members>

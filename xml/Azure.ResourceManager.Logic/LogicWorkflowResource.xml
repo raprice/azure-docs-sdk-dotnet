@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,79 +32,12 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.Logic.LogicWorkflowResource" /> class for mocking. </summary>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="AddTag">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt; AddTag (string key, string value, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Logic.LogicWorkflowResource&gt; AddTag(string key, string value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Logic.LogicWorkflowResource.AddTag(System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function AddTag (key As String, value As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of LogicWorkflowResource)" />
-      <MemberSignature Language="F#" Value="abstract member AddTag : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&#xA;override this.AddTag : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;" Usage="logicWorkflowResource.AddTag (key, value, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="value" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="key"> The key for the tag. </param>
-        <param name="value"> The value for the tag. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}
-            Operation Id: Workflows_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="key" /> or <paramref name="value" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="AddTagAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt; AddTagAsync (string key, string value, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt; AddTagAsync(string key, string value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Logic.LogicWorkflowResource.AddTagAsync(System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function AddTagAsync (key As String, value As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of LogicWorkflowResource))" />
-      <MemberSignature Language="F#" Value="abstract member AddTagAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;&#xA;override this.AddTagAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;" Usage="logicWorkflowResource.AddTagAsync (key, value, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="value" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="key"> The key for the tag. </param>
-        <param name="value"> The value for the tag. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}
-            Operation Id: Workflows_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="key" /> or <paramref name="value" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
@@ -116,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -144,6 +79,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Logic.LogicWorkflowData</ReturnType>
@@ -165,6 +101,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -196,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -227,6 +165,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -255,6 +194,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -283,6 +223,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -311,6 +252,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -339,6 +281,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;System.BinaryData&gt;</ReturnType>
@@ -371,6 +314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.BinaryData&gt;&gt;</ReturnType>
@@ -403,6 +347,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;</ReturnType>
@@ -431,6 +376,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;</ReturnType>
@@ -459,6 +405,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.Models.LogicWorkflowTriggerCallbackUri&gt;</ReturnType>
@@ -491,6 +438,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.Models.LogicWorkflowTriggerCallbackUri&gt;&gt;</ReturnType>
@@ -523,6 +471,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowRunResource&gt;</ReturnType>
@@ -557,6 +506,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowRunResource&gt;&gt;</ReturnType>
@@ -591,6 +541,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Logic.LogicWorkflowRunCollection</ReturnType>
@@ -612,6 +563,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowTriggerResource&gt;</ReturnType>
@@ -646,6 +598,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowTriggerResource&gt;&gt;</ReturnType>
@@ -680,6 +633,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Logic.LogicWorkflowTriggerCollection</ReturnType>
@@ -701,6 +655,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowVersionResource&gt;</ReturnType>
@@ -735,6 +690,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowVersionResource&gt;&gt;</ReturnType>
@@ -769,6 +725,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Logic.LogicWorkflowVersionCollection</ReturnType>
@@ -790,6 +747,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;System.BinaryData&gt;</ReturnType>
@@ -818,6 +776,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.BinaryData&gt;&gt;</ReturnType>
@@ -846,6 +805,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -866,6 +826,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -901,6 +862,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -936,6 +898,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -968,6 +931,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -990,70 +954,6 @@
           <paramref name="content" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="RemoveTag">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt; RemoveTag (string key, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Logic.LogicWorkflowResource&gt; RemoveTag(string key, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Logic.LogicWorkflowResource.RemoveTag(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RemoveTag (key As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of LogicWorkflowResource)" />
-      <MemberSignature Language="F#" Value="abstract member RemoveTag : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&#xA;override this.RemoveTag : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;" Usage="logicWorkflowResource.RemoveTag (key, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="key"> The key for the tag. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}
-            Operation Id: Workflows_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="key" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="RemoveTagAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt; RemoveTagAsync (string key, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt; RemoveTagAsync(string key, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Logic.LogicWorkflowResource.RemoveTagAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RemoveTagAsync (key As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of LogicWorkflowResource))" />
-      <MemberSignature Language="F#" Value="abstract member RemoveTagAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;&#xA;override this.RemoveTagAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;" Usage="logicWorkflowResource.RemoveTagAsync (key, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="key"> The key for the tag. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}
-            Operation Id: Workflows_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="key" /> is null. </exception>
-      </Docs>
-    </Member>
     <Member MemberName="ResourceType">
       <MemberSignature Language="C#" Value="public static readonly Azure.Core.ResourceType ResourceType;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Azure.Core.ResourceType ResourceType" />
@@ -1064,6 +964,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1071,70 +972,6 @@
       <Docs>
         <summary> Gets the resource type for the operations. </summary>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SetTags">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt; SetTags (System.Collections.Generic.IDictionary&lt;string,string&gt; tags, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Logic.LogicWorkflowResource&gt; SetTags(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Logic.LogicWorkflowResource.SetTags(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function SetTags (tags As IDictionary(Of String, String), Optional cancellationToken As CancellationToken = Nothing) As Response(Of LogicWorkflowResource)" />
-      <MemberSignature Language="F#" Value="abstract member SetTags : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&#xA;override this.SetTags : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;" Usage="logicWorkflowResource.SetTags (tags, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="tags"> The set of tags to use as replacement. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}
-            Operation Id: Workflows_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="tags" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="SetTagsAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt; SetTagsAsync (System.Collections.Generic.IDictionary&lt;string,string&gt; tags, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt; SetTagsAsync(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Logic.LogicWorkflowResource.SetTagsAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function SetTagsAsync (tags As IDictionary(Of String, String), Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of LogicWorkflowResource))" />
-      <MemberSignature Language="F#" Value="abstract member SetTagsAsync : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;&#xA;override this.SetTagsAsync : System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;" Usage="logicWorkflowResource.SetTagsAsync (tags, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="tags"> The set of tags to use as replacement. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}
-            Operation Id: Workflows_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="tags" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -1147,6 +984,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;</ReturnType>
@@ -1175,6 +1013,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowResource&gt;&gt;</ReturnType>
@@ -1203,6 +1042,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1235,6 +1075,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>

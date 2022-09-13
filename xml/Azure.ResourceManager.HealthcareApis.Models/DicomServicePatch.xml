@@ -1,15 +1,15 @@
 <Type Name="DicomServicePatch" FullName="Azure.ResourceManager.HealthcareApis.Models.DicomServicePatch">
-  <TypeSignature Language="C#" Value="public class DicomServicePatch : Azure.ResourceManager.HealthcareApis.Models.ResourceTags" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DicomServicePatch extends Azure.ResourceManager.HealthcareApis.Models.ResourceTags" />
+  <TypeSignature Language="C#" Value="public class DicomServicePatch : Azure.ResourceManager.HealthcareApis.Models.HealthcareApisResourceTags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DicomServicePatch extends Azure.ResourceManager.HealthcareApis.Models.HealthcareApisResourceTags" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.HealthcareApis.Models.DicomServicePatch" />
-  <TypeSignature Language="VB.NET" Value="Public Class DicomServicePatch&#xA;Inherits ResourceTags" />
-  <TypeSignature Language="F#" Value="type DicomServicePatch = class&#xA;    inherit ResourceTags" />
+  <TypeSignature Language="VB.NET" Value="Public Class DicomServicePatch&#xA;Inherits HealthcareApisResourceTags" />
+  <TypeSignature Language="F#" Value="type DicomServicePatch = class&#xA;    inherit HealthcareApisResourceTags" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.HealthcareApis</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.ResourceManager.HealthcareApis.Models.ResourceTags</BaseTypeName>
+    <BaseTypeName>Azure.ResourceManager.HealthcareApis.Models.HealthcareApisResourceTags</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>

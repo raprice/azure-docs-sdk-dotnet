@@ -18,20 +18,20 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public VmHostPlacementPolicyProperties (System.Collections.Generic.IEnumerable&lt;string&gt; vmMembers, System.Collections.Generic.IEnumerable&lt;string&gt; hostMembers, Azure.ResourceManager.Avs.Models.AffinityType affinityType);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;string&gt; vmMembers, class System.Collections.Generic.IEnumerable`1&lt;string&gt; hostMembers, valuetype Azure.ResourceManager.Avs.Models.AffinityType affinityType) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties.#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},Azure.ResourceManager.Avs.Models.AffinityType)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (vmMembers As IEnumerable(Of String), hostMembers As IEnumerable(Of String), affinityType As AffinityType)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties : seq&lt;string&gt; * seq&lt;string&gt; * Azure.ResourceManager.Avs.Models.AffinityType -&gt; Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties" Usage="new Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties (vmMembers, hostMembers, affinityType)" />
+      <MemberSignature Language="C#" Value="public VmHostPlacementPolicyProperties (System.Collections.Generic.IEnumerable&lt;Azure.Core.ResourceIdentifier&gt; vmMembers, System.Collections.Generic.IEnumerable&lt;string&gt; hostMembers, Azure.ResourceManager.Avs.Models.AvsPlacementPolicyAffinityType affinityType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;class Azure.Core.ResourceIdentifier&gt; vmMembers, class System.Collections.Generic.IEnumerable`1&lt;string&gt; hostMembers, valuetype Azure.ResourceManager.Avs.Models.AvsPlacementPolicyAffinityType affinityType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties.#ctor(System.Collections.Generic.IEnumerable{Azure.Core.ResourceIdentifier},System.Collections.Generic.IEnumerable{System.String},Azure.ResourceManager.Avs.Models.AvsPlacementPolicyAffinityType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (vmMembers As IEnumerable(Of ResourceIdentifier), hostMembers As IEnumerable(Of String), affinityType As AvsPlacementPolicyAffinityType)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties : seq&lt;Azure.Core.ResourceIdentifier&gt; * seq&lt;string&gt; * Azure.ResourceManager.Avs.Models.AvsPlacementPolicyAffinityType -&gt; Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties" Usage="new Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties (vmMembers, hostMembers, affinityType)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="vmMembers" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="vmMembers" Type="System.Collections.Generic.IEnumerable&lt;Azure.Core.ResourceIdentifier&gt;" />
         <Parameter Name="hostMembers" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
-        <Parameter Name="affinityType" Type="Azure.ResourceManager.Avs.Models.AffinityType" />
+        <Parameter Name="affinityType" Type="Azure.ResourceManager.Avs.Models.AvsPlacementPolicyAffinityType" />
       </Parameters>
       <Docs>
         <param name="vmMembers"> Virtual machine members list. </param>
@@ -44,18 +44,18 @@
       </Docs>
     </Member>
     <Member MemberName="AffinityType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Avs.Models.AffinityType AffinityType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.Avs.Models.AffinityType AffinityType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Avs.Models.AvsPlacementPolicyAffinityType AffinityType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.Avs.Models.AvsPlacementPolicyAffinityType AffinityType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties.AffinityType" />
-      <MemberSignature Language="VB.NET" Value="Public Property AffinityType As AffinityType" />
-      <MemberSignature Language="F#" Value="member this.AffinityType : Azure.ResourceManager.Avs.Models.AffinityType with get, set" Usage="Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties.AffinityType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AffinityType As AvsPlacementPolicyAffinityType" />
+      <MemberSignature Language="F#" Value="member this.AffinityType : Azure.ResourceManager.Avs.Models.AvsPlacementPolicyAffinityType with get, set" Usage="Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties.AffinityType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Avs.Models.AffinityType</ReturnType>
+        <ReturnType>Azure.ResourceManager.Avs.Models.AvsPlacementPolicyAffinityType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> placement policy affinity type. </summary>
@@ -84,18 +84,18 @@
       </Docs>
     </Member>
     <Member MemberName="VmMembers">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; VmMembers { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; VmMembers" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.Core.ResourceIdentifier&gt; VmMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.Core.ResourceIdentifier&gt; VmMembers" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties.VmMembers" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VmMembers As IList(Of String)" />
-      <MemberSignature Language="F#" Value="member this.VmMembers : System.Collections.Generic.IList&lt;string&gt;" Usage="Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties.VmMembers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VmMembers As IList(Of ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.VmMembers : System.Collections.Generic.IList&lt;Azure.Core.ResourceIdentifier&gt;" Usage="Azure.ResourceManager.Avs.Models.VmHostPlacementPolicyProperties.VmMembers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.Core.ResourceIdentifier&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Virtual machine members list. </summary>

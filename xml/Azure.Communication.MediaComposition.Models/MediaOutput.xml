@@ -1,0 +1,20 @@
+<Type Name="MediaOutput" FullName="Azure.Communication.MediaComposition.Models.MediaOutput">
+  <TypeSignature Language="C#" Value="public class MediaOutput" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaOutput extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.MediaComposition.Models.MediaOutput" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaOutput" />
+  <TypeSignature Language="F#" Value="type MediaOutput = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.MediaComposition</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Media output to be used in the composition. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

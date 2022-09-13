@@ -94,18 +94,18 @@
       </Docs>
     </Member>
     <Member MemberName="ExpressRouteId">
-      <MemberSignature Language="C#" Value="public string ExpressRouteId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ExpressRouteId" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier ExpressRouteId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier ExpressRouteId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.GlobalReachConnectionData.ExpressRouteId" />
-      <MemberSignature Language="VB.NET" Value="Public Property ExpressRouteId As String" />
-      <MemberSignature Language="F#" Value="member this.ExpressRouteId : string with get, set" Usage="Azure.ResourceManager.Avs.GlobalReachConnectionData.ExpressRouteId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpressRouteId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.ExpressRouteId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Avs.GlobalReachConnectionData.ExpressRouteId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The ID of the Private Cloud's ExpressRoute Circuit that is participating in the global reach connection. </summary>
@@ -114,18 +114,18 @@
       </Docs>
     </Member>
     <Member MemberName="PeerExpressRouteCircuit">
-      <MemberSignature Language="C#" Value="public string PeerExpressRouteCircuit { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string PeerExpressRouteCircuit" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier PeerExpressRouteCircuit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier PeerExpressRouteCircuit" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.GlobalReachConnectionData.PeerExpressRouteCircuit" />
-      <MemberSignature Language="VB.NET" Value="Public Property PeerExpressRouteCircuit As String" />
-      <MemberSignature Language="F#" Value="member this.PeerExpressRouteCircuit : string with get, set" Usage="Azure.ResourceManager.Avs.GlobalReachConnectionData.PeerExpressRouteCircuit" />
+      <MemberSignature Language="VB.NET" Value="Public Property PeerExpressRouteCircuit As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.PeerExpressRouteCircuit : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Avs.GlobalReachConnectionData.PeerExpressRouteCircuit" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Identifier of the ExpressRoute Circuit to peer with in the global reach connection. </summary>

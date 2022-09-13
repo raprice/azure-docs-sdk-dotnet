@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsSubResource</BaseTypeName>
@@ -26,6 +27,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -43,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.Models.StreamingJobOutputDataSource</ReturnType>
@@ -67,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamingJobDiagnosticCondition&gt;</ReturnType>
@@ -87,6 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ETag&gt;</ReturnType>
@@ -107,6 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.StreamAnalytics.Models.LastOutputEventTimestamp&gt;</ReturnType>
@@ -127,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsDataSerialization</ReturnType>
@@ -151,6 +158,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Single&gt;</ReturnType>
@@ -171,6 +179,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -191,6 +200,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.Models.StreamingJobOutputWatermarkProperties</ReturnType>

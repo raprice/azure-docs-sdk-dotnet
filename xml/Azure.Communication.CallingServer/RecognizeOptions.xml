@@ -1,0 +1,157 @@
+<Type Name="RecognizeOptions" FullName="Azure.Communication.CallingServer.RecognizeOptions">
+  <TypeSignature Language="C#" Value="public class RecognizeOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RecognizeOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallingServer.RecognizeOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class RecognizeOptions" />
+  <TypeSignature Language="F#" Value="type RecognizeOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Optional elements for Recognize.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RecognizeOptions (Azure.Communication.CallingServer.RecognizeInputType recognizeInputType, Azure.Communication.CallingServer.RecognizeConfigurations recognizeConfigurations);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.Communication.CallingServer.RecognizeInputType recognizeInputType, class Azure.Communication.CallingServer.RecognizeConfigurations recognizeConfigurations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.RecognizeOptions.#ctor(Azure.Communication.CallingServer.RecognizeInputType,Azure.Communication.CallingServer.RecognizeConfigurations)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (recognizeInputType As RecognizeInputType, recognizeConfigurations As RecognizeConfigurations)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.CallingServer.RecognizeOptions : Azure.Communication.CallingServer.RecognizeInputType * Azure.Communication.CallingServer.RecognizeConfigurations -&gt; Azure.Communication.CallingServer.RecognizeOptions" Usage="new Azure.Communication.CallingServer.RecognizeOptions (recognizeInputType, recognizeConfigurations)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="recognizeInputType" Type="Azure.Communication.CallingServer.RecognizeInputType" />
+        <Parameter Name="recognizeConfigurations" Type="Azure.Communication.CallingServer.RecognizeConfigurations" />
+      </Parameters>
+      <Docs>
+        <param name="recognizeInputType" />
+        <param name="recognizeConfigurations" />
+        <summary>
+            Initializes a RecognizeOptions object.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperationContext">
+      <MemberSignature Language="C#" Value="public string OperationContext { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OperationContext" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeOptions.OperationContext" />
+      <MemberSignature Language="VB.NET" Value="Public Property OperationContext As String" />
+      <MemberSignature Language="F#" Value="member this.OperationContext : string with get, set" Usage="Azure.Communication.CallingServer.RecognizeOptions.OperationContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operation Context.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Prompt">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallingServer.PlaySource Prompt { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallingServer.PlaySource Prompt" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeOptions.Prompt" />
+      <MemberSignature Language="VB.NET" Value="Public Property Prompt As PlaySource" />
+      <MemberSignature Language="F#" Value="member this.Prompt : Azure.Communication.CallingServer.PlaySource with get, set" Usage="Azure.Communication.CallingServer.RecognizeOptions.Prompt" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.PlaySource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            PlaySource information.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognizeConfigurations">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallingServer.RecognizeConfigurations RecognizeConfigurations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallingServer.RecognizeConfigurations RecognizeConfigurations" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeOptions.RecognizeConfigurations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecognizeConfigurations As RecognizeConfigurations" />
+      <MemberSignature Language="F#" Value="member this.RecognizeConfigurations : Azure.Communication.CallingServer.RecognizeConfigurations" Usage="Azure.Communication.CallingServer.RecognizeOptions.RecognizeConfigurations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.RecognizeConfigurations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Recognize Configurations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognizeInputType">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallingServer.RecognizeInputType RecognizeInputType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Communication.CallingServer.RecognizeInputType RecognizeInputType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeOptions.RecognizeInputType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecognizeInputType As RecognizeInputType" />
+      <MemberSignature Language="F#" Value="member this.RecognizeInputType : Azure.Communication.CallingServer.RecognizeInputType" Usage="Azure.Communication.CallingServer.RecognizeOptions.RecognizeInputType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallingServer.RecognizeInputType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Recognize Input Type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopCurrentOperations">
+      <MemberSignature Language="C#" Value="public bool? StopCurrentOperations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; StopCurrentOperations" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.RecognizeOptions.StopCurrentOperations" />
+      <MemberSignature Language="VB.NET" Value="Public Property StopCurrentOperations As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.StopCurrentOperations : Nullable&lt;bool&gt; with get, set" Usage="Azure.Communication.CallingServer.RecognizeOptions.StopCurrentOperations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Should stop current Operations?.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

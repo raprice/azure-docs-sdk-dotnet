@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -47,6 +49,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -67,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -78,23 +82,19 @@
       </Docs>
     </Member>
     <Member MemberName="Status">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.Models.SqlCapabilityStatus? Status { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Sql.Models.SqlCapabilityStatus&gt; Status" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.Models.SqlCapabilityStatus? Status { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Sql.Models.SqlCapabilityStatus&gt; Status" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Sql.Models.ElasticPoolEditionCapability.Status" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As Nullable(Of SqlCapabilityStatus)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Status : Nullable&lt;Azure.ResourceManager.Sql.Models.SqlCapabilityStatus&gt;" Usage="Azure.ResourceManager.Sql.Models.ElasticPoolEditionCapability.Status" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.Models.CapabilityStatus? Status { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Sql.Models.CapabilityStatus&gt; Status" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As Nullable(Of CapabilityStatus)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Status : Nullable&lt;Azure.ResourceManager.Sql.Models.CapabilityStatus&gt;" Usage="Azure.ResourceManager.Sql.Models.ElasticPoolEditionCapability.Status" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As Nullable(Of SqlCapabilityStatus)" />
+      <MemberSignature Language="F#" Value="member this.Status : Nullable&lt;Azure.ResourceManager.Sql.Models.SqlCapabilityStatus&gt;" Usage="Azure.ResourceManager.Sql.Models.ElasticPoolEditionCapability.Status" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.Sql.Models.SqlCapabilityStatus&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.Sql.Models.CapabilityStatus&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Sql.Models.SqlCapabilityStatus&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The status of the capability. </summary>
@@ -112,32 +112,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Sql.Models.ElasticPoolPerformanceLevelCapability&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The list of supported elastic pool DTU levels for the edition. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ZoneRedundant">
-      <MemberSignature Language="C#" Value="public bool? ZoneRedundant { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ZoneRedundant" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Sql.Models.ElasticPoolEditionCapability.ZoneRedundant" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ZoneRedundant As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.ZoneRedundant : Nullable&lt;bool&gt;" Usage="Azure.ResourceManager.Sql.Models.ElasticPoolEditionCapability.ZoneRedundant" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Whether or not zone redundancy is supported for the edition. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

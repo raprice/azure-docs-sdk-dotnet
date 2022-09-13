@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -40,23 +42,19 @@
       </Docs>
     </Member>
     <Member MemberName="DeleteOption">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.ComputeDeleteOption? DeleteOption { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.ComputeDeleteOption&gt; DeleteOption" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.ComputeDeleteOption? DeleteOption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.ComputeDeleteOption&gt; DeleteOption" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration.DeleteOption" />
-      <MemberSignature Language="VB.NET" Value="Public Property DeleteOption As Nullable(Of ComputeDeleteOption)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.DeleteOption : Nullable&lt;Azure.ResourceManager.Compute.Models.ComputeDeleteOption&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration.DeleteOption" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.DeleteOptions? DeleteOption { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.DeleteOptions&gt; DeleteOption" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property DeleteOption As Nullable(Of DeleteOptions)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.DeleteOption : Nullable&lt;Azure.ResourceManager.Compute.Models.DeleteOptions&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration.DeleteOption" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeleteOption As Nullable(Of ComputeDeleteOption)" />
+      <MemberSignature Language="F#" Value="member this.DeleteOption : Nullable&lt;Azure.ResourceManager.Compute.Models.ComputeDeleteOption&gt; with get, set" Usage="Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration.DeleteOption" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.Compute.Models.ComputeDeleteOption&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.Compute.Models.DeleteOptions&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.ComputeDeleteOption&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specify what happens to the public IP when the VM is deleted. </summary>
@@ -74,6 +72,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -94,6 +93,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -114,6 +114,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetIPTag&gt;</ReturnType>
@@ -134,6 +135,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -154,6 +156,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.IPVersion&gt;</ReturnType>
@@ -174,6 +177,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -185,23 +189,19 @@
       </Docs>
     </Member>
     <Member MemberName="Sku">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.ComputePublicIPAddressSku Sku { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.ComputePublicIPAddressSku Sku" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.ComputePublicIPAddressSku Sku { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.ComputePublicIPAddressSku Sku" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration.Sku" />
-      <MemberSignature Language="VB.NET" Value="Public Property Sku As ComputePublicIPAddressSku" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Sku : Azure.ResourceManager.Compute.Models.ComputePublicIPAddressSku with get, set" Usage="Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration.Sku" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.PublicIPAddressSku Sku { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.PublicIPAddressSku Sku" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property Sku As PublicIPAddressSku" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Sku : Azure.ResourceManager.Compute.Models.PublicIPAddressSku with get, set" Usage="Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration.Sku" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sku As ComputePublicIPAddressSku" />
+      <MemberSignature Language="F#" Value="member this.Sku : Azure.ResourceManager.Compute.Models.ComputePublicIPAddressSku with get, set" Usage="Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration.Sku" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.Compute.Models.ComputePublicIPAddressSku</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.Compute.Models.PublicIPAddressSku</ReturnType>
+        <ReturnType>Azure.ResourceManager.Compute.Models.ComputePublicIPAddressSku</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Describes the public IP Sku. It can only be set with OrchestrationMode as Flexible. </summary>

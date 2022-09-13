@@ -138,18 +138,18 @@
       </Docs>
     </Member>
     <Member MemberName="ReleaseMode">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Orbital.Models.ReleaseMode? ReleaseMode { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Orbital.Models.ReleaseMode&gt; ReleaseMode" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Orbital.Models.GroundStationReleaseMode? ReleaseMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Orbital.Models.GroundStationReleaseMode&gt; ReleaseMode" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Orbital.AvailableGroundStationData.ReleaseMode" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReleaseMode As Nullable(Of ReleaseMode)" />
-      <MemberSignature Language="F#" Value="member this.ReleaseMode : Nullable&lt;Azure.ResourceManager.Orbital.Models.ReleaseMode&gt;" Usage="Azure.ResourceManager.Orbital.AvailableGroundStationData.ReleaseMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReleaseMode As Nullable(Of GroundStationReleaseMode)" />
+      <MemberSignature Language="F#" Value="member this.ReleaseMode : Nullable&lt;Azure.ResourceManager.Orbital.Models.GroundStationReleaseMode&gt;" Usage="Azure.ResourceManager.Orbital.AvailableGroundStationData.ReleaseMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Orbital</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Orbital.Models.ReleaseMode&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Orbital.Models.GroundStationReleaseMode&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Release Status of a ground station. </summary>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -18,23 +19,19 @@
   </Docs>
   <Members>
     <Member MemberName="Caching">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.CachingType? Caching { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.CachingType&gt; Caching" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.CachingType? Caching { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.CachingType&gt; Caching" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.RestorePointSourceVmOSDisk.Caching" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Caching As Nullable(Of CachingType)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Caching : Nullable&lt;Azure.ResourceManager.Compute.Models.CachingType&gt;" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceVmOSDisk.Caching" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.CachingTypes? Caching { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.CachingTypes&gt; Caching" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Caching As Nullable(Of CachingTypes)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Caching : Nullable&lt;Azure.ResourceManager.Compute.Models.CachingTypes&gt;" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceVmOSDisk.Caching" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Caching As Nullable(Of CachingType)" />
+      <MemberSignature Language="F#" Value="member this.Caching : Nullable&lt;Azure.ResourceManager.Compute.Models.CachingType&gt;" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceVmOSDisk.Caching" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.Compute.Models.CachingType&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.Compute.Models.CachingTypes&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.CachingType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the caching type. </summary>
@@ -52,6 +49,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -72,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -92,6 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.DiskEncryptionSettings</ReturnType>
@@ -103,23 +103,19 @@
       </Docs>
     </Member>
     <Member MemberName="ManagedDisk">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachineManagedDisk ManagedDisk { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.VirtualMachineManagedDisk ManagedDisk" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachineManagedDisk ManagedDisk { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.VirtualMachineManagedDisk ManagedDisk" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.RestorePointSourceVmOSDisk.ManagedDisk" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedDisk As VirtualMachineManagedDisk" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ManagedDisk : Azure.ResourceManager.Compute.Models.VirtualMachineManagedDisk" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceVmOSDisk.ManagedDisk" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.ManagedDiskParameters ManagedDisk { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.ManagedDiskParameters ManagedDisk" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedDisk As ManagedDiskParameters" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ManagedDisk : Azure.ResourceManager.Compute.Models.ManagedDiskParameters" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceVmOSDisk.ManagedDisk" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedDisk As VirtualMachineManagedDisk" />
+      <MemberSignature Language="F#" Value="member this.ManagedDisk : Azure.ResourceManager.Compute.Models.VirtualMachineManagedDisk" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceVmOSDisk.ManagedDisk" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.Compute.Models.VirtualMachineManagedDisk</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.Compute.Models.ManagedDiskParameters</ReturnType>
+        <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachineManagedDisk</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the managed disk details. </summary>
@@ -137,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -157,6 +154,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.OperatingSystemType&gt;</ReturnType>

@@ -365,12 +365,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SxSStackListenerNotReady">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DesktopVirtualization.Models.SessionHostStatus SxSStackListenerNotReady { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.DesktopVirtualization.Models.SessionHostStatus SxSStackListenerNotReady" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.Models.SessionHostStatus.SxSStackListenerNotReady" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SxSStackListenerNotReady As SessionHostStatus" />
-      <MemberSignature Language="F#" Value="static member SxSStackListenerNotReady : Azure.ResourceManager.DesktopVirtualization.Models.SessionHostStatus" Usage="Azure.ResourceManager.DesktopVirtualization.Models.SessionHostStatus.SxSStackListenerNotReady" />
+    <Member MemberName="SxsStackListenerNotReady">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DesktopVirtualization.Models.SessionHostStatus SxsStackListenerNotReady { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.DesktopVirtualization.Models.SessionHostStatus SxsStackListenerNotReady" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.Models.SessionHostStatus.SxsStackListenerNotReady" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SxsStackListenerNotReady As SessionHostStatus" />
+      <MemberSignature Language="F#" Value="static member SxsStackListenerNotReady : Azure.ResourceManager.DesktopVirtualization.Models.SessionHostStatus" Usage="Azure.ResourceManager.DesktopVirtualization.Models.SessionHostStatus.SxsStackListenerNotReady" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>

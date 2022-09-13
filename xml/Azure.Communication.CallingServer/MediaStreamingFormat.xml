@@ -1,0 +1,151 @@
+<Type Name="MediaStreamingFormat" FullName="Azure.Communication.CallingServer.MediaStreamingFormat">
+  <TypeSignature Language="C#" Value="public class MediaStreamingFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaStreamingFormat extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallingServer.MediaStreamingFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Class MediaStreamingFormat" />
+  <TypeSignature Language="F#" Value="type MediaStreamingFormat = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The Streaming Format model.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaStreamingFormat ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallingServer.MediaStreamingFormat.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Channels">
+      <MemberSignature Language="C#" Value="public int Channels { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Channels" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.MediaStreamingFormat.Channels" />
+      <MemberSignature Language="VB.NET" Value="Public Property Channels As Integer" />
+      <MemberSignature Language="F#" Value="member this.Channels : int with get, set" Usage="Azure.Communication.CallingServer.MediaStreamingFormat.Channels" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonPropertyName("channels")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonPropertyName("channels")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Channels.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Encoding">
+      <MemberSignature Language="C#" Value="public string Encoding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Encoding" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.MediaStreamingFormat.Encoding" />
+      <MemberSignature Language="VB.NET" Value="Public Property Encoding As String" />
+      <MemberSignature Language="F#" Value="member this.Encoding : string with get, set" Usage="Azure.Communication.CallingServer.MediaStreamingFormat.Encoding" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonPropertyName("encoding")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonPropertyName("encoding")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Encoding.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public double Length { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Length" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.MediaStreamingFormat.Length" />
+      <MemberSignature Language="VB.NET" Value="Public Property Length As Double" />
+      <MemberSignature Language="F#" Value="member this.Length : double with get, set" Usage="Azure.Communication.CallingServer.MediaStreamingFormat.Length" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonPropertyName("length")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonPropertyName("length")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Length.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SampleRate">
+      <MemberSignature Language="C#" Value="public int SampleRate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SampleRate" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallingServer.MediaStreamingFormat.SampleRate" />
+      <MemberSignature Language="VB.NET" Value="Public Property SampleRate As Integer" />
+      <MemberSignature Language="F#" Value="member this.SampleRate : int with get, set" Usage="Azure.Communication.CallingServer.MediaStreamingFormat.SampleRate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallingServer</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonPropertyName("sampleRate")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonPropertyName("sampleRate")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Sample Rate.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

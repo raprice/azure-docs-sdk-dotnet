@@ -17,12 +17,41 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="GetDnsForwardingRuleResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DnsResolver.DnsForwardingRuleResource GetDnsForwardingRuleResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DnsResolver.DnsForwardingRuleResource GetDnsForwardingRuleResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsForwardingRuleResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDnsForwardingRuleResource (client As ArmClient, id As ResourceIdentifier) As DnsForwardingRuleResource" />
+      <MemberSignature Language="F#" Value="static member GetDnsForwardingRuleResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.DnsResolver.DnsForwardingRuleResource" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsForwardingRuleResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DnsResolver.DnsForwardingRuleResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.DnsResolver.DnsForwardingRuleResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.DnsResolver.DnsForwardingRuleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DnsResolver.DnsForwardingRuleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.DnsResolver.DnsForwardingRuleResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetDnsForwardingRuleset">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt; GetDnsForwardingRuleset (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string dnsForwardingRulesetName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt; GetDnsForwardingRuleset(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string dnsForwardingRulesetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt; GetDnsForwardingRuleset (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string rulesetName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt; GetDnsForwardingRuleset(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string rulesetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsForwardingRuleset(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDnsForwardingRuleset (resourceGroupResource As ResourceGroupResource, dnsForwardingRulesetName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DnsForwardingRulesetResource)" />
-      <MemberSignature Language="F#" Value="static member GetDnsForwardingRuleset : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt;" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsForwardingRuleset (resourceGroupResource, dnsForwardingRulesetName, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDnsForwardingRuleset (resourceGroupResource As ResourceGroupResource, rulesetName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DnsForwardingRulesetResource)" />
+      <MemberSignature Language="F#" Value="static member GetDnsForwardingRuleset : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt;" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsForwardingRuleset (resourceGroupResource, rulesetName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>
@@ -33,12 +62,12 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
-        <Parameter Name="dnsForwardingRulesetName" Type="System.String" />
+        <Parameter Name="rulesetName" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="dnsForwardingRulesetName"> The name of the DNS forwarding ruleset. </param>
+        <param name="rulesetName"> The name of the DNS forwarding ruleset. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a DNS forwarding ruleset properties.
@@ -48,17 +77,17 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="dnsForwardingRulesetName" /> is an empty string, and was expected to be non-empty. </exception>
+          <paramref name="rulesetName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="dnsForwardingRulesetName" /> is null. </exception>
+          <paramref name="rulesetName" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDnsForwardingRulesetAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt;&gt; GetDnsForwardingRulesetAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string dnsForwardingRulesetName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt;&gt; GetDnsForwardingRulesetAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string dnsForwardingRulesetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt;&gt; GetDnsForwardingRulesetAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string rulesetName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt;&gt; GetDnsForwardingRulesetAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string rulesetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsForwardingRulesetAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDnsForwardingRulesetAsync (resourceGroupResource As ResourceGroupResource, dnsForwardingRulesetName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DnsForwardingRulesetResource))" />
-      <MemberSignature Language="F#" Value="static member GetDnsForwardingRulesetAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt;&gt;" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsForwardingRulesetAsync (resourceGroupResource, dnsForwardingRulesetName, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDnsForwardingRulesetAsync (resourceGroupResource As ResourceGroupResource, rulesetName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DnsForwardingRulesetResource))" />
+      <MemberSignature Language="F#" Value="static member GetDnsForwardingRulesetAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DnsResolver.DnsForwardingRulesetResource&gt;&gt;" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsForwardingRulesetAsync (resourceGroupResource, rulesetName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>
@@ -69,12 +98,12 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
-        <Parameter Name="dnsForwardingRulesetName" Type="System.String" />
+        <Parameter Name="rulesetName" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="dnsForwardingRulesetName"> The name of the DNS forwarding ruleset. </param>
+        <param name="rulesetName"> The name of the DNS forwarding ruleset. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a DNS forwarding ruleset properties.
@@ -84,9 +113,9 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="dnsForwardingRulesetName" /> is an empty string, and was expected to be non-empty. </exception>
+          <paramref name="rulesetName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="dnsForwardingRulesetName" /> is null. </exception>
+          <paramref name="rulesetName" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDnsForwardingRulesetResource">
@@ -282,6 +311,35 @@
           <paramref name="virtualNetworkName" /> is null. </exception>
       </Docs>
     </Member>
+    <Member MemberName="GetDnsForwardingRulesetVirtualNetworkLinkResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DnsResolver.DnsForwardingRulesetVirtualNetworkLinkResource GetDnsForwardingRulesetVirtualNetworkLinkResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DnsResolver.DnsForwardingRulesetVirtualNetworkLinkResource GetDnsForwardingRulesetVirtualNetworkLinkResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsForwardingRulesetVirtualNetworkLinkResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDnsForwardingRulesetVirtualNetworkLinkResource (client As ArmClient, id As ResourceIdentifier) As DnsForwardingRulesetVirtualNetworkLinkResource" />
+      <MemberSignature Language="F#" Value="static member GetDnsForwardingRulesetVirtualNetworkLinkResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.DnsResolver.DnsForwardingRulesetVirtualNetworkLinkResource" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsForwardingRulesetVirtualNetworkLinkResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DnsResolver.DnsForwardingRulesetVirtualNetworkLinkResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.DnsResolver.DnsForwardingRulesetVirtualNetworkLinkResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.DnsResolver.DnsForwardingRulesetVirtualNetworkLinkResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DnsResolver.DnsForwardingRulesetVirtualNetworkLinkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.DnsResolver.DnsForwardingRulesetVirtualNetworkLinkResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetDnsResolver">
       <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.DnsResolver.DnsResolverResource&gt; GetDnsResolver (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string dnsResolverName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.DnsResolver.DnsResolverResource&gt; GetDnsResolver(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string dnsResolverName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -352,6 +410,64 @@
           <paramref name="dnsResolverName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dnsResolverName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDnsResolverInboundEndpointResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DnsResolver.DnsResolverInboundEndpointResource GetDnsResolverInboundEndpointResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DnsResolver.DnsResolverInboundEndpointResource GetDnsResolverInboundEndpointResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsResolverInboundEndpointResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDnsResolverInboundEndpointResource (client As ArmClient, id As ResourceIdentifier) As DnsResolverInboundEndpointResource" />
+      <MemberSignature Language="F#" Value="static member GetDnsResolverInboundEndpointResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.DnsResolver.DnsResolverInboundEndpointResource" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsResolverInboundEndpointResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DnsResolver.DnsResolverInboundEndpointResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.DnsResolver.DnsResolverInboundEndpointResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.DnsResolver.DnsResolverInboundEndpointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DnsResolver.DnsResolverInboundEndpointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.DnsResolver.DnsResolverInboundEndpointResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDnsResolverOutboundEndpointResource">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DnsResolver.DnsResolverOutboundEndpointResource GetDnsResolverOutboundEndpointResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DnsResolver.DnsResolverOutboundEndpointResource GetDnsResolverOutboundEndpointResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsResolverOutboundEndpointResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDnsResolverOutboundEndpointResource (client As ArmClient, id As ResourceIdentifier) As DnsResolverOutboundEndpointResource" />
+      <MemberSignature Language="F#" Value="static member GetDnsResolverOutboundEndpointResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.DnsResolver.DnsResolverOutboundEndpointResource" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetDnsResolverOutboundEndpointResource (client, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DnsResolver.DnsResolverOutboundEndpointResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.DnsResolver.DnsResolverOutboundEndpointResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.DnsResolver.DnsResolverOutboundEndpointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DnsResolver.DnsResolverOutboundEndpointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.DnsResolver.DnsResolverOutboundEndpointResource" /> object. </returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDnsResolverResource">
@@ -545,122 +661,6 @@
           <paramref name="virtualNetworkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="virtualNetworkName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetForwardingRuleResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DnsResolver.ForwardingRuleResource GetForwardingRuleResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DnsResolver.ForwardingRuleResource GetForwardingRuleResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetForwardingRuleResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetForwardingRuleResource (client As ArmClient, id As ResourceIdentifier) As ForwardingRuleResource" />
-      <MemberSignature Language="F#" Value="static member GetForwardingRuleResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.DnsResolver.ForwardingRuleResource" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetForwardingRuleResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.DnsResolver.ForwardingRuleResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.DnsResolver.ForwardingRuleResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DnsResolver.ForwardingRuleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DnsResolver.ForwardingRuleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.DnsResolver.ForwardingRuleResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetInboundEndpointResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DnsResolver.InboundEndpointResource GetInboundEndpointResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DnsResolver.InboundEndpointResource GetInboundEndpointResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetInboundEndpointResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetInboundEndpointResource (client As ArmClient, id As ResourceIdentifier) As InboundEndpointResource" />
-      <MemberSignature Language="F#" Value="static member GetInboundEndpointResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.DnsResolver.InboundEndpointResource" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetInboundEndpointResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.DnsResolver.InboundEndpointResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.DnsResolver.InboundEndpointResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DnsResolver.InboundEndpointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.DnsResolver.InboundEndpointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.DnsResolver.InboundEndpointResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetOutboundEndpointResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DnsResolver.OutboundEndpointResource GetOutboundEndpointResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DnsResolver.OutboundEndpointResource GetOutboundEndpointResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetOutboundEndpointResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetOutboundEndpointResource (client As ArmClient, id As ResourceIdentifier) As OutboundEndpointResource" />
-      <MemberSignature Language="F#" Value="static member GetOutboundEndpointResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.DnsResolver.OutboundEndpointResource" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetOutboundEndpointResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.DnsResolver.OutboundEndpointResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.DnsResolver.OutboundEndpointResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DnsResolver.OutboundEndpointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.DnsResolver.OutboundEndpointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.DnsResolver.OutboundEndpointResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetVirtualNetworkLinkResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DnsResolver.VirtualNetworkLinkResource GetVirtualNetworkLinkResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DnsResolver.VirtualNetworkLinkResource GetVirtualNetworkLinkResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetVirtualNetworkLinkResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualNetworkLinkResource (client As ArmClient, id As ResourceIdentifier) As VirtualNetworkLinkResource" />
-      <MemberSignature Language="F#" Value="static member GetVirtualNetworkLinkResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.DnsResolver.VirtualNetworkLinkResource" Usage="Azure.ResourceManager.DnsResolver.DnsResolverExtensions.GetVirtualNetworkLinkResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.DnsResolver</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.DnsResolver.VirtualNetworkLinkResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.DnsResolver.VirtualNetworkLinkResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.DnsResolver.VirtualNetworkLinkResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DnsResolver.VirtualNetworkLinkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.DnsResolver.VirtualNetworkLinkResource" /> object. </returns>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

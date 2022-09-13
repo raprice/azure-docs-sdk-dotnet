@@ -273,6 +273,95 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetFrontDoorRulesEngine">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource&gt; GetFrontDoorRulesEngine (string rulesEngineName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource&gt; GetFrontDoorRulesEngine(string rulesEngineName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.GetFrontDoorRulesEngine(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFrontDoorRulesEngine (rulesEngineName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of FrontDoorRulesEngineResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetFrontDoorRulesEngine : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource&gt;&#xA;override this.GetFrontDoorRulesEngine : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource&gt;" Usage="frontDoorResource.GetFrontDoorRulesEngine (rulesEngineName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rulesEngineName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="rulesEngineName"> Name of the Rules Engine which is unique within the Front Door. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets a Rules Engine Configuration with the specified name within the specified Front Door.
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/frontDoors/{frontDoorName}/rulesEngines/{rulesEngineName}
+            Operation Id: RulesEngines_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="rulesEngineName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="rulesEngineName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFrontDoorRulesEngineAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource&gt;&gt; GetFrontDoorRulesEngineAsync (string rulesEngineName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource&gt;&gt; GetFrontDoorRulesEngineAsync(string rulesEngineName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.GetFrontDoorRulesEngineAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFrontDoorRulesEngineAsync (rulesEngineName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of FrontDoorRulesEngineResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetFrontDoorRulesEngineAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource&gt;&gt;&#xA;override this.GetFrontDoorRulesEngineAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource&gt;&gt;" Usage="frontDoorResource.GetFrontDoorRulesEngineAsync (rulesEngineName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rulesEngineName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="rulesEngineName"> Name of the Rules Engine which is unique within the Front Door. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets a Rules Engine Configuration with the specified name within the specified Front Door.
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/frontDoors/{frontDoorName}/rulesEngines/{rulesEngineName}
+            Operation Id: RulesEngines_Get
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="rulesEngineName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="rulesEngineName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFrontDoorRulesEngines">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineCollection GetFrontDoorRulesEngines ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineCollection GetFrontDoorRulesEngines() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.GetFrontDoorRulesEngines" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFrontDoorRulesEngines () As FrontDoorRulesEngineCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetFrontDoorRulesEngines : unit -&gt; Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineCollection&#xA;override this.GetFrontDoorRulesEngines : unit -&gt; Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineCollection" Usage="frontDoorResource.GetFrontDoorRulesEngines " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of FrontDoorRulesEngineResources in the FrontDoor. </summary>
+        <returns> An object representing collection of FrontDoorRulesEngineResources and their operations over a FrontDoorRulesEngineResource. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetFrontendEndpoint">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.FrontDoor.FrontendEndpointResource&gt; GetFrontendEndpoint (string frontendEndpointName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.FrontDoor.FrontendEndpointResource&gt; GetFrontendEndpoint(string frontendEndpointName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -362,95 +451,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetRulesEngine">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.FrontDoor.RulesEngineResource&gt; GetRulesEngine (string rulesEngineName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.FrontDoor.RulesEngineResource&gt; GetRulesEngine(string rulesEngineName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.GetRulesEngine(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRulesEngine (rulesEngineName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RulesEngineResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetRulesEngine : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FrontDoor.RulesEngineResource&gt;&#xA;override this.GetRulesEngine : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FrontDoor.RulesEngineResource&gt;" Usage="frontDoorResource.GetRulesEngine (rulesEngineName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.FrontDoor.RulesEngineResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="rulesEngineName" Type="System.String" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="rulesEngineName"> Name of the Rules Engine which is unique within the Front Door. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets a Rules Engine Configuration with the specified name within the specified Front Door.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/frontDoors/{frontDoorName}/rulesEngines/{rulesEngineName}
-            Operation Id: RulesEngines_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="rulesEngineName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="rulesEngineName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetRulesEngineAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.RulesEngineResource&gt;&gt; GetRulesEngineAsync (string rulesEngineName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.FrontDoor.RulesEngineResource&gt;&gt; GetRulesEngineAsync(string rulesEngineName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.GetRulesEngineAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRulesEngineAsync (rulesEngineName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RulesEngineResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetRulesEngineAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.RulesEngineResource&gt;&gt;&#xA;override this.GetRulesEngineAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.RulesEngineResource&gt;&gt;" Usage="frontDoorResource.GetRulesEngineAsync (rulesEngineName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.RulesEngineResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="rulesEngineName" Type="System.String" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="rulesEngineName"> Name of the Rules Engine which is unique within the Front Door. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets a Rules Engine Configuration with the specified name within the specified Front Door.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/frontDoors/{frontDoorName}/rulesEngines/{rulesEngineName}
-            Operation Id: RulesEngines_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="rulesEngineName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="rulesEngineName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetRulesEngines">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.FrontDoor.RulesEngineCollection GetRulesEngines ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.FrontDoor.RulesEngineCollection GetRulesEngines() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.GetRulesEngines" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRulesEngines () As RulesEngineCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetRulesEngines : unit -&gt; Azure.ResourceManager.FrontDoor.RulesEngineCollection&#xA;override this.GetRulesEngines : unit -&gt; Azure.ResourceManager.FrontDoor.RulesEngineCollection" Usage="frontDoorResource.GetRulesEngines " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.FrontDoor.RulesEngineCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of RulesEngineResources in the FrontDoor. </summary>
-        <returns> An object representing collection of RulesEngineResources and their operations over a RulesEngineResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="HasData">
       <MemberSignature Language="C#" Value="public virtual bool HasData { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool HasData" />
@@ -471,12 +471,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="PurgeContentEndpoint">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation PurgeContentEndpoint (Azure.WaitUntil waitUntil, Azure.ResourceManager.FrontDoor.Models.PurgeContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation PurgeContentEndpoint(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.FrontDoor.Models.PurgeContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.PurgeContentEndpoint(Azure.WaitUntil,Azure.ResourceManager.FrontDoor.Models.PurgeContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function PurgeContentEndpoint (waitUntil As WaitUntil, content As PurgeContent, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
-      <MemberSignature Language="F#" Value="abstract member PurgeContentEndpoint : Azure.WaitUntil * Azure.ResourceManager.FrontDoor.Models.PurgeContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.PurgeContentEndpoint : Azure.WaitUntil * Azure.ResourceManager.FrontDoor.Models.PurgeContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="frontDoorResource.PurgeContentEndpoint (waitUntil, content, cancellationToken)" />
+    <Member MemberName="PurgeContent">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation PurgeContent (Azure.WaitUntil waitUntil, Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation PurgeContent(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.PurgeContent(Azure.WaitUntil,Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function PurgeContent (waitUntil As WaitUntil, content As FrontDoorEndpointPurgeContent, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
+      <MemberSignature Language="F#" Value="abstract member PurgeContent : Azure.WaitUntil * Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.PurgeContent : Azure.WaitUntil * Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="frontDoorResource.PurgeContent (waitUntil, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
@@ -487,7 +487,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="content" Type="Azure.ResourceManager.FrontDoor.Models.PurgeContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -506,12 +506,12 @@
           <paramref name="content" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="PurgeContentEndpointAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; PurgeContentEndpointAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.FrontDoor.Models.PurgeContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; PurgeContentEndpointAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.FrontDoor.Models.PurgeContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.PurgeContentEndpointAsync(Azure.WaitUntil,Azure.ResourceManager.FrontDoor.Models.PurgeContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function PurgeContentEndpointAsync (waitUntil As WaitUntil, content As PurgeContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
-      <MemberSignature Language="F#" Value="abstract member PurgeContentEndpointAsync : Azure.WaitUntil * Azure.ResourceManager.FrontDoor.Models.PurgeContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.PurgeContentEndpointAsync : Azure.WaitUntil * Azure.ResourceManager.FrontDoor.Models.PurgeContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="frontDoorResource.PurgeContentEndpointAsync (waitUntil, content, cancellationToken)" />
+    <Member MemberName="PurgeContentAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; PurgeContentAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; PurgeContentAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.PurgeContentAsync(Azure.WaitUntil,Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function PurgeContentAsync (waitUntil As WaitUntil, content As FrontDoorEndpointPurgeContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
+      <MemberSignature Language="F#" Value="abstract member PurgeContentAsync : Azure.WaitUntil * Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.PurgeContentAsync : Azure.WaitUntil * Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="frontDoorResource.PurgeContentAsync (waitUntil, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
@@ -522,7 +522,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="content" Type="Azure.ResourceManager.FrontDoor.Models.PurgeContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.FrontDoor.Models.FrontDoorEndpointPurgeContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -759,21 +759,21 @@
       </Docs>
     </Member>
     <Member MemberName="ValidateCustomDomain">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainOutput&gt; ValidateCustomDomain (Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainOutput&gt; ValidateCustomDomain(class Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.ValidateCustomDomain(Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ValidateCustomDomain (content As ValidateCustomDomainContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ValidateCustomDomainOutput)" />
-      <MemberSignature Language="F#" Value="abstract member ValidateCustomDomain : Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainOutput&gt;&#xA;override this.ValidateCustomDomain : Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainOutput&gt;" Usage="frontDoorResource.ValidateCustomDomain (content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainResult&gt; ValidateCustomDomain (Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainResult&gt; ValidateCustomDomain(class Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.ValidateCustomDomain(Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ValidateCustomDomain (content As FrontDoorValidateCustomDomainContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of FrontDoorValidateCustomDomainResult)" />
+      <MemberSignature Language="F#" Value="abstract member ValidateCustomDomain : Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainResult&gt;&#xA;override this.ValidateCustomDomain : Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainResult&gt;" Usage="frontDoorResource.ValidateCustomDomain (content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainOutput&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -791,21 +791,21 @@
       </Docs>
     </Member>
     <Member MemberName="ValidateCustomDomainAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainOutput&gt;&gt; ValidateCustomDomainAsync (Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainOutput&gt;&gt; ValidateCustomDomainAsync(class Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.ValidateCustomDomainAsync(Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ValidateCustomDomainAsync (content As ValidateCustomDomainContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ValidateCustomDomainOutput))" />
-      <MemberSignature Language="F#" Value="abstract member ValidateCustomDomainAsync : Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainOutput&gt;&gt;&#xA;override this.ValidateCustomDomainAsync : Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainOutput&gt;&gt;" Usage="frontDoorResource.ValidateCustomDomainAsync (content, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainResult&gt;&gt; ValidateCustomDomainAsync (Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainResult&gt;&gt; ValidateCustomDomainAsync(class Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.FrontDoor.FrontDoorResource.ValidateCustomDomainAsync(Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ValidateCustomDomainAsync (content As FrontDoorValidateCustomDomainContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of FrontDoorValidateCustomDomainResult))" />
+      <MemberSignature Language="F#" Value="abstract member ValidateCustomDomainAsync : Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainResult&gt;&gt;&#xA;override this.ValidateCustomDomainAsync : Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainResult&gt;&gt;" Usage="frontDoorResource.ValidateCustomDomainAsync (content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainOutput&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.FrontDoor.Models.ValidateCustomDomainContent" />
+        <Parameter Name="content" Type="Azure.ResourceManager.FrontDoor.Models.FrontDoorValidateCustomDomainContent" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>

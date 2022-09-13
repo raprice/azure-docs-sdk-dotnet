@@ -58,18 +58,18 @@
       </Docs>
     </Member>
     <Member MemberName="Optional">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Avs.Models.OptionalParamEnum? Optional { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.OptionalParamEnum&gt; Optional" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Avs.Models.ParameterOptionalityStatus? Optional { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.ParameterOptionalityStatus&gt; Optional" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.ScriptParameter.Optional" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Optional As Nullable(Of OptionalParamEnum)" />
-      <MemberSignature Language="F#" Value="member this.Optional : Nullable&lt;Azure.ResourceManager.Avs.Models.OptionalParamEnum&gt;" Usage="Azure.ResourceManager.Avs.Models.ScriptParameter.Optional" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Optional As Nullable(Of ParameterOptionalityStatus)" />
+      <MemberSignature Language="F#" Value="member this.Optional : Nullable&lt;Azure.ResourceManager.Avs.Models.ParameterOptionalityStatus&gt;" Usage="Azure.ResourceManager.Avs.Models.ScriptParameter.Optional" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Avs.Models.OptionalParamEnum&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Avs.Models.ParameterOptionalityStatus&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Is this parameter required or optional. </summary>
@@ -98,18 +98,18 @@
       </Docs>
     </Member>
     <Member MemberName="Visibility">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Avs.Models.VisibilityParameterEnum? Visibility { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.VisibilityParameterEnum&gt; Visibility" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Avs.Models.ParameterVisibilityStatus? Visibility { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Avs.Models.ParameterVisibilityStatus&gt; Visibility" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Avs.Models.ScriptParameter.Visibility" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Visibility As Nullable(Of VisibilityParameterEnum)" />
-      <MemberSignature Language="F#" Value="member this.Visibility : Nullable&lt;Azure.ResourceManager.Avs.Models.VisibilityParameterEnum&gt;" Usage="Azure.ResourceManager.Avs.Models.ScriptParameter.Visibility" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Visibility As Nullable(Of ParameterVisibilityStatus)" />
+      <MemberSignature Language="F#" Value="member this.Visibility : Nullable&lt;Azure.ResourceManager.Avs.Models.ParameterVisibilityStatus&gt;" Usage="Azure.ResourceManager.Avs.Models.ScriptParameter.Visibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Avs.Models.VisibilityParameterEnum&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Avs.Models.ParameterVisibilityStatus&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Should this parameter be visible to arm and passed in the parameters argument when executing. </summary>

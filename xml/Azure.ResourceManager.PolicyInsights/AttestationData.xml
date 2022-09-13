@@ -18,18 +18,18 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AttestationData (string policyAssignmentId);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string policyAssignmentId) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PolicyInsights.AttestationData.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (policyAssignmentId As String)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.PolicyInsights.AttestationData : string -&gt; Azure.ResourceManager.PolicyInsights.AttestationData" Usage="new Azure.ResourceManager.PolicyInsights.AttestationData policyAssignmentId" />
+      <MemberSignature Language="C#" Value="public AttestationData (Azure.Core.ResourceIdentifier policyAssignmentId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Core.ResourceIdentifier policyAssignmentId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PolicyInsights.AttestationData.#ctor(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (policyAssignmentId As ResourceIdentifier)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.PolicyInsights.AttestationData : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.PolicyInsights.AttestationData" Usage="new Azure.ResourceManager.PolicyInsights.AttestationData policyAssignmentId" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="policyAssignmentId" Type="System.String" />
+        <Parameter Name="policyAssignmentId" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="policyAssignmentId"> The resource ID of the policy assignment that the attestation is setting the state for. </param>
@@ -60,18 +60,18 @@
       </Docs>
     </Member>
     <Member MemberName="ComplianceState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.PolicyInsights.Models.ComplianceState? ComplianceState { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.PolicyInsights.Models.ComplianceState&gt; ComplianceState" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.PolicyInsights.Models.PolicyComplianceState? ComplianceState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.PolicyInsights.Models.PolicyComplianceState&gt; ComplianceState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.AttestationData.ComplianceState" />
-      <MemberSignature Language="VB.NET" Value="Public Property ComplianceState As Nullable(Of ComplianceState)" />
-      <MemberSignature Language="F#" Value="member this.ComplianceState : Nullable&lt;Azure.ResourceManager.PolicyInsights.Models.ComplianceState&gt; with get, set" Usage="Azure.ResourceManager.PolicyInsights.AttestationData.ComplianceState" />
+      <MemberSignature Language="VB.NET" Value="Public Property ComplianceState As Nullable(Of PolicyComplianceState)" />
+      <MemberSignature Language="F#" Value="member this.ComplianceState : Nullable&lt;Azure.ResourceManager.PolicyInsights.Models.PolicyComplianceState&gt; with get, set" Usage="Azure.ResourceManager.PolicyInsights.AttestationData.ComplianceState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.PolicyInsights.Models.ComplianceState&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.PolicyInsights.Models.PolicyComplianceState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The compliance state that should be set on the resource. </summary>
@@ -99,12 +99,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ExpiresOn">
-      <MemberSignature Language="C#" Value="public DateTimeOffset? ExpiresOn { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpiresOn" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.AttestationData.ExpiresOn" />
-      <MemberSignature Language="VB.NET" Value="Public Property ExpiresOn As Nullable(Of DateTimeOffset)" />
-      <MemberSignature Language="F#" Value="member this.ExpiresOn : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.PolicyInsights.AttestationData.ExpiresOn" />
+    <Member MemberName="ExpireOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? ExpireOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpireOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.AttestationData.ExpireOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpireOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.ExpireOn : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.PolicyInsights.AttestationData.ExpireOn" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
@@ -160,18 +160,18 @@
       </Docs>
     </Member>
     <Member MemberName="PolicyAssignmentId">
-      <MemberSignature Language="C#" Value="public string PolicyAssignmentId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string PolicyAssignmentId" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier PolicyAssignmentId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier PolicyAssignmentId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.AttestationData.PolicyAssignmentId" />
-      <MemberSignature Language="VB.NET" Value="Public Property PolicyAssignmentId As String" />
-      <MemberSignature Language="F#" Value="member this.PolicyAssignmentId : string with get, set" Usage="Azure.ResourceManager.PolicyInsights.AttestationData.PolicyAssignmentId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyAssignmentId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.PolicyAssignmentId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.PolicyInsights.AttestationData.PolicyAssignmentId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The resource ID of the policy assignment that the attestation is setting the state for. </summary>

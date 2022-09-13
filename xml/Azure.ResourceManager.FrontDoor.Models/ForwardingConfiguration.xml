@@ -54,18 +54,18 @@
       </Docs>
     </Member>
     <Member MemberName="CacheConfiguration">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.FrontDoor.Models.CacheConfiguration CacheConfiguration { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.FrontDoor.Models.CacheConfiguration CacheConfiguration" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.FrontDoor.Models.FrontDoorCacheConfiguration CacheConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.FrontDoor.Models.FrontDoorCacheConfiguration CacheConfiguration" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FrontDoor.Models.ForwardingConfiguration.CacheConfiguration" />
-      <MemberSignature Language="VB.NET" Value="Public Property CacheConfiguration As CacheConfiguration" />
-      <MemberSignature Language="F#" Value="member this.CacheConfiguration : Azure.ResourceManager.FrontDoor.Models.CacheConfiguration with get, set" Usage="Azure.ResourceManager.FrontDoor.Models.ForwardingConfiguration.CacheConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property CacheConfiguration As FrontDoorCacheConfiguration" />
+      <MemberSignature Language="F#" Value="member this.CacheConfiguration : Azure.ResourceManager.FrontDoor.Models.FrontDoorCacheConfiguration with get, set" Usage="Azure.ResourceManager.FrontDoor.Models.ForwardingConfiguration.CacheConfiguration" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.FrontDoor.Models.CacheConfiguration</ReturnType>
+        <ReturnType>Azure.ResourceManager.FrontDoor.Models.FrontDoorCacheConfiguration</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The caching configuration associated with this rule. </summary>

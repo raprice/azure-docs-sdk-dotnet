@@ -40,18 +40,18 @@
       </Docs>
     </Member>
     <Member MemberName="Action">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.FrontDoor.Models.ActionType? Action { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.FrontDoor.Models.ActionType&gt; Action" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.FrontDoor.Models.RuleMatchActionType? Action { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.FrontDoor.Models.RuleMatchActionType&gt; Action" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.FrontDoor.Models.ManagedRuleOverride.Action" />
-      <MemberSignature Language="VB.NET" Value="Public Property Action As Nullable(Of ActionType)" />
-      <MemberSignature Language="F#" Value="member this.Action : Nullable&lt;Azure.ResourceManager.FrontDoor.Models.ActionType&gt; with get, set" Usage="Azure.ResourceManager.FrontDoor.Models.ManagedRuleOverride.Action" />
+      <MemberSignature Language="VB.NET" Value="Public Property Action As Nullable(Of RuleMatchActionType)" />
+      <MemberSignature Language="F#" Value="member this.Action : Nullable&lt;Azure.ResourceManager.FrontDoor.Models.RuleMatchActionType&gt; with get, set" Usage="Azure.ResourceManager.FrontDoor.Models.ManagedRuleOverride.Action" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.FrontDoor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.FrontDoor.Models.ActionType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.FrontDoor.Models.RuleMatchActionType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Describes the override action to be applied when rule matches. </summary>

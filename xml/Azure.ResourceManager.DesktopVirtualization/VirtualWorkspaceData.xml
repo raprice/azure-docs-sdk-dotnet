@@ -57,26 +57,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="CloudPcResource">
-      <MemberSignature Language="C#" Value="public bool? CloudPcResource { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; CloudPcResource" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.CloudPcResource" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CloudPcResource As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.CloudPcResource : Nullable&lt;bool&gt;" Usage="Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.CloudPcResource" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Is cloud pc resource. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Description">
       <MemberSignature Language="C#" Value="public string Description { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
@@ -138,21 +118,41 @@
       </Docs>
     </Member>
     <Member MemberName="Identity">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetIdentity Identity { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetIdentity Identity" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Models.ManagedServiceIdentity Identity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Models.ManagedServiceIdentity Identity" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.Identity" />
-      <MemberSignature Language="VB.NET" Value="Public Property Identity As ResourceModelWithAllowedPropertySetIdentity" />
-      <MemberSignature Language="F#" Value="member this.Identity : Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetIdentity with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.Identity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Identity As ManagedServiceIdentity" />
+      <MemberSignature Language="F#" Value="member this.Identity : Azure.ResourceManager.Models.ManagedServiceIdentity with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.Identity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetIdentity</ReturnType>
+        <ReturnType>Azure.ResourceManager.Models.ManagedServiceIdentity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Gets or sets the identity. </summary>
+        <summary> Gets or sets the identity. Current supported identity types: SystemAssigned. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCloudPCResource">
+      <MemberSignature Language="C#" Value="public bool? IsCloudPCResource { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsCloudPCResource" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.IsCloudPCResource" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCloudPCResource As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsCloudPCResource : Nullable&lt;bool&gt;" Usage="Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.IsCloudPCResource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Is cloud pc resource. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -178,18 +178,18 @@
       </Docs>
     </Member>
     <Member MemberName="ManagedBy">
-      <MemberSignature Language="C#" Value="public string ManagedBy { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ManagedBy" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier ManagedBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier ManagedBy" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.ManagedBy" />
-      <MemberSignature Language="VB.NET" Value="Public Property ManagedBy As String" />
-      <MemberSignature Language="F#" Value="member this.ManagedBy : string with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.ManagedBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManagedBy As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.ManagedBy : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.ManagedBy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The fully qualified resource ID of the resource that manages this resource. Indicates if this resource is managed by another Azure resource. If this is present, complete mode deployment will not delete the resource if it is removed from the template since it is managed by another resource. </summary>
@@ -238,21 +238,21 @@
       </Docs>
     </Member>
     <Member MemberName="Sku">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetSku Sku { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetSku Sku" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DesktopVirtualization.Models.DesktopVirtualizationSku Sku { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.DesktopVirtualization.Models.DesktopVirtualizationSku Sku" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.Sku" />
-      <MemberSignature Language="VB.NET" Value="Public Property Sku As ResourceModelWithAllowedPropertySetSku" />
-      <MemberSignature Language="F#" Value="member this.Sku : Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetSku with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.Sku" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sku As DesktopVirtualizationSku" />
+      <MemberSignature Language="F#" Value="member this.Sku : Azure.ResourceManager.DesktopVirtualization.Models.DesktopVirtualizationSku with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.VirtualWorkspaceData.Sku" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.DesktopVirtualization.Models.ResourceModelWithAllowedPropertySetSku</ReturnType>
+        <ReturnType>Azure.ResourceManager.DesktopVirtualization.Models.DesktopVirtualizationSku</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Gets or sets the sku. </summary>
+        <summary> The resource model definition representing SKU. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

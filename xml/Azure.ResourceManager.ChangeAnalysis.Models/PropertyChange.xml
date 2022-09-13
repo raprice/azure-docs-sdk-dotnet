@@ -138,18 +138,18 @@
       </Docs>
     </Member>
     <Member MemberName="Level">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ChangeAnalysis.Models.Level? Level { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ChangeAnalysis.Models.Level&gt; Level" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ChangeAnalysis.Models.PropertyChangeLevel? Level { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ChangeAnalysis.Models.PropertyChangeLevel&gt; Level" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ChangeAnalysis.Models.PropertyChange.Level" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Level As Nullable(Of Level)" />
-      <MemberSignature Language="F#" Value="member this.Level : Nullable&lt;Azure.ResourceManager.ChangeAnalysis.Models.Level&gt;" Usage="Azure.ResourceManager.ChangeAnalysis.Models.PropertyChange.Level" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Level As Nullable(Of PropertyChangeLevel)" />
+      <MemberSignature Language="F#" Value="member this.Level : Nullable&lt;Azure.ResourceManager.ChangeAnalysis.Models.PropertyChangeLevel&gt;" Usage="Azure.ResourceManager.ChangeAnalysis.Models.PropertyChange.Level" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ChangeAnalysis</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.ChangeAnalysis.Models.Level&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.ChangeAnalysis.Models.PropertyChangeLevel&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the level. </summary>

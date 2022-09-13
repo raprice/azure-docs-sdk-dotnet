@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;</ReturnType>
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;&gt;</ReturnType>
@@ -106,70 +110,6 @@
           <paramref name="key" /> or <paramref name="value" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="CheckAfdProfileHostNameAvailability">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CheckNameAvailabilityOutput&gt; CheckAfdProfileHostNameAvailability (Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.Models.CheckNameAvailabilityOutput&gt; CheckAfdProfileHostNameAvailability(class Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.CheckAfdProfileHostNameAvailability(Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CheckAfdProfileHostNameAvailability (content As CheckHostNameAvailabilityContent, Optional cancellationToken As CancellationToken = Nothing) As Response(Of CheckNameAvailabilityOutput)" />
-      <MemberSignature Language="F#" Value="abstract member CheckAfdProfileHostNameAvailability : Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CheckNameAvailabilityOutput&gt;&#xA;override this.CheckAfdProfileHostNameAvailability : Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CheckNameAvailabilityOutput&gt;" Usage="profileResource.CheckAfdProfileHostNameAvailability (content, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CheckNameAvailabilityOutput&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="content"> Custom domain to be validated. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Validates the custom domain mapping to ensure it maps to the correct CDN endpoint in DNS.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/checkHostNameAvailability
-            Operation Id: AfdProfiles_CheckHostNameAvailability
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="content" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="CheckAfdProfileHostNameAvailabilityAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CheckNameAvailabilityOutput&gt;&gt; CheckAfdProfileHostNameAvailabilityAsync (Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.Models.CheckNameAvailabilityOutput&gt;&gt; CheckAfdProfileHostNameAvailabilityAsync(class Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.CheckAfdProfileHostNameAvailabilityAsync(Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CheckAfdProfileHostNameAvailabilityAsync (content As CheckHostNameAvailabilityContent, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CheckNameAvailabilityOutput))" />
-      <MemberSignature Language="F#" Value="abstract member CheckAfdProfileHostNameAvailabilityAsync : Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CheckNameAvailabilityOutput&gt;&gt;&#xA;override this.CheckAfdProfileHostNameAvailabilityAsync : Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CheckNameAvailabilityOutput&gt;&gt;" Usage="profileResource.CheckAfdProfileHostNameAvailabilityAsync (content, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CheckNameAvailabilityOutput&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Cdn.Models.CheckHostNameAvailabilityContent" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="content"> Custom domain to be validated. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Validates the custom domain mapping to ensure it maps to the correct CDN endpoint in DNS.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/checkHostNameAvailability
-            Operation Id: AfdProfiles_CheckHostNameAvailability
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="content" /> is null. </exception>
-      </Docs>
-    </Member>
     <Member MemberName="CheckFrontDoorProfileHostNameAvailability">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityResult&gt; CheckFrontDoorProfileHostNameAvailability (Azure.ResourceManager.Cdn.Models.HostNameAvailabilityContent content, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityResult&gt; CheckFrontDoorProfileHostNameAvailability(class Azure.ResourceManager.Cdn.Models.HostNameAvailabilityContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -180,13 +120,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Cdn.Models.HostNameAvailabilityContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Cdn.Models.HostNameAvailabilityContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> Custom domain to be validated. </param>
@@ -212,13 +153,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.Cdn.Models.HostNameAvailabilityContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="content" Type="Azure.ResourceManager.Cdn.Models.HostNameAvailabilityContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> Custom domain to be validated. </param>
@@ -244,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -272,6 +215,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.ProfileData</ReturnType>
@@ -293,6 +237,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -324,6 +269,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -355,6 +301,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.SsoUri&gt;</ReturnType>
@@ -383,6 +330,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.SsoUri&gt;&gt;</ReturnType>
@@ -411,6 +359,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;</ReturnType>
@@ -429,540 +378,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetAfdCustomDomain">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Cdn.AfdCustomDomainResource&gt; GetAfdCustomDomain (string customDomainName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdCustomDomainResource&gt; GetAfdCustomDomain(string customDomainName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdCustomDomain(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdCustomDomain (customDomainName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AfdCustomDomainResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdCustomDomain : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdCustomDomainResource&gt;&#xA;override this.GetAfdCustomDomain : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdCustomDomainResource&gt;" Usage="profileResource.GetAfdCustomDomain (customDomainName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.AfdCustomDomainResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="customDomainName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="customDomainName"> Name of the domain under the profile which is unique globally. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing AzureFrontDoor domain with the specified domain name under the specified subscription, resource group and profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/customDomains/{customDomainName}
-            Operation Id: AfdCustomDomains_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="customDomainName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="customDomainName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdCustomDomainAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdCustomDomainResource&gt;&gt; GetAfdCustomDomainAsync (string customDomainName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdCustomDomainResource&gt;&gt; GetAfdCustomDomainAsync(string customDomainName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdCustomDomainAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdCustomDomainAsync (customDomainName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AfdCustomDomainResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdCustomDomainAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdCustomDomainResource&gt;&gt;&#xA;override this.GetAfdCustomDomainAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdCustomDomainResource&gt;&gt;" Usage="profileResource.GetAfdCustomDomainAsync (customDomainName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdCustomDomainResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="customDomainName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="customDomainName"> Name of the domain under the profile which is unique globally. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing AzureFrontDoor domain with the specified domain name under the specified subscription, resource group and profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/customDomains/{customDomainName}
-            Operation Id: AfdCustomDomains_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="customDomainName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="customDomainName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdCustomDomains">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Cdn.AfdCustomDomainCollection GetAfdCustomDomains ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Cdn.AfdCustomDomainCollection GetAfdCustomDomains() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdCustomDomains" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdCustomDomains () As AfdCustomDomainCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdCustomDomains : unit -&gt; Azure.ResourceManager.Cdn.AfdCustomDomainCollection&#xA;override this.GetAfdCustomDomains : unit -&gt; Azure.ResourceManager.Cdn.AfdCustomDomainCollection" Usage="profileResource.GetAfdCustomDomains " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Cdn.AfdCustomDomainCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of AfdCustomDomainResources in the Profile. </summary>
-        <returns> An object representing collection of AfdCustomDomainResources and their operations over a AfdCustomDomainResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdEndpoint">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Cdn.AfdEndpointResource&gt; GetAfdEndpoint (string endpointName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdEndpointResource&gt; GetAfdEndpoint(string endpointName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdEndpoint(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdEndpoint (endpointName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AfdEndpointResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdEndpoint : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdEndpointResource&gt;&#xA;override this.GetAfdEndpoint : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdEndpointResource&gt;" Usage="profileResource.GetAfdEndpoint (endpointName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.AfdEndpointResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="endpointName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="endpointName"> Name of the endpoint under the profile which is unique globally. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing AzureFrontDoor endpoint with the specified endpoint name under the specified subscription, resource group and profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/afdEndpoints/{endpointName}
-            Operation Id: AfdEndpoints_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="endpointName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="endpointName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdEndpointAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdEndpointResource&gt;&gt; GetAfdEndpointAsync (string endpointName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdEndpointResource&gt;&gt; GetAfdEndpointAsync(string endpointName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdEndpointAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdEndpointAsync (endpointName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AfdEndpointResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdEndpointAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdEndpointResource&gt;&gt;&#xA;override this.GetAfdEndpointAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdEndpointResource&gt;&gt;" Usage="profileResource.GetAfdEndpointAsync (endpointName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdEndpointResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="endpointName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="endpointName"> Name of the endpoint under the profile which is unique globally. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing AzureFrontDoor endpoint with the specified endpoint name under the specified subscription, resource group and profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/afdEndpoints/{endpointName}
-            Operation Id: AfdEndpoints_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="endpointName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="endpointName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdEndpoints">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Cdn.AfdEndpointCollection GetAfdEndpoints ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Cdn.AfdEndpointCollection GetAfdEndpoints() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdEndpoints" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdEndpoints () As AfdEndpointCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdEndpoints : unit -&gt; Azure.ResourceManager.Cdn.AfdEndpointCollection&#xA;override this.GetAfdEndpoints : unit -&gt; Azure.ResourceManager.Cdn.AfdEndpointCollection" Usage="profileResource.GetAfdEndpoints " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Cdn.AfdEndpointCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of AfdEndpointResources in the Profile. </summary>
-        <returns> An object representing collection of AfdEndpointResources and their operations over a AfdEndpointResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdOriginGroup">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Cdn.AfdOriginGroupResource&gt; GetAfdOriginGroup (string originGroupName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdOriginGroupResource&gt; GetAfdOriginGroup(string originGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdOriginGroup(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdOriginGroup (originGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AfdOriginGroupResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdOriginGroup : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdOriginGroupResource&gt;&#xA;override this.GetAfdOriginGroup : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdOriginGroupResource&gt;" Usage="profileResource.GetAfdOriginGroup (originGroupName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.AfdOriginGroupResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="originGroupName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="originGroupName"> Name of the origin group which is unique within the endpoint. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing origin group within a profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/originGroups/{originGroupName}
-            Operation Id: AfdOriginGroups_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="originGroupName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="originGroupName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdOriginGroupAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdOriginGroupResource&gt;&gt; GetAfdOriginGroupAsync (string originGroupName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdOriginGroupResource&gt;&gt; GetAfdOriginGroupAsync(string originGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdOriginGroupAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdOriginGroupAsync (originGroupName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AfdOriginGroupResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdOriginGroupAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdOriginGroupResource&gt;&gt;&#xA;override this.GetAfdOriginGroupAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdOriginGroupResource&gt;&gt;" Usage="profileResource.GetAfdOriginGroupAsync (originGroupName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdOriginGroupResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="originGroupName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="originGroupName"> Name of the origin group which is unique within the endpoint. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing origin group within a profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/originGroups/{originGroupName}
-            Operation Id: AfdOriginGroups_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="originGroupName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="originGroupName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdOriginGroups">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Cdn.AfdOriginGroupCollection GetAfdOriginGroups ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Cdn.AfdOriginGroupCollection GetAfdOriginGroups() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdOriginGroups" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdOriginGroups () As AfdOriginGroupCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdOriginGroups : unit -&gt; Azure.ResourceManager.Cdn.AfdOriginGroupCollection&#xA;override this.GetAfdOriginGroups : unit -&gt; Azure.ResourceManager.Cdn.AfdOriginGroupCollection" Usage="profileResource.GetAfdOriginGroups " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Cdn.AfdOriginGroupCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of AfdOriginGroupResources in the Profile. </summary>
-        <returns> An object representing collection of AfdOriginGroupResources and their operations over a AfdOriginGroupResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdRuleSet">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Cdn.AfdRuleSetResource&gt; GetAfdRuleSet (string ruleSetName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdRuleSetResource&gt; GetAfdRuleSet(string ruleSetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdRuleSet(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdRuleSet (ruleSetName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AfdRuleSetResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdRuleSet : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdRuleSetResource&gt;&#xA;override this.GetAfdRuleSet : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdRuleSetResource&gt;" Usage="profileResource.GetAfdRuleSet (ruleSetName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.AfdRuleSetResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="ruleSetName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="ruleSetName"> Name of the rule set under the profile which is unique globally. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing AzureFrontDoor rule set with the specified rule set name under the specified subscription, resource group and profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/ruleSets/{ruleSetName}
-            Operation Id: AfdRuleSets_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="ruleSetName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="ruleSetName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdRuleSetAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdRuleSetResource&gt;&gt; GetAfdRuleSetAsync (string ruleSetName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdRuleSetResource&gt;&gt; GetAfdRuleSetAsync(string ruleSetName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdRuleSetAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdRuleSetAsync (ruleSetName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AfdRuleSetResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdRuleSetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdRuleSetResource&gt;&gt;&#xA;override this.GetAfdRuleSetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdRuleSetResource&gt;&gt;" Usage="profileResource.GetAfdRuleSetAsync (ruleSetName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdRuleSetResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="ruleSetName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="ruleSetName"> Name of the rule set under the profile which is unique globally. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing AzureFrontDoor rule set with the specified rule set name under the specified subscription, resource group and profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/ruleSets/{ruleSetName}
-            Operation Id: AfdRuleSets_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="ruleSetName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="ruleSetName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdRuleSets">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Cdn.AfdRuleSetCollection GetAfdRuleSets ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Cdn.AfdRuleSetCollection GetAfdRuleSets() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdRuleSets" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdRuleSets () As AfdRuleSetCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdRuleSets : unit -&gt; Azure.ResourceManager.Cdn.AfdRuleSetCollection&#xA;override this.GetAfdRuleSets : unit -&gt; Azure.ResourceManager.Cdn.AfdRuleSetCollection" Usage="profileResource.GetAfdRuleSets " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Cdn.AfdRuleSetCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of AfdRuleSetResources in the Profile. </summary>
-        <returns> An object representing collection of AfdRuleSetResources and their operations over a AfdRuleSetResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdSecret">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecretResource&gt; GetAfdSecret (string secretName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdSecretResource&gt; GetAfdSecret(string secretName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdSecret(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdSecret (secretName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AfdSecretResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdSecret : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecretResource&gt;&#xA;override this.GetAfdSecret : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecretResource&gt;" Usage="profileResource.GetAfdSecret (secretName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecretResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="secretName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="secretName"> Name of the Secret under the profile. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing Secret within a profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/secrets/{secretName}
-            Operation Id: AfdSecrets_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="secretName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="secretName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdSecretAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecretResource&gt;&gt; GetAfdSecretAsync (string secretName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdSecretResource&gt;&gt; GetAfdSecretAsync(string secretName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdSecretAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdSecretAsync (secretName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AfdSecretResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdSecretAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecretResource&gt;&gt;&#xA;override this.GetAfdSecretAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecretResource&gt;&gt;" Usage="profileResource.GetAfdSecretAsync (secretName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecretResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="secretName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="secretName"> Name of the Secret under the profile. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing Secret within a profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/secrets/{secretName}
-            Operation Id: AfdSecrets_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="secretName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="secretName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdSecrets">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Cdn.AfdSecretCollection GetAfdSecrets ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Cdn.AfdSecretCollection GetAfdSecrets() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdSecrets" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdSecrets () As AfdSecretCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdSecrets : unit -&gt; Azure.ResourceManager.Cdn.AfdSecretCollection&#xA;override this.GetAfdSecrets : unit -&gt; Azure.ResourceManager.Cdn.AfdSecretCollection" Usage="profileResource.GetAfdSecrets " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Cdn.AfdSecretCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of AfdSecretResources in the Profile. </summary>
-        <returns> An object representing collection of AfdSecretResources and their operations over a AfdSecretResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdSecurityPolicies">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Cdn.AfdSecurityPolicyCollection GetAfdSecurityPolicies ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Cdn.AfdSecurityPolicyCollection GetAfdSecurityPolicies() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdSecurityPolicies" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdSecurityPolicies () As AfdSecurityPolicyCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdSecurityPolicies : unit -&gt; Azure.ResourceManager.Cdn.AfdSecurityPolicyCollection&#xA;override this.GetAfdSecurityPolicies : unit -&gt; Azure.ResourceManager.Cdn.AfdSecurityPolicyCollection" Usage="profileResource.GetAfdSecurityPolicies " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Cdn.AfdSecurityPolicyCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of AfdSecurityPolicyResources in the Profile. </summary>
-        <returns> An object representing collection of AfdSecurityPolicyResources and their operations over a AfdSecurityPolicyResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdSecurityPolicy">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecurityPolicyResource&gt; GetAfdSecurityPolicy (string securityPolicyName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdSecurityPolicyResource&gt; GetAfdSecurityPolicy(string securityPolicyName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdSecurityPolicy(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdSecurityPolicy (securityPolicyName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AfdSecurityPolicyResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdSecurityPolicy : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecurityPolicyResource&gt;&#xA;override this.GetAfdSecurityPolicy : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecurityPolicyResource&gt;" Usage="profileResource.GetAfdSecurityPolicy (securityPolicyName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecurityPolicyResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="securityPolicyName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="securityPolicyName"> Name of the security policy under the profile. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing security policy within a profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/securityPolicies/{securityPolicyName}
-            Operation Id: AfdSecurityPolicies_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="securityPolicyName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="securityPolicyName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAfdSecurityPolicyAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecurityPolicyResource&gt;&gt; GetAfdSecurityPolicyAsync (string securityPolicyName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.AfdSecurityPolicyResource&gt;&gt; GetAfdSecurityPolicyAsync(string securityPolicyName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetAfdSecurityPolicyAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAfdSecurityPolicyAsync (securityPolicyName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AfdSecurityPolicyResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetAfdSecurityPolicyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecurityPolicyResource&gt;&gt;&#xA;override this.GetAfdSecurityPolicyAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecurityPolicyResource&gt;&gt;" Usage="profileResource.GetAfdSecurityPolicyAsync (securityPolicyName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.AfdSecurityPolicyResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="securityPolicyName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="securityPolicyName"> Name of the security policy under the profile. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an existing security policy within a profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/securityPolicies/{securityPolicyName}
-            Operation Id: AfdSecurityPolicies_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="securityPolicyName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="securityPolicyName" /> is null. </exception>
-      </Docs>
-    </Member>
     <Member MemberName="GetAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;&gt; GetAsync (System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Cdn.ProfileResource&gt;&gt; GetAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -973,6 +388,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;&gt;</ReturnType>
@@ -1001,6 +417,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.CdnEndpointResource&gt;</ReturnType>
@@ -1035,6 +452,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.CdnEndpointResource&gt;&gt;</ReturnType>
@@ -1069,6 +487,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.CdnEndpointCollection</ReturnType>
@@ -1090,13 +509,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorCustomDomainResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="customDomainName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="customDomainName"> Name of the domain under the profile which is unique globally. </param>
@@ -1124,13 +544,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorCustomDomainResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="customDomainName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="customDomainName"> Name of the domain under the profile which is unique globally. </param>
@@ -1158,6 +579,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorCustomDomainCollection</ReturnType>
@@ -1179,13 +601,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorEndpointResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="endpointName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="endpointName"> Name of the endpoint under the profile which is unique globally. </param>
@@ -1213,13 +636,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorEndpointResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="endpointName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="endpointName"> Name of the endpoint under the profile which is unique globally. </param>
@@ -1247,6 +671,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorEndpointCollection</ReturnType>
@@ -1268,13 +693,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorOriginGroupResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="originGroupName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="originGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="originGroupName"> Name of the origin group which is unique within the endpoint. </param>
@@ -1302,13 +728,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorOriginGroupResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="originGroupName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="originGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="originGroupName"> Name of the origin group which is unique within the endpoint. </param>
@@ -1336,6 +763,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorOriginGroupCollection</ReturnType>
@@ -1357,12 +785,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.FrontDoorUsage&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
@@ -1385,12 +814,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Cdn.Models.FrontDoorUsage&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
@@ -1413,13 +843,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorRuleSetResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ruleSetName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="ruleSetName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="ruleSetName"> Name of the rule set under the profile which is unique globally. </param>
@@ -1447,13 +878,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorRuleSetResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ruleSetName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="ruleSetName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="ruleSetName"> Name of the rule set under the profile which is unique globally. </param>
@@ -1481,6 +913,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorRuleSetCollection</ReturnType>
@@ -1502,13 +935,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorSecretResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="secretName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="secretName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="secretName"> Name of the Secret under the profile. </param>
@@ -1536,13 +970,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorSecretResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="secretName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="secretName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="secretName"> Name of the Secret under the profile. </param>
@@ -1570,6 +1005,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorSecretCollection</ReturnType>
@@ -1591,6 +1027,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorSecurityPolicyCollection</ReturnType>
@@ -1612,13 +1049,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorSecurityPolicyResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="securityPolicyName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="securityPolicyName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="securityPolicyName"> Name of the security policy under the profile. </param>
@@ -1646,13 +1084,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.FrontDoorSecurityPolicyResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="securityPolicyName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="securityPolicyName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="securityPolicyName"> Name of the security policy under the profile. </param>
@@ -1680,6 +1119,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.ContinentsResponse&gt;</ReturnType>
@@ -1708,6 +1148,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.ContinentsResponse&gt;&gt;</ReturnType>
@@ -1736,6 +1177,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.MetricsResponse&gt;</ReturnType>
@@ -1784,6 +1226,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.MetricsResponse&gt;&gt;</ReturnType>
@@ -1832,6 +1275,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.RankingsResponse&gt;</ReturnType>
@@ -1874,6 +1318,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.RankingsResponse&gt;&gt;</ReturnType>
@@ -1916,6 +1361,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.ResourcesResponse&gt;</ReturnType>
@@ -1944,6 +1390,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.ResourcesResponse&gt;&gt;</ReturnType>
@@ -1962,118 +1409,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetResourceUsage">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.ResourceUsage&gt; GetResourceUsage (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Cdn.Models.ResourceUsage&gt; GetResourceUsage(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetResourceUsage(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourceUsage (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ResourceUsage)" />
-      <MemberSignature Language="F#" Value="abstract member GetResourceUsage : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.ResourceUsage&gt;&#xA;override this.GetResourceUsage : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.ResourceUsage&gt;" Usage="profileResource.GetResourceUsage cancellationToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.ResourceUsage&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Checks the quota and actual usage of endpoints under the given Azure Front Door Standard or Azure Front Door Premium or CDN profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/checkResourceUsage
-            Operation Id: Profiles_ListResourceUsage
-            </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.Cdn.Models.ResourceUsage" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetResourceUsageAfdProfiles">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt; GetResourceUsageAfdProfiles (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Cdn.Models.CdnUsage&gt; GetResourceUsageAfdProfiles(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetResourceUsageAfdProfiles(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourceUsageAfdProfiles (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of CdnUsage)" />
-      <MemberSignature Language="F#" Value="abstract member GetResourceUsageAfdProfiles : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt;&#xA;override this.GetResourceUsageAfdProfiles : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt;" Usage="profileResource.GetResourceUsageAfdProfiles cancellationToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Checks the quota and actual usage of endpoints under the given CDN profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/usages
-            Operation Id: AfdProfiles_ListResourceUsage
-            </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.Cdn.Models.CdnUsage" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetResourceUsageAfdProfilesAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt; GetResourceUsageAfdProfilesAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Cdn.Models.CdnUsage&gt; GetResourceUsageAfdProfilesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetResourceUsageAfdProfilesAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourceUsageAfdProfilesAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of CdnUsage)" />
-      <MemberSignature Language="F#" Value="abstract member GetResourceUsageAfdProfilesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt;&#xA;override this.GetResourceUsageAfdProfilesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt;" Usage="profileResource.GetResourceUsageAfdProfilesAsync cancellationToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Checks the quota and actual usage of endpoints under the given CDN profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/usages
-            Operation Id: AfdProfiles_ListResourceUsage
-            </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.Cdn.Models.CdnUsage" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetResourceUsageAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Cdn.Models.ResourceUsage&gt; GetResourceUsageAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Cdn.Models.ResourceUsage&gt; GetResourceUsageAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.ProfileResource.GetResourceUsageAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourceUsageAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ResourceUsage)" />
-      <MemberSignature Language="F#" Value="abstract member GetResourceUsageAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Cdn.Models.ResourceUsage&gt;&#xA;override this.GetResourceUsageAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Cdn.Models.ResourceUsage&gt;" Usage="profileResource.GetResourceUsageAsync cancellationToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Cdn.Models.ResourceUsage&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Checks the quota and actual usage of endpoints under the given Azure Front Door Standard or Azure Front Door Premium or CDN profile.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/checkResourceUsage
-            Operation Id: Profiles_ListResourceUsage
-            </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.Cdn.Models.ResourceUsage" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetResourceUsages">
       <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt; GetResourceUsages (System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Cdn.Models.CdnUsage&gt; GetResourceUsages(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -2084,12 +1419,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
@@ -2112,12 +1448,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Cdn.Models.CdnUsage&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
@@ -2140,6 +1477,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.SupportedOptimizationTypesListResult&gt;</ReturnType>
@@ -2168,6 +1506,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.SupportedOptimizationTypesListResult&gt;&gt;</ReturnType>
@@ -2196,6 +1535,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.WafMetricsResponse&gt;</ReturnType>
@@ -2240,6 +1580,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.WafMetricsResponse&gt;&gt;</ReturnType>
@@ -2284,6 +1625,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.Models.WafRankingsResponse&gt;</ReturnType>
@@ -2328,6 +1670,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.Models.WafRankingsResponse&gt;&gt;</ReturnType>
@@ -2372,6 +1715,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2392,6 +1736,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;</ReturnType>
@@ -2424,6 +1769,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;&gt;</ReturnType>
@@ -2456,6 +1802,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -2475,6 +1822,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;</ReturnType>
@@ -2507,6 +1855,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;&gt;</ReturnType>
@@ -2539,6 +1888,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;</ReturnType>
@@ -2574,6 +1924,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Cdn.ProfileResource&gt;&gt;</ReturnType>

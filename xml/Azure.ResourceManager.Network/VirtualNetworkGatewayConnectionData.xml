@@ -1,20 +1,16 @@
 <Type Name="VirtualNetworkGatewayConnectionData" FullName="Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData">
-  <TypeSignature Language="C#" Value="public class VirtualNetworkGatewayConnectionData : Azure.ResourceManager.Network.Models.NetworkTrackedResourceData" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualNetworkGatewayConnectionData extends Azure.ResourceManager.Network.Models.NetworkTrackedResourceData" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public class VirtualNetworkGatewayConnectionData : Azure.ResourceManager.Network.Models.NetworkTrackedResourceData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualNetworkGatewayConnectionData extends Azure.ResourceManager.Network.Models.NetworkTrackedResourceData" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData" />
-  <TypeSignature Language="VB.NET" Value="Public Class VirtualNetworkGatewayConnectionData&#xA;Inherits NetworkTrackedResourceData" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="F#" Value="type VirtualNetworkGatewayConnectionData = class&#xA;    inherit NetworkTrackedResourceData" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="C#" Value="public class VirtualNetworkGatewayConnectionData : Azure.ResourceManager.Network.Models.NetworkResourceData" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualNetworkGatewayConnectionData extends Azure.ResourceManager.Network.Models.NetworkResourceData" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="VB.NET" Value="Public Class VirtualNetworkGatewayConnectionData&#xA;Inherits NetworkResourceData" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="F#" Value="type VirtualNetworkGatewayConnectionData = class&#xA;    inherit NetworkResourceData" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualNetworkGatewayConnectionData&#xA;Inherits NetworkTrackedResourceData" />
+  <TypeSignature Language="F#" Value="type VirtualNetworkGatewayConnectionData = class&#xA;    inherit NetworkTrackedResourceData" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Network.Models.NetworkTrackedResourceData</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.Network.Models.NetworkResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -32,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="virtualNetworkGateway1" Type="Azure.ResourceManager.Network.VirtualNetworkGatewayData" />
@@ -56,6 +53,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -76,6 +74,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.VirtualNetworkGatewayConnectionMode&gt;</ReturnType>
@@ -96,6 +95,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.VirtualNetworkGatewayConnectionProtocol&gt;</ReturnType>
@@ -116,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.VirtualNetworkGatewayConnectionStatus&gt;</ReturnType>
@@ -136,6 +137,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.VirtualNetworkGatewayConnectionType</ReturnType>
@@ -156,6 +158,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -176,6 +179,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -196,6 +200,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Resources.Models.WritableSubResource&gt;</ReturnType>
@@ -216,32 +221,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> EnableBgp flag. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Etag">
-      <MemberSignature Language="C#" Value="public string Etag { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string Etag" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData.Etag" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Etag As String" />
-      <MemberSignature Language="F#" Value="member this.Etag : string" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData.Etag" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> A unique read-only string that changes whenever the resource is updated. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,6 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ETag&gt;</ReturnType>
@@ -276,6 +263,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -296,6 +284,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -316,6 +305,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Resources.Models.WritableSubResource&gt;</ReturnType>
@@ -336,6 +326,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Network.Models.IPsecPolicy&gt;</ReturnType>
@@ -356,6 +347,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.LocalNetworkGatewayData</ReturnType>
@@ -376,6 +368,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -387,23 +380,19 @@
       </Docs>
     </Member>
     <Member MemberName="ProvisioningState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.NetworkProvisioningState? ProvisioningState { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt; ProvisioningState" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.NetworkProvisioningState? ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt; ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData.ProvisioningState" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of NetworkProvisioningState)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData.ProvisioningState" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.ProvisioningState? ProvisioningState { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.ProvisioningState&gt; ProvisioningState" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of ProvisioningState)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Network.Models.ProvisioningState&gt;" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData.ProvisioningState" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of NetworkProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData.ProvisioningState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.Network.Models.ProvisioningState&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The provisioning state of the virtual network gateway connection resource. </summary>
@@ -412,23 +401,19 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceGuid">
-      <MemberSignature Language="C#" Value="public Guid? ResourceGuid { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; ResourceGuid" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Guid? ResourceGuid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; ResourceGuid" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData.ResourceGuid" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceGuid As Nullable(Of Guid)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ResourceGuid : Nullable&lt;Guid&gt;" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData.ResourceGuid" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string ResourceGuid { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ResourceGuid" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceGuid As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ResourceGuid : string" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData.ResourceGuid" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceGuid As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.ResourceGuid : Nullable&lt;Guid&gt;" Usage="Azure.ResourceManager.Network.VirtualNetworkGatewayConnectionData.ResourceGuid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;System.Guid&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The resource GUID property of the virtual network gateway connection resource. </summary>
@@ -446,6 +431,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -466,6 +452,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -486,6 +473,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Network.Models.TrafficSelectorPolicy&gt;</ReturnType>
@@ -506,6 +494,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Network.Models.TunnelConnectionHealth&gt;</ReturnType>
@@ -526,6 +515,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -546,6 +536,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -566,6 +557,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.VirtualNetworkGatewayData</ReturnType>
@@ -586,6 +578,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.VirtualNetworkGatewayData</ReturnType>

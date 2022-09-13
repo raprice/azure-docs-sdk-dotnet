@@ -1,20 +1,16 @@
 <Type Name="VirtualMachineRunCommandUpdate" FullName="Azure.ResourceManager.Compute.Models.VirtualMachineRunCommandUpdate">
-  <TypeSignature Language="C#" Value="public class VirtualMachineRunCommandUpdate : Azure.ResourceManager.Compute.Models.ComputeResourcePatch" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineRunCommandUpdate extends Azure.ResourceManager.Compute.Models.ComputeResourcePatch" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public class VirtualMachineRunCommandUpdate : Azure.ResourceManager.Compute.Models.ComputeResourcePatch" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineRunCommandUpdate extends Azure.ResourceManager.Compute.Models.ComputeResourcePatch" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Compute.Models.VirtualMachineRunCommandUpdate" />
-  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineRunCommandUpdate&#xA;Inherits ComputeResourcePatch" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="F#" Value="type VirtualMachineRunCommandUpdate = class&#xA;    inherit ComputeResourcePatch" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="C#" Value="public class VirtualMachineRunCommandUpdate : Azure.ResourceManager.Compute.Models.ComputeUpdateResourceData" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineRunCommandUpdate extends Azure.ResourceManager.Compute.Models.ComputeUpdateResourceData" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineRunCommandUpdate&#xA;Inherits ComputeUpdateResourceData" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="F#" Value="type VirtualMachineRunCommandUpdate = class&#xA;    inherit ComputeUpdateResourceData" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineRunCommandUpdate&#xA;Inherits ComputeResourcePatch" />
+  <TypeSignature Language="F#" Value="type VirtualMachineRunCommandUpdate = class&#xA;    inherit ComputeResourcePatch" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Compute.Models.ComputeResourcePatch</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.Compute.Models.ComputeUpdateResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -31,6 +27,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -68,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -88,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachineRunCommandInstanceView</ReturnType>
@@ -108,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -128,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Compute.Models.RunCommandInputParameter&gt;</ReturnType>
@@ -148,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Compute.Models.RunCommandInputParameter&gt;</ReturnType>
@@ -168,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -188,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -208,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -228,6 +234,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachineRunCommandScriptSource</ReturnType>
@@ -248,6 +255,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>

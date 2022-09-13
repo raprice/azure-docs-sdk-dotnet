@@ -33,12 +33,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ExpirationOn">
-      <MemberSignature Language="C#" Value="public DateTimeOffset? ExpirationOn { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpirationOn" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppContainers.Models.CertificateProperties.ExpirationOn" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpirationOn As Nullable(Of DateTimeOffset)" />
-      <MemberSignature Language="F#" Value="member this.ExpirationOn : Nullable&lt;DateTimeOffset&gt;" Usage="Azure.ResourceManager.AppContainers.Models.CertificateProperties.ExpirationOn" />
+    <Member MemberName="ExpireOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? ExpireOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpireOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppContainers.Models.CertificateProperties.ExpireOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpireOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.ExpireOn : Nullable&lt;DateTimeOffset&gt;" Usage="Azure.ResourceManager.AppContainers.Models.CertificateProperties.ExpireOn" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>

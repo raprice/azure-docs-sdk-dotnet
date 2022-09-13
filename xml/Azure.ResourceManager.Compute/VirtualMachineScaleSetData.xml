@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -47,6 +49,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.AdditionalCapabilities</ReturnType>
@@ -67,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.AutomaticRepairsPolicy</ReturnType>
@@ -87,6 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -98,22 +103,19 @@
       </Docs>
     </Member>
     <Member MemberName="ExtendedLocation">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Resources.Models.ExtendedLocation ExtendedLocation { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Resources.Models.ExtendedLocation ExtendedLocation" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Resources.Models.ExtendedLocation ExtendedLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Resources.Models.ExtendedLocation ExtendedLocation" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.VirtualMachineScaleSetData.ExtendedLocation" />
       <MemberSignature Language="VB.NET" Value="Public Property ExtendedLocation As ExtendedLocation" />
-      <MemberSignature Language="F#" Value="member this.ExtendedLocation : Azure.ResourceManager.Resources.Models.ExtendedLocation with get, set" Usage="Azure.ResourceManager.Compute.VirtualMachineScaleSetData.ExtendedLocation" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.ExtendedLocation ExtendedLocation { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.ExtendedLocation ExtendedLocation" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ExtendedLocation : Azure.ResourceManager.Compute.Models.ExtendedLocation with get, set" Usage="Azure.ResourceManager.Compute.VirtualMachineScaleSetData.ExtendedLocation" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="member this.ExtendedLocation : Azure.ResourceManager.Resources.Models.ExtendedLocation with get, set" Usage="Azure.ResourceManager.Compute.VirtualMachineScaleSetData.ExtendedLocation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.Resources.Models.ExtendedLocation</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.Compute.Models.ExtendedLocation</ReturnType>
+        <ReturnType>Azure.ResourceManager.Resources.Models.ExtendedLocation</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The extended location of the Virtual Machine Scale Set. </summary>
@@ -131,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -151,6 +154,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Models.ManagedServiceIdentity</ReturnType>
@@ -171,6 +175,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.OrchestrationMode&gt;</ReturnType>
@@ -191,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -211,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.ComputePlan</ReturnType>
@@ -231,6 +238,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -251,6 +259,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -271,6 +280,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -291,6 +301,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.ScaleInPolicy</ReturnType>
@@ -311,6 +322,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -331,6 +343,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.ComputeSku</ReturnType>
@@ -351,6 +364,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.SpotRestorePolicy</ReturnType>
@@ -371,6 +385,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -391,6 +406,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -402,23 +418,19 @@
       </Docs>
     </Member>
     <Member MemberName="UpgradePolicy">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpgradePolicy UpgradePolicy { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpgradePolicy UpgradePolicy" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpgradePolicy UpgradePolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpgradePolicy UpgradePolicy" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.VirtualMachineScaleSetData.UpgradePolicy" />
-      <MemberSignature Language="VB.NET" Value="Public Property UpgradePolicy As VirtualMachineScaleSetUpgradePolicy" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.UpgradePolicy : Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpgradePolicy with get, set" Usage="Azure.ResourceManager.Compute.VirtualMachineScaleSetData.UpgradePolicy" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.UpgradePolicy UpgradePolicy { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.UpgradePolicy UpgradePolicy" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property UpgradePolicy As UpgradePolicy" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.UpgradePolicy : Azure.ResourceManager.Compute.Models.UpgradePolicy with get, set" Usage="Azure.ResourceManager.Compute.VirtualMachineScaleSetData.UpgradePolicy" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property UpgradePolicy As VirtualMachineScaleSetUpgradePolicy" />
+      <MemberSignature Language="F#" Value="member this.UpgradePolicy : Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpgradePolicy with get, set" Usage="Azure.ResourceManager.Compute.VirtualMachineScaleSetData.UpgradePolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpgradePolicy</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.Compute.Models.UpgradePolicy</ReturnType>
+        <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetUpgradePolicy</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The upgrade policy. </summary>
@@ -436,6 +448,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetVmProfile</ReturnType>
@@ -456,6 +469,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -476,6 +490,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>

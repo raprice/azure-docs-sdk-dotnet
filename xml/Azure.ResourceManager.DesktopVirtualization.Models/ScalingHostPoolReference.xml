@@ -33,19 +33,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="HostPoolArmPath">
-      <MemberSignature Language="C#" Value="public string HostPoolArmPath { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string HostPoolArmPath" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.Models.ScalingHostPoolReference.HostPoolArmPath" />
-      <MemberSignature Language="VB.NET" Value="Public Property HostPoolArmPath As String" />
-      <MemberSignature Language="F#" Value="member this.HostPoolArmPath : string with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.Models.ScalingHostPoolReference.HostPoolArmPath" />
+    <Member MemberName="HostPoolId">
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier HostPoolId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier HostPoolId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.Models.ScalingHostPoolReference.HostPoolId" />
+      <MemberSignature Language="VB.NET" Value="Public Property HostPoolId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.HostPoolId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.Models.ScalingHostPoolReference.HostPoolId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Arm path of referenced hostpool. </summary>
@@ -53,12 +53,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ScalingPlanEnabled">
-      <MemberSignature Language="C#" Value="public bool? ScalingPlanEnabled { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ScalingPlanEnabled" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.Models.ScalingHostPoolReference.ScalingPlanEnabled" />
-      <MemberSignature Language="VB.NET" Value="Public Property ScalingPlanEnabled As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.ScalingPlanEnabled : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.Models.ScalingHostPoolReference.ScalingPlanEnabled" />
+    <Member MemberName="IsScalingPlanEnabled">
+      <MemberSignature Language="C#" Value="public bool? IsScalingPlanEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsScalingPlanEnabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DesktopVirtualization.Models.ScalingHostPoolReference.IsScalingPlanEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsScalingPlanEnabled As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsScalingPlanEnabled : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.DesktopVirtualization.Models.ScalingHostPoolReference.IsScalingPlanEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DesktopVirtualization</AssemblyName>

@@ -113,19 +113,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="FiltersLocations">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; FiltersLocations { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; FiltersLocations" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.RemediationData.FiltersLocations" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FiltersLocations As IList(Of String)" />
-      <MemberSignature Language="F#" Value="member this.FiltersLocations : System.Collections.Generic.IList&lt;string&gt;" Usage="Azure.ResourceManager.PolicyInsights.RemediationData.FiltersLocations" />
+    <Member MemberName="FilterLocations">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.Core.AzureLocation&gt; FilterLocations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype Azure.Core.AzureLocation&gt; FilterLocations" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.RemediationData.FilterLocations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilterLocations As IList(Of AzureLocation)" />
+      <MemberSignature Language="F#" Value="member this.FilterLocations : System.Collections.Generic.IList&lt;Azure.Core.AzureLocation&gt;" Usage="Azure.ResourceManager.PolicyInsights.RemediationData.FilterLocations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.Core.AzureLocation&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The resource locations that will be remediated. </summary>
@@ -174,18 +174,18 @@
       </Docs>
     </Member>
     <Member MemberName="PolicyAssignmentId">
-      <MemberSignature Language="C#" Value="public string PolicyAssignmentId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string PolicyAssignmentId" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier PolicyAssignmentId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier PolicyAssignmentId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.RemediationData.PolicyAssignmentId" />
-      <MemberSignature Language="VB.NET" Value="Public Property PolicyAssignmentId As String" />
-      <MemberSignature Language="F#" Value="member this.PolicyAssignmentId : string with get, set" Usage="Azure.ResourceManager.PolicyInsights.RemediationData.PolicyAssignmentId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyAssignmentId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.PolicyAssignmentId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.PolicyInsights.RemediationData.PolicyAssignmentId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The resource ID of the policy assignment that should be remediated. </summary>

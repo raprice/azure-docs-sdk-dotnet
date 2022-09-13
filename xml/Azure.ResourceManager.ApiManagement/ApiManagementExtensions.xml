@@ -317,64 +317,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetApiManagementContentItemResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ApiManagement.ApiManagementContentItemResource GetApiManagementContentItemResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ApiManagement.ApiManagementContentItemResource GetApiManagementContentItemResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiManagementExtensions.GetApiManagementContentItemResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetApiManagementContentItemResource (client As ArmClient, id As ResourceIdentifier) As ApiManagementContentItemResource" />
-      <MemberSignature Language="F#" Value="static member GetApiManagementContentItemResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ApiManagement.ApiManagementContentItemResource" Usage="Azure.ResourceManager.ApiManagement.ApiManagementExtensions.GetApiManagementContentItemResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ApiManagement.ApiManagementContentItemResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.ApiManagement.ApiManagementContentItemResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.ApiManagement.ApiManagementContentItemResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.ApiManagement.ApiManagementContentItemResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.ApiManagement.ApiManagementContentItemResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetApiManagementContentTypeResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ApiManagement.ApiManagementContentTypeResource GetApiManagementContentTypeResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ApiManagement.ApiManagementContentTypeResource GetApiManagementContentTypeResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ApiManagement.ApiManagementExtensions.GetApiManagementContentTypeResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetApiManagementContentTypeResource (client As ArmClient, id As ResourceIdentifier) As ApiManagementContentTypeResource" />
-      <MemberSignature Language="F#" Value="static member GetApiManagementContentTypeResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ApiManagement.ApiManagementContentTypeResource" Usage="Azure.ResourceManager.ApiManagement.ApiManagementExtensions.GetApiManagementContentTypeResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.ApiManagement</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ApiManagement.ApiManagementContentTypeResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.ApiManagement.ApiManagementContentTypeResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.ApiManagement.ApiManagementContentTypeResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.ApiManagement.ApiManagementContentTypeResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.ApiManagement.ApiManagementContentTypeResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetApiManagementDeletedService">
       <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.ApiManagement.ApiManagementDeletedServiceResource&gt; GetApiManagementDeletedService (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, string serviceName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.ApiManagement.ApiManagementDeletedServiceResource&gt; GetApiManagementDeletedService(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, string serviceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />

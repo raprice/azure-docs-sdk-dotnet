@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.Models.LogAnalytics&gt;</ReturnType>
@@ -66,6 +68,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.Models.LogAnalytics&gt;&gt;</ReturnType>
@@ -105,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.Models.LogAnalytics&gt;</ReturnType>
@@ -144,6 +148,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Compute.Models.LogAnalytics&gt;&gt;</ReturnType>
@@ -183,6 +188,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.AvailabilitySetResource&gt;</ReturnType>
@@ -219,6 +225,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.AvailabilitySetResource&gt;&gt;</ReturnType>
@@ -255,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.AvailabilitySetResource</ReturnType>
@@ -284,6 +292,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.AvailabilitySetCollection</ReturnType>
@@ -308,6 +317,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.AvailabilitySetResource&gt;</ReturnType>
@@ -340,6 +350,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.AvailabilitySetResource&gt;</ReturnType>
@@ -372,53 +383,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="capacityReservationGroupName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewType&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="capacityReservationGroupName"> The name of the capacity reservation group. </param>
-        <param name="expand"> The expand expression to apply on the operation. 'InstanceView' will retrieve the list of instance views of the capacity reservations under the capacity reservation group which is a snapshot of the runtime properties of a capacity reservation that is managed by the platform and can change outside of control plane operations. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            The operation that retrieves information about a capacity reservation group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/capacityReservationGroups/{capacityReservationGroupName}
-            Operation Id: CapacityReservationGroups_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="capacityReservationGroupName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="capacityReservationGroupName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetCapacityReservationGroup">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt; GetCapacityReservationGroup (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string capacityReservationGroupName, Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewTypes? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt; GetCapacityReservationGroup(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string capacityReservationGroupName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewTypes&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetCapacityReservationGroup(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewTypes},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCapacityReservationGroup (resourceGroupResource As ResourceGroupResource, capacityReservationGroupName As String, Optional expand As Nullable(Of CapacityReservationGroupInstanceViewTypes) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of CapacityReservationGroupResource)" />
-      <MemberSignature Language="F#" Value="static member GetCapacityReservationGroup : Azure.ResourceManager.Resources.ResourceGroupResource * string * Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewTypes&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetCapacityReservationGroup (resourceGroupResource, capacityReservationGroupName, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="capacityReservationGroupName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewTypes&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="capacityReservationGroupName" Type="System.String" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -448,53 +422,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="capacityReservationGroupName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewType&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="capacityReservationGroupName"> The name of the capacity reservation group. </param>
-        <param name="expand"> The expand expression to apply on the operation. 'InstanceView' will retrieve the list of instance views of the capacity reservations under the capacity reservation group which is a snapshot of the runtime properties of a capacity reservation that is managed by the platform and can change outside of control plane operations. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            The operation that retrieves information about a capacity reservation group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/capacityReservationGroups/{capacityReservationGroupName}
-            Operation Id: CapacityReservationGroups_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="capacityReservationGroupName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="capacityReservationGroupName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetCapacityReservationGroupAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;&gt; GetCapacityReservationGroupAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string capacityReservationGroupName, Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewTypes? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;&gt; GetCapacityReservationGroupAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string capacityReservationGroupName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewTypes&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetCapacityReservationGroupAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewTypes},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCapacityReservationGroupAsync (resourceGroupResource As ResourceGroupResource, capacityReservationGroupName As String, Optional expand As Nullable(Of CapacityReservationGroupInstanceViewTypes) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CapacityReservationGroupResource))" />
-      <MemberSignature Language="F#" Value="static member GetCapacityReservationGroupAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewTypes&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetCapacityReservationGroupAsync (resourceGroupResource, capacityReservationGroupName, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="capacityReservationGroupName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewTypes&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="capacityReservationGroupName" Type="System.String" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupInstanceViewType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -524,6 +461,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CapacityReservationGroupResource</ReturnType>
@@ -553,6 +491,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CapacityReservationGroupCollection</ReturnType>
@@ -577,46 +516,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupGetExpand&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="expand"> The expand expression to apply on the operation. Based on the expand param(s) specified we return Virtual Machine or ScaleSet VM Instance or both resource Ids which are associated to capacity reservation group in the response. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Lists all of the capacity reservation groups in the subscription. Use the nextLink property in the response to get the next page of capacity reservation groups.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.Compute/capacityReservationGroups
-            Operation Id: CapacityReservationGroups_ListBySubscription
-            </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.Compute.CapacityReservationGroupResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetCapacityReservationGroups">
-      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt; GetCapacityReservationGroups (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.ResourceManager.Compute.Models.ExpandTypesForGetCapacityReservationGroups? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt; GetCapacityReservationGroups(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.ExpandTypesForGetCapacityReservationGroups&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetCapacityReservationGroups(Azure.ResourceManager.Resources.SubscriptionResource,System.Nullable{Azure.ResourceManager.Compute.Models.ExpandTypesForGetCapacityReservationGroups},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCapacityReservationGroups (subscriptionResource As SubscriptionResource, Optional expand As Nullable(Of ExpandTypesForGetCapacityReservationGroups) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of CapacityReservationGroupResource)" />
-      <MemberSignature Language="F#" Value="static member GetCapacityReservationGroups : Azure.ResourceManager.Resources.SubscriptionResource * Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetCapacityReservationGroups&gt; * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetCapacityReservationGroups (subscriptionResource, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetCapacityReservationGroups&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupGetExpand&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
@@ -641,46 +549,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupGetExpand&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="expand"> The expand expression to apply on the operation. Based on the expand param(s) specified we return Virtual Machine or ScaleSet VM Instance or both resource Ids which are associated to capacity reservation group in the response. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Lists all of the capacity reservation groups in the subscription. Use the nextLink property in the response to get the next page of capacity reservation groups.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.Compute/capacityReservationGroups
-            Operation Id: CapacityReservationGroups_ListBySubscription
-            </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.Compute.CapacityReservationGroupResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetCapacityReservationGroupsAsync">
-      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt; GetCapacityReservationGroupsAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.ResourceManager.Compute.Models.ExpandTypesForGetCapacityReservationGroups? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt; GetCapacityReservationGroupsAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.ExpandTypesForGetCapacityReservationGroups&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetCapacityReservationGroupsAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Nullable{Azure.ResourceManager.Compute.Models.ExpandTypesForGetCapacityReservationGroups},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCapacityReservationGroupsAsync (subscriptionResource As SubscriptionResource, Optional expand As Nullable(Of ExpandTypesForGetCapacityReservationGroups) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of CapacityReservationGroupResource)" />
-      <MemberSignature Language="F#" Value="static member GetCapacityReservationGroupsAsync : Azure.ResourceManager.Resources.SubscriptionResource * Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetCapacityReservationGroups&gt; * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetCapacityReservationGroupsAsync (subscriptionResource, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.CapacityReservationGroupResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetCapacityReservationGroups&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.CapacityReservationGroupGetExpand&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
@@ -705,6 +582,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CapacityReservationResource</ReturnType>
@@ -734,6 +612,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.CloudServiceResource&gt;</ReturnType>
@@ -770,6 +649,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.CloudServiceResource&gt;&gt;</ReturnType>
@@ -806,6 +686,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CloudServiceOSFamilyCollection</ReturnType>
@@ -832,6 +713,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.CloudServiceOSFamilyResource&gt;</ReturnType>
@@ -870,6 +752,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.CloudServiceOSFamilyResource&gt;&gt;</ReturnType>
@@ -908,6 +791,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CloudServiceOSFamilyResource</ReturnType>
@@ -937,6 +821,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.CloudServiceOSVersionResource&gt;</ReturnType>
@@ -975,6 +860,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.CloudServiceOSVersionResource&gt;&gt;</ReturnType>
@@ -1013,6 +899,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CloudServiceOSVersionResource</ReturnType>
@@ -1042,6 +929,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CloudServiceOSVersionCollection</ReturnType>
@@ -1068,6 +956,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CloudServiceResource</ReturnType>
@@ -1097,6 +986,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CloudServiceRoleInstanceResource</ReturnType>
@@ -1126,6 +1016,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CloudServiceRoleResource</ReturnType>
@@ -1155,6 +1046,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CloudServiceCollection</ReturnType>
@@ -1179,6 +1071,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.CloudServiceResource&gt;</ReturnType>
@@ -1209,6 +1102,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.CloudServiceResource&gt;</ReturnType>
@@ -1239,6 +1133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CommunityGalleryCollection</ReturnType>
@@ -1263,6 +1158,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.CommunityGalleryResource&gt;</ReturnType>
@@ -1301,6 +1197,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.CommunityGalleryResource&gt;&gt;</ReturnType>
@@ -1339,6 +1236,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CommunityGalleryImageResource</ReturnType>
@@ -1368,6 +1266,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CommunityGalleryImageVersionResource</ReturnType>
@@ -1397,6 +1296,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.CommunityGalleryResource</ReturnType>
@@ -1426,6 +1326,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.ComputePrivateEndpointConnectionResource</ReturnType>
@@ -1455,15 +1356,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSku&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="filter" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="includeExtendedLocations" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="filter" Type="System.String" />
+        <Parameter Name="includeExtendedLocations" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
@@ -1489,15 +1391,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSku&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="filter" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="includeExtendedLocations" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="filter" Type="System.String" />
+        <Parameter Name="includeExtendedLocations" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
@@ -1523,53 +1426,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="hostGroupName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="hostGroupName"> The name of the dedicated host group. </param>
-        <param name="expand"> The expand expression to apply on the operation. 'InstanceView' will retrieve the list of instance views of the dedicated hosts under the dedicated host group. 'UserData' is not supported for dedicated host group. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Retrieves information about a dedicated host group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/hostGroups/{hostGroupName}
-            Operation Id: DedicatedHostGroups_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="hostGroupName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="hostGroupName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetDedicatedHostGroup">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt; GetDedicatedHostGroup (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string hostGroupName, Azure.ResourceManager.Compute.Models.InstanceViewTypes? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt; GetDedicatedHostGroup(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string hostGroupName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetDedicatedHostGroup(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.InstanceViewTypes},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDedicatedHostGroup (resourceGroupResource As ResourceGroupResource, hostGroupName As String, Optional expand As Nullable(Of InstanceViewTypes) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DedicatedHostGroupResource)" />
-      <MemberSignature Language="F#" Value="static member GetDedicatedHostGroup : Azure.ResourceManager.Resources.ResourceGroupResource * string * Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetDedicatedHostGroup (resourceGroupResource, hostGroupName, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="hostGroupName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="hostGroupName" Type="System.String" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -1599,53 +1465,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="hostGroupName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="hostGroupName"> The name of the dedicated host group. </param>
-        <param name="expand"> The expand expression to apply on the operation. 'InstanceView' will retrieve the list of instance views of the dedicated hosts under the dedicated host group. 'UserData' is not supported for dedicated host group. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Retrieves information about a dedicated host group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/hostGroups/{hostGroupName}
-            Operation Id: DedicatedHostGroups_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="hostGroupName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="hostGroupName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetDedicatedHostGroupAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt;&gt; GetDedicatedHostGroupAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string hostGroupName, Azure.ResourceManager.Compute.Models.InstanceViewTypes? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt;&gt; GetDedicatedHostGroupAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string hostGroupName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetDedicatedHostGroupAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.InstanceViewTypes},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDedicatedHostGroupAsync (resourceGroupResource As ResourceGroupResource, hostGroupName As String, Optional expand As Nullable(Of InstanceViewTypes) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DedicatedHostGroupResource))" />
-      <MemberSignature Language="F#" Value="static member GetDedicatedHostGroupAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt;&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetDedicatedHostGroupAsync (resourceGroupResource, hostGroupName, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="hostGroupName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="hostGroupName" Type="System.String" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -1675,6 +1504,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.DedicatedHostGroupResource</ReturnType>
@@ -1704,6 +1534,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.DedicatedHostGroupCollection</ReturnType>
@@ -1728,6 +1559,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt;</ReturnType>
@@ -1758,6 +1590,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.DedicatedHostGroupResource&gt;</ReturnType>
@@ -1788,6 +1621,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.DedicatedHostResource</ReturnType>
@@ -1817,6 +1651,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.DiskAccessResource&gt;</ReturnType>
@@ -1853,6 +1688,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.DiskAccessResource&gt;&gt;</ReturnType>
@@ -1889,6 +1725,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.DiskAccessCollection</ReturnType>
@@ -1913,6 +1750,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.DiskAccessResource&gt;</ReturnType>
@@ -1943,6 +1781,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.DiskAccessResource&gt;</ReturnType>
@@ -1973,6 +1812,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.DiskAccessResource</ReturnType>
@@ -2002,6 +1842,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.DiskEncryptionSetResource&gt;</ReturnType>
@@ -2038,6 +1879,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.DiskEncryptionSetResource&gt;&gt;</ReturnType>
@@ -2074,6 +1916,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.DiskEncryptionSetResource</ReturnType>
@@ -2103,6 +1946,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.DiskEncryptionSetCollection</ReturnType>
@@ -2127,6 +1971,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.DiskEncryptionSetResource&gt;</ReturnType>
@@ -2157,6 +2002,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.DiskEncryptionSetResource&gt;</ReturnType>
@@ -2187,15 +2033,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.DiskImageResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="imageName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="imageName" Type="System.String" />
+        <Parameter Name="expand" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -2225,15 +2072,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.DiskImageResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="imageName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="imageName" Type="System.String" />
+        <Parameter Name="expand" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -2263,13 +2111,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.DiskImageResource</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
@@ -2292,12 +2141,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.DiskImageCollection</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -2316,13 +2166,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.DiskImageResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
@@ -2346,13 +2197,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.DiskImageResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
@@ -2376,6 +2228,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.DiskRestorePointResource</ReturnType>
@@ -2405,6 +2258,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.GalleryCollection</ReturnType>
@@ -2429,6 +2283,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.GalleryResource&gt;</ReturnType>
@@ -2459,6 +2314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.GalleryResource&gt;</ReturnType>
@@ -2489,56 +2345,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.GalleryResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="galleryName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="select" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.SelectPermission&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.GalleryExpand&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="galleryName"> The name of the Shared Image Gallery. </param>
-        <param name="select"> The select expression to apply on the operation. </param>
-        <param name="expand"> The expand query option to apply on the operation. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Retrieves information about a Shared Image Gallery.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/galleries/{galleryName}
-            Operation Id: Galleries_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="galleryName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="galleryName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetGallery">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Compute.GalleryResource&gt; GetGallery (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string galleryName, Azure.ResourceManager.Compute.Models.SelectPermissions? select = default, Azure.ResourceManager.Compute.Models.GalleryExpand? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Compute.GalleryResource&gt; GetGallery(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string galleryName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.SelectPermissions&gt; select, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.GalleryExpand&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetGallery(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.SelectPermissions},System.Nullable{Azure.ResourceManager.Compute.Models.GalleryExpand},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetGallery (resourceGroupResource As ResourceGroupResource, galleryName As String, Optional select As Nullable(Of SelectPermissions) = Nothing, Optional expand As Nullable(Of GalleryExpand) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of GalleryResource)" />
-      <MemberSignature Language="F#" Value="static member GetGallery : Azure.ResourceManager.Resources.ResourceGroupResource * string * Nullable&lt;Azure.ResourceManager.Compute.Models.SelectPermissions&gt; * Nullable&lt;Azure.ResourceManager.Compute.Models.GalleryExpand&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.GalleryResource&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetGallery (resourceGroupResource, galleryName, select, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.GalleryResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="galleryName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="select" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.SelectPermissions&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.GalleryExpand&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="galleryName" Type="System.String" />
+        <Parameter Name="select" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.SelectPermission&gt;" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.GalleryExpand&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -2569,6 +2386,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.GalleryApplicationResource</ReturnType>
@@ -2598,6 +2416,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.GalleryApplicationVersionResource</ReturnType>
@@ -2627,56 +2446,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.GalleryResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="galleryName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="select" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.SelectPermission&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.GalleryExpand&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="galleryName"> The name of the Shared Image Gallery. </param>
-        <param name="select"> The select expression to apply on the operation. </param>
-        <param name="expand"> The expand query option to apply on the operation. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Retrieves information about a Shared Image Gallery.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/galleries/{galleryName}
-            Operation Id: Galleries_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="galleryName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="galleryName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetGalleryAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.GalleryResource&gt;&gt; GetGalleryAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string galleryName, Azure.ResourceManager.Compute.Models.SelectPermissions? select = default, Azure.ResourceManager.Compute.Models.GalleryExpand? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Compute.GalleryResource&gt;&gt; GetGalleryAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string galleryName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.SelectPermissions&gt; select, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.GalleryExpand&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetGalleryAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.SelectPermissions},System.Nullable{Azure.ResourceManager.Compute.Models.GalleryExpand},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetGalleryAsync (resourceGroupResource As ResourceGroupResource, galleryName As String, Optional select As Nullable(Of SelectPermissions) = Nothing, Optional expand As Nullable(Of GalleryExpand) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of GalleryResource))" />
-      <MemberSignature Language="F#" Value="static member GetGalleryAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * Nullable&lt;Azure.ResourceManager.Compute.Models.SelectPermissions&gt; * Nullable&lt;Azure.ResourceManager.Compute.Models.GalleryExpand&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.GalleryResource&gt;&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetGalleryAsync (resourceGroupResource, galleryName, select, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.GalleryResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="galleryName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="select" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.SelectPermissions&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.GalleryExpand&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="galleryName" Type="System.String" />
+        <Parameter Name="select" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.SelectPermission&gt;" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.GalleryExpand&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -2707,6 +2487,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.GalleryImageResource</ReturnType>
@@ -2736,6 +2517,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.GalleryImageVersionResource</ReturnType>
@@ -2765,6 +2547,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.GalleryResource</ReturnType>
@@ -2784,195 +2567,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetImage">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Compute.ImageResource&gt; GetImage (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string imageName, string expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Compute.ImageResource&gt; GetImage(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string imageName, string expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetImage(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetImage (resourceGroupResource As ResourceGroupResource, imageName As String, Optional expand As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ImageResource)" />
-      <MemberSignature Language="F#" Value="static member GetImage : Azure.ResourceManager.Resources.ResourceGroupResource * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.ImageResource&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetImage (resourceGroupResource, imageName, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.ImageResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="imageName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="imageName"> The name of the image. </param>
-        <param name="expand"> The expand expression to apply on the operation. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an image.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/images/{imageName}
-            Operation Id: Images_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="imageName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="imageName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetImageAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.ImageResource&gt;&gt; GetImageAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string imageName, string expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Compute.ImageResource&gt;&gt; GetImageAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string imageName, string expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetImageAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetImageAsync (resourceGroupResource As ResourceGroupResource, imageName As String, Optional expand As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ImageResource))" />
-      <MemberSignature Language="F#" Value="static member GetImageAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.ImageResource&gt;&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetImageAsync (resourceGroupResource, imageName, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.ImageResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="imageName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="imageName"> The name of the image. </param>
-        <param name="expand"> The expand expression to apply on the operation. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets an image.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/images/{imageName}
-            Operation Id: Images_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="imageName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="imageName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetImageResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.ImageResource GetImageResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Compute.ImageResource GetImageResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetImageResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetImageResource (client As ArmClient, id As ResourceIdentifier) As ImageResource" />
-      <MemberSignature Language="F#" Value="static member GetImageResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Compute.ImageResource" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetImageResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Compute.ImageResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing an <see cref="T:Azure.ResourceManager.Compute.ImageResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.Compute.ImageResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.Compute.ImageResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.Compute.ImageResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetImages">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Compute.ImageCollection GetImages (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Compute.ImageCollection GetImages(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetImages(Azure.ResourceManager.Resources.ResourceGroupResource)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetImages (resourceGroupResource As ResourceGroupResource) As ImageCollection" />
-      <MemberSignature Language="F#" Value="static member GetImages : Azure.ResourceManager.Resources.ResourceGroupResource -&gt; Azure.ResourceManager.Compute.ImageCollection" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetImages resourceGroupResource" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Compute.ImageCollection</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of ImageResources in the ResourceGroupResource. </summary>
-        <returns> An object representing collection of ImageResources and their operations over a ImageResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetImages">
-      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.Compute.ImageResource&gt; GetImages (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.Compute.ImageResource&gt; GetImages(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetImages(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetImages (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ImageResource)" />
-      <MemberSignature Language="F#" Value="static member GetImages : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Compute.ImageResource&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetImages (subscriptionResource, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.ImageResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the list of Images in the subscription. Use nextLink property in the response to get the next page of Images. Do this till nextLink is null to fetch all the Images.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.Compute/images
-            Operation Id: Images_List
-            </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.Compute.ImageResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetImagesAsync">
-      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.ImageResource&gt; GetImagesAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Compute.ImageResource&gt; GetImagesAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetImagesAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetImagesAsync (subscriptionResource As SubscriptionResource, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ImageResource)" />
-      <MemberSignature Language="F#" Value="static member GetImagesAsync : Azure.ResourceManager.Resources.SubscriptionResource * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.ImageResource&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetImagesAsync (subscriptionResource, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.ImageResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the list of Images in the subscription. Use nextLink property in the response to get the next page of Images. Do this till nextLink is null to fetch all the Images.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.Compute/images
-            Operation Id: Images_List
-            </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.Compute.ImageResource" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetManagedDisk">
       <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Compute.ManagedDiskResource&gt; GetManagedDisk (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string diskName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Compute.ManagedDiskResource&gt; GetManagedDisk(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string diskName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -2983,6 +2577,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.ManagedDiskResource&gt;</ReturnType>
@@ -3019,6 +2614,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.ManagedDiskResource&gt;&gt;</ReturnType>
@@ -3055,6 +2651,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.ManagedDiskResource</ReturnType>
@@ -3084,6 +2681,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.ManagedDiskCollection</ReturnType>
@@ -3108,6 +2706,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.ManagedDiskResource&gt;</ReturnType>
@@ -3138,6 +2737,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.ManagedDiskResource&gt;</ReturnType>
@@ -3168,6 +2768,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -3208,6 +2809,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -3248,6 +2850,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.ProximityPlacementGroupResource&gt;</ReturnType>
@@ -3286,6 +2889,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.ProximityPlacementGroupResource&gt;&gt;</ReturnType>
@@ -3324,6 +2928,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.ProximityPlacementGroupResource</ReturnType>
@@ -3353,6 +2958,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.ProximityPlacementGroupCollection</ReturnType>
@@ -3377,6 +2983,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.ProximityPlacementGroupResource&gt;</ReturnType>
@@ -3407,6 +3014,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.ProximityPlacementGroupResource&gt;</ReturnType>
@@ -3437,6 +3045,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -3475,6 +3084,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -3503,74 +3113,6 @@
           <paramref name="edgeZone" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetResourceSkus">
-      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSku&gt; GetResourceSkus (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string filter = default, string includeExtendedLocations = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.Compute.Models.ComputeResourceSku&gt; GetResourceSkus(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string filter, string includeExtendedLocations, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetResourceSkus(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetResourceSkus (subscriptionResource As SubscriptionResource, Optional filter As String = Nothing, Optional includeExtendedLocations As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ComputeResourceSku)" />
-      <MemberSignature Language="F#" Value="static member GetResourceSkus : Azure.ResourceManager.Resources.SubscriptionResource * string * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSku&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetResourceSkus (subscriptionResource, filter, includeExtendedLocations, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSku&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="filter" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="includeExtendedLocations" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="filter"> The filter to apply on the operation. Only **location** filter is supported currently. </param>
-        <param name="includeExtendedLocations"> To Include Extended Locations information or not in the response. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the list of Microsoft.Compute SKUs available for your Subscription.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.Compute/skus
-            Operation Id: ResourceSkus_List
-            </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.Compute.Models.ComputeResourceSku" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetResourceSkusAsync">
-      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSku&gt; GetResourceSkusAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string filter = default, string includeExtendedLocations = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Compute.Models.ComputeResourceSku&gt; GetResourceSkusAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, string filter, string includeExtendedLocations, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetResourceSkusAsync(Azure.ResourceManager.Resources.SubscriptionResource,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetResourceSkusAsync (subscriptionResource As SubscriptionResource, Optional filter As String = Nothing, Optional includeExtendedLocations As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ComputeResourceSku)" />
-      <MemberSignature Language="F#" Value="static member GetResourceSkusAsync : Azure.ResourceManager.Resources.SubscriptionResource * string * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSku&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetResourceSkusAsync (subscriptionResource, filter, includeExtendedLocations, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.ComputeResourceSku&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="filter" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="includeExtendedLocations" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="filter"> The filter to apply on the operation. Only **location** filter is supported currently. </param>
-        <param name="includeExtendedLocations"> To Include Extended Locations information or not in the response. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the list of Microsoft.Compute SKUs available for your Subscription.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.Compute/skus
-            Operation Id: ResourceSkus_List
-            </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.Compute.Models.ComputeResourceSku" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetRestorePointGroup">
       <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Compute.RestorePointGroupResource&gt; GetRestorePointGroup (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string restorePointGroupName, Azure.ResourceManager.Compute.Models.RestorePointGroupExpand? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Compute.RestorePointGroupResource&gt; GetRestorePointGroup(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string restorePointGroupName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.RestorePointGroupExpand&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -3581,6 +3123,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.RestorePointGroupResource&gt;</ReturnType>
@@ -3619,6 +3162,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.RestorePointGroupResource&gt;&gt;</ReturnType>
@@ -3657,6 +3201,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.RestorePointGroupResource</ReturnType>
@@ -3686,6 +3231,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.RestorePointGroupCollection</ReturnType>
@@ -3710,6 +3256,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.RestorePointGroupResource&gt;</ReturnType>
@@ -3740,6 +3287,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.RestorePointGroupResource&gt;</ReturnType>
@@ -3770,6 +3318,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.RestorePointResource</ReturnType>
@@ -3799,6 +3348,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.SharedGalleryCollection</ReturnType>
@@ -3825,6 +3375,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.SharedGalleryResource&gt;</ReturnType>
@@ -3863,6 +3414,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.SharedGalleryResource&gt;&gt;</ReturnType>
@@ -3901,6 +3453,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.SharedGalleryImageResource</ReturnType>
@@ -3930,6 +3483,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.SharedGalleryImageVersionResource</ReturnType>
@@ -3959,6 +3513,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.SharedGalleryResource</ReturnType>
@@ -3988,6 +3543,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.SnapshotResource&gt;</ReturnType>
@@ -4024,6 +3580,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.SnapshotResource&gt;&gt;</ReturnType>
@@ -4060,6 +3617,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.SnapshotResource</ReturnType>
@@ -4089,6 +3647,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.SnapshotCollection</ReturnType>
@@ -4113,6 +3672,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.SnapshotResource&gt;</ReturnType>
@@ -4143,6 +3703,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.SnapshotResource&gt;</ReturnType>
@@ -4173,6 +3734,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.SshPublicKeyResource&gt;</ReturnType>
@@ -4209,6 +3771,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.SshPublicKeyResource&gt;&gt;</ReturnType>
@@ -4245,6 +3808,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.SshPublicKeyResource</ReturnType>
@@ -4274,6 +3838,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.SshPublicKeyCollection</ReturnType>
@@ -4298,6 +3863,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.SshPublicKeyResource&gt;</ReturnType>
@@ -4328,6 +3894,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.SshPublicKeyResource&gt;</ReturnType>
@@ -4358,6 +3925,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.ComputeUsage&gt;</ReturnType>
@@ -4390,6 +3958,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.ComputeUsage&gt;</ReturnType>
@@ -4422,53 +3991,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="vmName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="vmName"> The name of the virtual machine. </param>
-        <param name="expand"> The expand expression to apply on the operation. 'InstanceView' retrieves a snapshot of the runtime properties of the virtual machine that is managed by the platform and can change outside of control plane operations. 'UserData' retrieves the UserData property as part of the VM model view that was provided by the user during the VM Create/Update operation. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Retrieves information about the model view or the instance view of a virtual machine.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}
-            Operation Id: VirtualMachines_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="vmName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="vmName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetVirtualMachine">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt; GetVirtualMachine (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string vmName, Azure.ResourceManager.Compute.Models.InstanceViewTypes? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineResource&gt; GetVirtualMachine(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string vmName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetVirtualMachine(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.InstanceViewTypes},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualMachine (resourceGroupResource As ResourceGroupResource, vmName As String, Optional expand As Nullable(Of InstanceViewTypes) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of VirtualMachineResource)" />
-      <MemberSignature Language="F#" Value="static member GetVirtualMachine : Azure.ResourceManager.Resources.ResourceGroupResource * string * Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetVirtualMachine (resourceGroupResource, vmName, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="vmName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="vmName" Type="System.String" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -4498,53 +4030,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="vmName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="vmName"> The name of the virtual machine. </param>
-        <param name="expand"> The expand expression to apply on the operation. 'InstanceView' retrieves a snapshot of the runtime properties of the virtual machine that is managed by the platform and can change outside of control plane operations. 'UserData' retrieves the UserData property as part of the VM model view that was provided by the user during the VM Create/Update operation. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Retrieves information about the model view or the instance view of a virtual machine.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}
-            Operation Id: VirtualMachines_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="vmName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="vmName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetVirtualMachineAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;&gt; GetVirtualMachineAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string vmName, Azure.ResourceManager.Compute.Models.InstanceViewTypes? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineResource&gt;&gt; GetVirtualMachineAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string vmName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetVirtualMachineAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.InstanceViewTypes},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualMachineAsync (resourceGroupResource As ResourceGroupResource, vmName As String, Optional expand As Nullable(Of InstanceViewTypes) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of VirtualMachineResource))" />
-      <MemberSignature Language="F#" Value="static member GetVirtualMachineAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetVirtualMachineAsync (resourceGroupResource, vmName, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="vmName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewTypes&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="vmName" Type="System.String" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.InstanceViewType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -4574,6 +4069,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineExtensionImageResource&gt;</ReturnType>
@@ -4616,6 +4112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineExtensionImageResource&gt;&gt;</ReturnType>
@@ -4658,6 +4155,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineExtensionImageResource</ReturnType>
@@ -4687,6 +4185,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineExtensionImageCollection</ReturnType>
@@ -4719,6 +4218,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineExtensionResource</ReturnType>
@@ -4748,6 +4248,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImage&gt;</ReturnType>
@@ -4792,6 +4293,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImage&gt;&gt;</ReturnType>
@@ -4836,6 +4338,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -4878,6 +4381,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -4920,6 +4424,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -4958,6 +4463,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -4996,6 +4502,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -5028,6 +4535,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -5060,6 +4568,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -5108,6 +4617,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -5156,6 +4666,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -5194,6 +4705,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -5232,6 +4744,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImage&gt;</ReturnType>
@@ -5278,6 +4791,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImage&gt;&gt;</ReturnType>
@@ -5324,6 +4838,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -5374,6 +4889,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -5424,6 +4940,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -5464,6 +4981,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineImageBase&gt;</ReturnType>
@@ -5504,6 +5022,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineResource</ReturnType>
@@ -5533,6 +5052,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.Models.RunCommandDocument&gt;</ReturnType>
@@ -5571,6 +5091,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.Models.RunCommandDocument&gt;&gt;</ReturnType>
@@ -5609,6 +5130,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineRunCommandResource</ReturnType>
@@ -5638,6 +5160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.RunCommandDocumentBase&gt;</ReturnType>
@@ -5670,6 +5193,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.RunCommandDocumentBase&gt;</ReturnType>
@@ -5702,6 +5226,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineCollection</ReturnType>
@@ -5726,6 +5251,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;</ReturnType>
@@ -5760,6 +5286,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;</ReturnType>
@@ -5794,6 +5321,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;</ReturnType>
@@ -5826,6 +5354,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.VirtualMachineResource&gt;</ReturnType>
@@ -5849,44 +5378,6 @@
       </Docs>
     </Member>
     <Member MemberName="GetVirtualMachineScaleSet">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt; GetVirtualMachineScaleSet (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string vmScaleSetName, Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt; GetVirtualMachineScaleSet(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string vmScaleSetName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetVirtualMachineScaleSet(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualMachineScaleSet (resourceGroupResource As ResourceGroupResource, vmScaleSetName As String, Optional expand As Nullable(Of ExpandTypesForGetVmScaleSets) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of VirtualMachineScaleSetResource)" />
-      <MemberSignature Language="F#" Value="static member GetVirtualMachineScaleSet : Azure.ResourceManager.Resources.ResourceGroupResource * string * Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetVirtualMachineScaleSet (resourceGroupResource, vmScaleSetName, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="vmScaleSetName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="vmScaleSetName"> The name of the VM scale set. </param>
-        <param name="expand"> The expand expression to apply on the operation. 'UserData' retrieves the UserData property of the VM scale set that was provided by the user during the VM scale set Create/Update operation. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Display information about a virtual machine scale set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}
-            Operation Id: VirtualMachineScaleSets_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="vmScaleSetName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="vmScaleSetName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetVirtualMachineScaleSet">
       <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt; GetVirtualMachineScaleSet (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string virtualMachineScaleSetName, Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt; GetVirtualMachineScaleSet(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string virtualMachineScaleSetName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetVirtualMachineScaleSet(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand},System.Threading.CancellationToken)" />
@@ -5896,15 +5387,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="virtualMachineScaleSetName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="virtualMachineScaleSetName" Type="System.String" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -5925,44 +5417,6 @@
       </Docs>
     </Member>
     <Member MemberName="GetVirtualMachineScaleSetAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt; GetVirtualMachineScaleSetAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string vmScaleSetName, Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt; GetVirtualMachineScaleSetAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string vmScaleSetName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetVirtualMachineScaleSetAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualMachineScaleSetAsync (resourceGroupResource As ResourceGroupResource, vmScaleSetName As String, Optional expand As Nullable(Of ExpandTypesForGetVmScaleSets) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of VirtualMachineScaleSetResource))" />
-      <MemberSignature Language="F#" Value="static member GetVirtualMachineScaleSetAsync : Azure.ResourceManager.Resources.ResourceGroupResource * string * Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;" Usage="Azure.ResourceManager.Compute.ComputeExtensions.GetVirtualMachineScaleSetAsync (resourceGroupResource, vmScaleSetName, expand, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="vmScaleSetName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.ExpandTypesForGetVmScaleSets&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <param name="vmScaleSetName"> The name of the VM scale set. </param>
-        <param name="expand"> The expand expression to apply on the operation. 'UserData' retrieves the UserData property of the VM scale set that was provided by the user during the VM scale set Create/Update operation. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Display information about a virtual machine scale set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}
-            Operation Id: VirtualMachineScaleSets_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="vmScaleSetName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="vmScaleSetName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetVirtualMachineScaleSetAsync">
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt; GetVirtualMachineScaleSetAsync (this Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string virtualMachineScaleSetName, Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand? expand = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt; GetVirtualMachineScaleSetAsync(class Azure.ResourceManager.Resources.ResourceGroupResource resourceGroupResource, string virtualMachineScaleSetName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt; expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Compute.ComputeExtensions.GetVirtualMachineScaleSetAsync(Azure.ResourceManager.Resources.ResourceGroupResource,System.String,System.Nullable{Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand},System.Threading.CancellationToken)" />
@@ -5972,15 +5426,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="virtualMachineScaleSetName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="resourceGroupResource" Type="Azure.ResourceManager.Resources.ResourceGroupResource" RefType="this" />
+        <Parameter Name="virtualMachineScaleSetName" Type="System.String" />
+        <Parameter Name="expand" Type="System.Nullable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineScaleSetGetExpand&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
@@ -6010,6 +5465,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetExtensionResource</ReturnType>
@@ -6039,6 +5495,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetResource</ReturnType>
@@ -6068,6 +5525,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetRollingUpgradeResource</ReturnType>
@@ -6097,6 +5555,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetCollection</ReturnType>
@@ -6121,6 +5580,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
@@ -6151,6 +5611,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
@@ -6181,6 +5642,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
@@ -6213,6 +5675,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.VirtualMachineScaleSetResource&gt;</ReturnType>
@@ -6245,6 +5708,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetVmExtensionResource</ReturnType>
@@ -6274,6 +5738,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetVmResource</ReturnType>
@@ -6303,6 +5768,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.VirtualMachineScaleSetVmRunCommandResource</ReturnType>
@@ -6332,6 +5798,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineSize&gt;</ReturnType>
@@ -6364,6 +5831,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Compute.Models.VirtualMachineSize&gt;</ReturnType>

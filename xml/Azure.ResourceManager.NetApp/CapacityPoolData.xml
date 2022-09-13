@@ -18,11 +18,11 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CapacityPoolData (Azure.Core.AzureLocation location, long size, Azure.ResourceManager.NetApp.Models.ServiceLevel serviceLevel);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.Core.AzureLocation location, int64 size, valuetype Azure.ResourceManager.NetApp.Models.ServiceLevel serviceLevel) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.CapacityPoolData.#ctor(Azure.Core.AzureLocation,System.Int64,Azure.ResourceManager.NetApp.Models.ServiceLevel)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (location As AzureLocation, size As Long, serviceLevel As ServiceLevel)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.NetApp.CapacityPoolData : Azure.Core.AzureLocation * int64 * Azure.ResourceManager.NetApp.Models.ServiceLevel -&gt; Azure.ResourceManager.NetApp.CapacityPoolData" Usage="new Azure.ResourceManager.NetApp.CapacityPoolData (location, size, serviceLevel)" />
+      <MemberSignature Language="C#" Value="public CapacityPoolData (Azure.Core.AzureLocation location, long size, Azure.ResourceManager.NetApp.Models.NetAppFileServiceLevel serviceLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.Core.AzureLocation location, int64 size, valuetype Azure.ResourceManager.NetApp.Models.NetAppFileServiceLevel serviceLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.CapacityPoolData.#ctor(Azure.Core.AzureLocation,System.Int64,Azure.ResourceManager.NetApp.Models.NetAppFileServiceLevel)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (location As AzureLocation, size As Long, serviceLevel As NetAppFileServiceLevel)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.NetApp.CapacityPoolData : Azure.Core.AzureLocation * int64 * Azure.ResourceManager.NetApp.Models.NetAppFileServiceLevel -&gt; Azure.ResourceManager.NetApp.CapacityPoolData" Usage="new Azure.ResourceManager.NetApp.CapacityPoolData (location, size, serviceLevel)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
@@ -31,7 +31,7 @@
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
         <Parameter Name="size" Type="System.Int64" />
-        <Parameter Name="serviceLevel" Type="Azure.ResourceManager.NetApp.Models.ServiceLevel" />
+        <Parameter Name="serviceLevel" Type="Azure.ResourceManager.NetApp.Models.NetAppFileServiceLevel" />
       </Parameters>
       <Docs>
         <param name="location"> The location. </param>
@@ -41,39 +41,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="CoolAccess">
-      <MemberSignature Language="C#" Value="public bool? CoolAccess { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; CoolAccess" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.CapacityPoolData.CoolAccess" />
-      <MemberSignature Language="VB.NET" Value="Public Property CoolAccess As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.CoolAccess : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.CapacityPoolData.CoolAccess" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> If enabled (true) the pool can contain cool Access enabled volumes. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="EncryptionType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.EncryptionType? EncryptionType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.EncryptionType&gt; EncryptionType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.CapacityPoolEncryptionType? EncryptionType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.CapacityPoolEncryptionType&gt; EncryptionType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.CapacityPoolData.EncryptionType" />
-      <MemberSignature Language="VB.NET" Value="Public Property EncryptionType As Nullable(Of EncryptionType)" />
-      <MemberSignature Language="F#" Value="member this.EncryptionType : Nullable&lt;Azure.ResourceManager.NetApp.Models.EncryptionType&gt; with get, set" Usage="Azure.ResourceManager.NetApp.CapacityPoolData.EncryptionType" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptionType As Nullable(Of CapacityPoolEncryptionType)" />
+      <MemberSignature Language="F#" Value="member this.EncryptionType : Nullable&lt;Azure.ResourceManager.NetApp.Models.CapacityPoolEncryptionType&gt; with get, set" Usage="Azure.ResourceManager.NetApp.CapacityPoolData.EncryptionType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.EncryptionType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.CapacityPoolEncryptionType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Encryption type of the capacity pool, set encryption type for data at rest for this pool and all volumes in it. This value can only be set when creating new pool. </summary>
@@ -101,19 +81,39 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="PoolId">
-      <MemberSignature Language="C#" Value="public string PoolId { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string PoolId" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.CapacityPoolData.PoolId" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PoolId As String" />
-      <MemberSignature Language="F#" Value="member this.PoolId : string" Usage="Azure.ResourceManager.NetApp.CapacityPoolData.PoolId" />
+    <Member MemberName="IsCoolAccessEnabled">
+      <MemberSignature Language="C#" Value="public bool? IsCoolAccessEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsCoolAccessEnabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.CapacityPoolData.IsCoolAccessEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsCoolAccessEnabled As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsCoolAccessEnabled : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.NetApp.CapacityPoolData.IsCoolAccessEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> If enabled (true) the pool can contain cool Access enabled volumes. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PoolId">
+      <MemberSignature Language="C#" Value="public Guid? PoolId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; PoolId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.CapacityPoolData.PoolId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PoolId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.PoolId : Nullable&lt;Guid&gt;" Usage="Azure.ResourceManager.NetApp.CapacityPoolData.PoolId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> UUID v4 used to identify the Pool. </summary>
@@ -142,18 +142,18 @@
       </Docs>
     </Member>
     <Member MemberName="QosType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.QosType? QosType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.QosType&gt; QosType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.CapacityPoolQosType? QosType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.NetApp.Models.CapacityPoolQosType&gt; QosType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.CapacityPoolData.QosType" />
-      <MemberSignature Language="VB.NET" Value="Public Property QosType As Nullable(Of QosType)" />
-      <MemberSignature Language="F#" Value="member this.QosType : Nullable&lt;Azure.ResourceManager.NetApp.Models.QosType&gt; with get, set" Usage="Azure.ResourceManager.NetApp.CapacityPoolData.QosType" />
+      <MemberSignature Language="VB.NET" Value="Public Property QosType As Nullable(Of CapacityPoolQosType)" />
+      <MemberSignature Language="F#" Value="member this.QosType : Nullable&lt;Azure.ResourceManager.NetApp.Models.CapacityPoolQosType&gt; with get, set" Usage="Azure.ResourceManager.NetApp.CapacityPoolData.QosType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.QosType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.NetApp.Models.CapacityPoolQosType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The qos type of the pool. </summary>
@@ -162,18 +162,18 @@
       </Docs>
     </Member>
     <Member MemberName="ServiceLevel">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.ServiceLevel ServiceLevel { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.NetApp.Models.ServiceLevel ServiceLevel" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetApp.Models.NetAppFileServiceLevel ServiceLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.NetApp.Models.NetAppFileServiceLevel ServiceLevel" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetApp.CapacityPoolData.ServiceLevel" />
-      <MemberSignature Language="VB.NET" Value="Public Property ServiceLevel As ServiceLevel" />
-      <MemberSignature Language="F#" Value="member this.ServiceLevel : Azure.ResourceManager.NetApp.Models.ServiceLevel with get, set" Usage="Azure.ResourceManager.NetApp.CapacityPoolData.ServiceLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceLevel As NetAppFileServiceLevel" />
+      <MemberSignature Language="F#" Value="member this.ServiceLevel : Azure.ResourceManager.NetApp.Models.NetAppFileServiceLevel with get, set" Usage="Azure.ResourceManager.NetApp.CapacityPoolData.ServiceLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.Models.ServiceLevel</ReturnType>
+        <ReturnType>Azure.ResourceManager.NetApp.Models.NetAppFileServiceLevel</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The service level of the file system. </summary>

@@ -89,7 +89,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets request date.
+            Gets request date
             <para>
             To assign an object to this property use <see cref="M:System.BinaryData.FromObjectAsJson``1(``0,System.Text.Json.JsonSerializerOptions)" />.
             </para><para>

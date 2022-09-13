@@ -33,12 +33,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Accepted">
-      <MemberSignature Language="C#" Value="public bool? Accepted { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Accepted" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Confluent.Models.ConfluentAgreement.Accepted" />
-      <MemberSignature Language="VB.NET" Value="Public Property Accepted As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.Accepted : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.Confluent.Models.ConfluentAgreement.Accepted" />
+    <Member MemberName="IsAccepted">
+      <MemberSignature Language="C#" Value="public bool? IsAccepted { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsAccepted" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Confluent.Models.ConfluentAgreement.IsAccepted" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAccepted As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsAccepted : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.Confluent.Models.ConfluentAgreement.IsAccepted" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
@@ -153,12 +153,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="RetrieveDatetime">
-      <MemberSignature Language="C#" Value="public DateTimeOffset? RetrieveDatetime { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; RetrieveDatetime" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Confluent.Models.ConfluentAgreement.RetrieveDatetime" />
-      <MemberSignature Language="VB.NET" Value="Public Property RetrieveDatetime As Nullable(Of DateTimeOffset)" />
-      <MemberSignature Language="F#" Value="member this.RetrieveDatetime : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.Confluent.Models.ConfluentAgreement.RetrieveDatetime" />
+    <Member MemberName="RetrieveOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? RetrieveOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; RetrieveOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Confluent.Models.ConfluentAgreement.RetrieveOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetrieveOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.RetrieveOn : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.Confluent.Models.ConfluentAgreement.RetrieveOn" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
