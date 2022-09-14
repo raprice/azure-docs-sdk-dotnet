@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.Marketplace",
-  "Version": "1.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20220914.1",
+  "DevVersion": "1.0.0-alpha.20220914.1",
   "DirectoryPath": "sdk/marketplace/Azure.ResourceManager.Marketplace",
   "ServiceDirectory": "marketplace",
   "ReadMePath": "sdk/marketplace/Azure.ResourceManager.Marketplace/README.md",
@@ -10,5 +10,5 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.ResourceManager.Marketplace",
-  "ReleaseStatus": "2022-08-18"
+  "ReleaseStatus": "Unreleased"
 }
