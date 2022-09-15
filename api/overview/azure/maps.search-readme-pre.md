@@ -3,17 +3,17 @@ title: Azure Maps Search client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Maps.Search, maps
 author: pallavit
 ms.author: pallavit
-ms.date: 09/09/2022
+ms.date: 09/15/2022
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: maps
 ---
-# Azure Maps Search client library for .NET - version 1.0.0-beta.1 
+# Azure Maps Search client library for .NET - version 1.0.0-alpha.20220914.2 
 
 
 Azure Maps Search is a library that can query for locations, points of interests or search within a geometric area.
 
-[Source code](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.Search_1.0.0-beta.1/sdk/maps/Azure.Maps.Search/src) | [API reference documentation](/rest/api/maps/) | [REST API reference documentation](/rest/api/maps/search) | [Product documentation](/azure/azure-maps/)
+[Source code](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.Search/src) | [API reference documentation](/rest/api/maps/) | [REST API reference documentation](/rest/api/maps/search) | [Product documentation](/azure/azure-maps/)
 
 ## Getting started
 
@@ -67,13 +67,13 @@ MapsSearchClient client = new MapsSearchClient(credential, clientId);
 
 ## Key concepts
 
-`MapsSearchClient` is designed for:
+`MapsSearchClient` is designed to:
 
 * Communicate with Azure Maps endpoint to query addresses or points of locations
 * Communicate with Azure Maps endpoint to request the geometry data such as a city or country outline for a set of entities
 * Communicate with Azure Maps endpoint to perform a free form search inside a single geometry or many of them
 
-Learn more about examples in [samples](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.Search_1.0.0-beta.1/sdk/maps/Azure.Maps.Search/tests/Samples)
+Learn more by viewing our [samples](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.Search/tests/Samples)
 
 ### Thread safety
 
@@ -81,20 +81,21 @@ We guarantee that all client instance methods are thread-safe and independent of
 
 ### Additional concepts
 <!-- CLIENT COMMON BAR -->
-[Client options](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Search_1.0.0-beta.1/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
-[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Search_1.0.0-beta.1/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
-[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Search_1.0.0-beta.1/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
-[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Search_1.0.0-beta.1/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
-[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Search_1.0.0-beta.1/sdk/core/Azure.Core/samples/Diagnostics.md) |
-[Mocking](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Search_1.0.0-beta.1/sdk/core/Azure.Core/README.md#mocking) |
+[Client options](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
+[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
+[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
+[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
+[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md) |
+[Mocking](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#mocking) |
 [Client lifetime](https://devblogs.microsoft.com/azure-sdk/lifetime-management-and-thread-safety-guarantees-of-azure-sdk-net-clients/)
 <!-- CLIENT COMMON BAR -->
 
 ## Examples
 
-You can familiarize yourself with different APIs using [Samples](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.Search_1.0.0-beta.1/sdk/maps/Azure.Maps.Search/tests/Samples).
+You can familiarize yourself with different APIs using our [samples](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.Search/tests/Samples).
 
 ### Example Get Polygons
+
 ```C# Snippet:GetPolygons
 // Get Addresses
 var searchResult = await client.SearchAddressAsync("Seattle");
@@ -178,11 +179,11 @@ For example, if you try to search with invalid coordinates, a error is returned,
 
 ## Next steps
 
-* [More detailed samples](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.Search_1.0.0-beta.1/sdk/maps/Azure.Maps.Search/tests/Samples)
+* [More detailed samples](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.Search/tests/Samples)
 
 ## Contributing
 
-See the [CONTRIBUTING.md](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Search_1.0.0-beta.1/CONTRIBUTING.md) for details on building, testing, and contributing to this library.
+See the [CONTRIBUTING.md](https://github.com/Azure/azure-sdk-for-net/blob/main/CONTRIBUTING.md) for details on building, testing, and contributing to this library.
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit <cla.microsoft.com>.
 
@@ -191,3 +192,4 @@ When you submit a pull request, a CLA-bot will automatically determine whether y
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact <opencode@microsoft.com> with any additional questions or comments.
 
 ![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-net/sdk/maps/Azure.Maps.Search/README.png)
+
