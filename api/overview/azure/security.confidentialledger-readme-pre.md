@@ -3,12 +3,12 @@ title: Azure confidential ledger client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Security.ConfidentialLedger, confidentialledger
 author: christothes
 ms.author: chriss
-ms.date: 08/10/2022
+ms.date: 09/16/2022
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: confidentialledger
 ---
-# Azure confidential ledger client library for .NET - version 1.1.0-beta.1 
+# Azure confidential ledger client library for .NET - version 1.1.0-alpha.20220915.1 
 
 
 Azure confidential ledger provides a service for logging to an immutable, tamper-proof ledger. As part of the [Azure Confidential Computing][azure_confidential_computing]
@@ -350,12 +350,12 @@ We guarantee that all client instance methods are thread-safe and independent of
 ### Additional concepts
 
 <!-- CLIENT COMMON BAR -->
-[Client options](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
-[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
-[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
-[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
-[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/core/Azure.Core/samples/Diagnostics.md) |
-[Mocking](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/core/Azure.Core/README.md#mocking) |
+[Client options](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
+[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
+[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
+[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
+[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md) |
+[Mocking](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#mocking) |
 [Client lifetime](https://devblogs.microsoft.com/azure-sdk/lifetime-management-and-thread-safety-guarantees-of-azure-sdk-net-clients/)
 <!-- CLIENT COMMON BAR -->
 
@@ -398,17 +398,17 @@ For more information see the [Code of Conduct FAQ][coc_faq] or contact
 <!-- LINKS -->
 [style-guide-msft]: /style-guide/capitalization
 [style-guide-cloud]: https://aka.ms/azsdk/cloud-style-guide
-[client_src]: https://github.com/Azure/azure-sdk-for-net/tree/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/confidentialledger/Azure.Security.ConfidentialLedger
+[client_src]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/confidentialledger/Azure.Security.ConfidentialLedger
 [client_nuget_package]: https://www.nuget.org/packages?q=Azure.Security.ConfidentialLedger
 [azure_cli]: /cli/azure
 [azure_cloud_shell]: https://shell.azure.com/bash
 [azure_confidential_computing]: https://azure.microsoft.com/solutions/confidential-compute
-[client_construction_sample]: https://github.com/Azure/azure-sdk-for-net/blob/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/confidentialledger/Azure.Security.ConfidentialLedger/tests/samples/CertificateServiceSample.md
+[client_construction_sample]: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/confidentialledger/Azure.Security.ConfidentialLedger/tests/samples/CertificateServiceSample.md
 [azure_sub]: https://azure.microsoft.com/free/dotnet/
 [ccf]: https://github.com/Microsoft/CCF
-[azure_identity]: https://github.com/Azure/azure-sdk-for-net/tree/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/identity/Azure.Identity
-[default_cred_ref]: https://github.com/Azure/azure-sdk-for-net/blob/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/identity/Azure.Identity/README.md#defaultazurecredential
-[logging]: https://github.com/Azure/azure-sdk-for-net/blob/Azure.Security.ConfidentialLedger_1.1.0-beta.1/sdk/core/Azure.Core/samples/Diagnostics.md
+[azure_identity]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity
+[default_cred_ref]: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/identity/Azure.Identity/README.md#defaultazurecredential
+[logging]: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq
 [cla]: https://cla.microsoft.com
