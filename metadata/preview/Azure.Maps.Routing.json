@@ -1,0 +1,14 @@
+{
+  "Name": "Azure.Maps.Routing",
+  "Version": "1.0.0-alpha.20220915.1",
+  "DevVersion": "1.0.0-alpha.20220915.1",
+  "DirectoryPath": "sdk/maps/Azure.Maps.Routing",
+  "ServiceDirectory": "maps",
+  "ReadMePath": "sdk/maps/Azure.Maps.Routing/README.md",
+  "ChangeLogPath": "sdk/maps/Azure.Maps.Routing/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Maps.Routing",
+  "ReleaseStatus": "Unreleased"
+}

@@ -3,19 +3,19 @@ title: Azure Maps Common client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Maps.Common, maps
 author: pallavit
 ms.author: pallavit
-ms.date: 09/09/2022
+ms.date: 09/16/2022
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: maps
 ---
-# Azure Maps Common client library for .NET - version 1.0.0-beta.1 
+# Azure Maps Common client library for .NET - version 1.0.0-alpha.20220915.1 
 
 
 Azure Maps is a Microsoft-managed service providing maps service that is...
 
 The Azure.Maps.Common library provides infrastructure shared across other Azure Maps client libraries.
 
-[Source code](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.Common_1.0.0-beta.1/sdk/maps/Azure.Maps.Common/src) | [API reference documentation](/rest/api/maps/) | [Product documentation](/azure/azure-maps)
+[Source code](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.Common/src) | [API reference documentation](/rest/api/maps/) | [Product documentation](/azure/azure-maps)
 
 ## Getting started
 
@@ -45,7 +45,7 @@ There are 2 ways to authenticate the client: Shared key authentication and Azure
 ## Key concepts
 
 The Azure Maps Common client library contains shared infrastructure like
-[LocalizedMapView](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.1/sdk/maps/Azure.Maps.Common/src/LocalizedMapView.cs) and [RequestFailedException](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.1/sdk/core/Azure.Core/src/RequestFailedException.cs).
+[LocalizedMapView](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/maps/Azure.Maps.Common/src/LocalizedMapView.cs) and [RequestFailedException](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/src/RequestFailedException.cs).
 
 ### Thread safety
 
@@ -53,18 +53,18 @@ We guarantee that all client instance methods are thread-safe and independent of
 
 ### Additional concepts
 <!-- CLIENT COMMON BAR -->
-[Client options](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.1/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
-[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.1/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
-[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.1/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
-[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.1/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
-[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.1/sdk/core/Azure.Core/samples/Diagnostics.md) |
-[Mocking](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.1/sdk/core/Azure.Core/README.md#mocking) |
+[Client options](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
+[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
+[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
+[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
+[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md) |
+[Mocking](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#mocking) |
 [Client lifetime](https://devblogs.microsoft.com/azure-sdk/lifetime-management-and-thread-safety-guarantees-of-azure-sdk-net-clients/)
 <!-- CLIENT COMMON BAR -->
 
 ## Examples
 
-Please see the examples for [Search](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.Common_1.0.0-beta.1/sdk/maps/Azure.Maps.Search).
+Please see the examples for [Search](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.Search) and [Rendering](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.Rendering).
 
 ## Troubleshooting
 
@@ -72,11 +72,11 @@ If instantiate a `null` `LocalizedMapView`, the program will throw a `ArgumentNu
 
 ## Next steps
 
-Get started with our [Common samples](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.Common_1.0.0-beta.1/sdk/maps/Azure.Maps.Common/samples) and then continue on with our [Search](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.1/sdk/maps/Azure.Maps.Search/tests/Samples/SearchClientSamples.HelloWorld.cs) samples.
+Get started with our [Common samples](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.Common/samples) and then continue on with our [Search](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/maps/Azure.Maps.Search/tests/Samples/SearchClientSamples.HelloWorld.cs) and [Rendering](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.Rendering/samples) samples.
 
 ## Contributing
 
-See the [CONTRIBUTING.md](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.1/CONTRIBUTING.md) for details on building, testing, and contributing to this library.
+See the [CONTRIBUTING.md](https://github.com/Azure/azure-sdk-for-net/blob/main/CONTRIBUTING.md) for details on building, testing, and contributing to this library.
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit <cla.microsoft.com>.
 
