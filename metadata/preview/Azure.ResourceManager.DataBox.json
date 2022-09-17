@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.DataBox",
-  "Version": "1.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20220916.2",
+  "DevVersion": "1.1.0-alpha.20220916.2",
   "DirectoryPath": "sdk/databox/Azure.ResourceManager.DataBox",
   "ServiceDirectory": "databox",
   "ReadMePath": "sdk/databox/Azure.ResourceManager.DataBox/README.md",
@@ -10,5 +10,5 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.ResourceManager.DataBox",
-  "ReleaseStatus": "2022-08-18"
+  "ReleaseStatus": "Unreleased"
 }
