@@ -1,7 +1,7 @@
 {
   "Name": "Microsoft.Azure.HDInsight.Job",
-  "Version": "3.0.0-preview.3",
-  "DevVersion": null,
+  "Version": "3.0.0-alpha.20220919.3",
+  "DevVersion": "3.0.0-alpha.20220919.3",
   "DirectoryPath": "sdk/hdinsight/Microsoft.Azure.HDInsight.Job",
   "ServiceDirectory": "hdinsight",
   "ReadMePath": "",
@@ -10,5 +10,5 @@
   "SdkType": "data",
   "IsNewSdk": false,
   "ArtifactName": "Microsoft.Azure.HDInsight.Job",
-  "ReleaseStatus": "2022-07-22"
+  "ReleaseStatus": "Unreleased"
 }
