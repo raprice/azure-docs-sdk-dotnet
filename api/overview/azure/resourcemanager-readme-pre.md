@@ -1,16 +1,14 @@
 ---
 title: Azure ResourceManager client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.ResourceManager, resourcemanager
-author: AlexGhiondea
-ms.author: alexghi
-ms.date: 03/31/2022
+author: pallavit
+ms.author: pallavit
+ms.date: 09/19/2022
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: resourcemanager
 ---
-# Azure ResourceManager client library for .NET - version 1.0.0-beta.9 
+# Azure ResourceManager client library for .NET - version 1.4.0-alpha.20220919.7 
 
 
 This package follows the [new Azure SDK guidelines](https://azure.github.io/azure-sdk/general_introduction.html), which provide core capabilities that are shared amongst all Azure SDKs, including:
@@ -24,21 +22,21 @@ This package follows the [new Azure SDK guidelines](https://azure.github.io/azur
 
 ### Install the package
 
-Install the Azure Resources management library for .NET with [NuGet](https://www.nuget.org/):
+Install the Azure Resources management core library for .NET with [NuGet](https://www.nuget.org/):
 
-```PowerShell
-Install-Package Azure.ResourceManager -Version 1.0.0-beta.9
+```dotnetcli
+dotnet add package Azure.ResourceManager
 ```
 
 ### Prerequisites
 Set up a way to authenticate to Azure with Azure Identity.
 
 Some options are:
-- Through the [Azure CLI Login](https://docs.microsoft.com/cli/azure/authenticate-azure-cli).
-- Via [Visual Studio](https://docs.microsoft.com/dotnet/api/overview/azure/identity-readme?view=azure-dotnet#authenticating-via-visual-studio).
-- Setting [Environment Variables](https://github.com/Azure/azure-sdk-for-net/blob/Azure.ResourceManager_1.0.0-beta.9/sdk/resourcemanager/Azure.ResourceManager/docs/AuthUsingEnvironmentVariables.md).
+- Through the [Azure CLI Login](/cli/azure/authenticate-azure-cli).
+- Via [Visual Studio](/dotnet/api/overview/azure/identity-readme?view=azure-dotnet#authenticating-via-visual-studio).
+- Setting [Environment Variables](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcemanager/Azure.ResourceManager/docs/AuthUsingEnvironmentVariables.md).
 
-More information and different authentication approaches using Azure Identity can be found in [this document](https://docs.microsoft.com/dotnet/api/overview/azure/identity-readme?view=azure-dotnet).
+More information and different authentication approaches using Azure Identity can be found in [this document](/dotnet/api/overview/azure/identity-readme?view=azure-dotnet).
 
 ### Authenticate the Client
 
@@ -60,7 +58,7 @@ using Azure.ResourceManager.Resources;
 ArmClient client = new ArmClient(new DefaultAzureCredential());
 ```
 
-Additional documentation for the `Azure.Identity.DefaultAzureCredential` class can be found in [this document](https://docs.microsoft.com/dotnet/api/azure.identity.defaultazurecredential).
+Additional documentation for the `Azure.Identity.DefaultAzureCredential` class can be found in [this document](/dotnet/api/azure.identity.defaultazurecredential).
 
 ## Key concepts
 ### Understanding Azure Resource Hierarchy
@@ -69,7 +67,7 @@ To reduce both the number of clients needed to perform common tasks and the amou
 
 To accomplish this, we're introducing 3 standard types for all resources in Azure:
 
-### **[Resource].cs**
+### **[Resource]Resource.cs**
 
 This represents a full resource client object which contains a **Data** property exposing the details as a **[Resource]Data** type.
 It also has access to all of the operations on that resource without needing to pass in scope parameters such as subscription ID or resource name.  This makes it very convenient to directly execute operations on the result of list calls
@@ -152,7 +150,7 @@ Console.WriteLine($"Subnet: {id.Name}");
 ## Managing Existing Resources By Id
 Performing operations on resources that already exist is a common use case when using the management client libraries. In this scenario you usually have the identifier of the resource you want to work on as a string. Although the new object hierarchy is great for provisioning and working within the scope of a given parent, it is not the most efficient when it comes to this specific scenario.  
 
-Here is an example how you to access an `AvailabilitySet` object and manage it directly with its id: 
+Here is an example how you can access an `AvailabilitySet` object and manage it directly with its id: 
 ```C# Snippet:Readme_ManageAvailabilitySetOld
 ResourceIdentifier id = new ResourceIdentifier("/subscriptions/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee/resourceGroups/workshop2021-rg/providers/Microsoft.Compute/availabilitySets/ws2021availSet");
 // We construct a new client to work with
@@ -311,7 +309,7 @@ ResourceGroupResource resourceGroup = await resourceGroups.GetAsync(resourceGrou
 await resourceGroup.DeleteAsync(WaitUntil.Completed);
 ```
 
-For more detailed examples, take a look at [samples](https://github.com/Azure/azure-sdk-for-net/tree/Azure.ResourceManager_1.0.0-beta.9/sdk/resourcemanager/Azure.ResourceManager/samples) we have available.
+For more detailed examples, take a look at [samples](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/resourcemanager/Azure.ResourceManager/samples) we have available.
 
 ## Azure ResourceManager Tests
 
@@ -332,28 +330,28 @@ To run test with code coverage and auto generate an html report with just a sing
 
 ## Troubleshooting
 
--   If you find a bug or have a suggestion, file an issue via [GitHub issues](https://github.com/Azure/azure-sdk-for-net/issues) and make sure you add the "Preview" label to the issue.
+-   If you find a bug or have a suggestion, file an issue via [GitHub issues](https://github.com/Azure/azure-sdk-for-net/issues) and make sure you add the "Mgmt" label to the issue.
 -   If you need help, check [previous
     questions](https://stackoverflow.com/questions/tagged/azure+.net)
     or ask new ones on StackOverflow using azure and .NET tags.
--   If having trouble with authentication, go to [DefaultAzureCredential documentation](https://docs.microsoft.com/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet).
+-   If having trouble with authentication, go to [DefaultAzureCredential documentation](/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet).
 
 ## Next steps
 ### More sample code
 
-- [Managing Resource Groups](https://github.com/Azure/azure-sdk-for-net/blob/Azure.ResourceManager_1.0.0-beta.9/sdk/resourcemanager/Azure.ResourceManager/samples/Sample2_ManagingResourceGroups.md)
-- [Creating a Virtual Network](https://github.com/Azure/azure-sdk-for-net/blob/Azure.ResourceManager_1.0.0-beta.9/sdk/resourcemanager/Azure.ResourceManager/samples/Sample3_CreatingAVirtualNetwork.md)
-- [.NET Management Library Code Samples](https://docs.microsoft.com/samples/browse/?branch=master&languages=csharp&term=managing%20using%20Azure%20.NET%20SDK)
+- [Managing Resource Groups](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcemanager/Azure.ResourceManager/samples/Sample2_ManagingResourceGroups.md)
+- [Creating a Virtual Network](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcemanager/Azure.ResourceManager/samples/Sample3_CreatingAVirtualNetwork.md)
+- [.NET Management Library Code Samples](/samples/browse/?branch=master&languages=csharp&term=managing%20using%20Azure%20.NET%20SDK)
 
 ### Additional Documentation
-If you are migrating from the old SDK to this preview, check out this [Migration guide](https://github.com/Azure/azure-sdk-for-net/blob/Azure.ResourceManager_1.0.0-beta.9/sdk/resourcemanager/Azure.ResourceManager/docs/MigrationGuide.md).
+If you are migrating from the old SDK, check out this [Migration guide](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcemanager/Azure.ResourceManager/docs/MigrationGuide.md).
 
 For more information on Azure SDK, please refer to [this website](https://azure.github.io/azure-sdk/).
 
 ## Contributing
 
 For details on contributing to this repository, see the [contributing
-guide](https://github.com/Azure/azure-sdk-for-net/blob/Azure.ResourceManager_1.0.0-beta.9/sdk/resourcemanager/Azure.ResourceManager/docs/CONTRIBUTING.md).
+guide][cg].
 
 This project welcomes contributions and suggestions. Most contributions
 require you to agree to a Contributor License Agreement (CLA) declaring
@@ -370,6 +368,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For
 more information see the [Code of Conduct FAQ][coc_faq] or contact
 <opencode@microsoft.com> with any additional questions or comments.
 
+[cg]: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcemanager/Azure.ResourceManager/docs/CONTRIBUTING.md
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 
